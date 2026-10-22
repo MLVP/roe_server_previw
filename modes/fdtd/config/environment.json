@@ -1,0 +1,14 @@
+{
+  "map_id": 16011,
+  "hour": 0,
+  "temperature_raw": -500,
+  "original_random_clock_choice": false,
+  "original_temperature_algorithm": false,
+  "metadata": {
+    "hour_source": "EnvrMapTimeTable/TableBin140: map16011 permits hour 0 only (night)",
+    "duration_source": "EnvrTimeTable/TableBin95:720min;24weights sum10000;4.32sec per unit",
+    "temperature": "Local start value -500 = -5C; the original temperature curve is not recovered",
+    "wire": "4816 hourBE32+serverUNIXsecondsBE32;10d0 attr5+signedtemperature",
+    "profile": "shared IceLand terrain: spawn grid, zone, doors, breakables and heightmap are the 16010 ones"
+  }
+}

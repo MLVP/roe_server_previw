@@ -1,0 +1,74 @@
+{
+  "name": "dion",
+  "title": "Dion",
+  "description": "Dione profile: the fork2 launcher arguments (kit glider, mode cycle, cycle scale 3, target armored, reliable udp, idle handoff, winter doors and windows, endless, selection 7 s) plus the mode loot catalog, the 660 point spawn table and the fixed weather preset (hour 8, +5 C).",
+  "enabled": true,
+  "map": {
+    "id": 16010,
+    "name": "Dion",
+    "compatibility": "validated_16010_profile",
+    "route": "0:127.0.0.1:18001",
+    "note": "Only map 16010 has complete spawn, world, zone and environment data in this build."
+  },
+  "duration_seconds": 86400,
+  "room": {
+    "idle_reset_seconds": 30,
+    "max_players": 1
+  },
+  "launcher_args": [
+    "--kit",
+    "glider",
+    "--mode",
+    "cycle",
+    "--cycle-scale",
+    "3",
+    "--target",
+    "armored",
+    "--reliable-udp",
+    "--idle-handoff",
+    "--winter-doors",
+    "--winter-windows",
+    "--loot-catalog",
+    "loot-pool61.json",
+    "--endless",
+    "--selection-seconds",
+    "7",
+    "--client-uid",
+    "4242"
+  ],
+  "features": {
+    "weather_random": true,
+    "medicine": true,
+    "containers": false,
+    "revive": false,
+    "breakables": true,
+    "doors": true,
+    "windows": true,
+    "dynamic_events": {
+      "enabled": false,
+      "interval_seconds": 600,
+      "radius_cm": 50000,
+      "loot": true,
+      "vehicles": true
+    }
+  },
+  "weather": {
+    "start_hour": 8,
+    "temperature_raw": 500,
+    "randomize": false,
+    "hours": [
+      7,
+      8,
+      15,
+      16
+    ],
+    "temperatures": [
+      -500,
+      0,
+      500
+    ]
+  },
+  "spawn_points": "spawn_points.json",
+  "config": "config",
+  "heightmap": "heightmap_4096x4096_u16.raw"
+}

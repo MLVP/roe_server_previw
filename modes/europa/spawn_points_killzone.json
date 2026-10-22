@@ -1,0 +1,19 @@
+{
+  "map_id": 16007,
+  "default_cell": [
+    12,
+    26
+  ],
+  "height_basis": "client memory (Cheat Engine): X=364559.86, Y(height)=38127.86, Z=532844.16",
+  "grid_basis": "the client does not ask for a landing point on the Kill Zone, so the table holds the default point only",
+  "points": [
+    [
+      12,
+      26,
+      364560,
+      532844,
+      38128
+    ]
+  ],
+  "use_as_default_spawn": true
+}

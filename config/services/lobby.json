@@ -1,0 +1,22 @@
+{
+  "host": "127.0.0.1",
+  "port": 8001,
+  "api_port": 8010,
+  "session_key_file": "private/candidate-001.key",
+  "lobby_ck": "private/lobby-ck.bin",
+  "users_registry": "users/registry.json",
+  "local_cosmetics": "config/cosmetics.json",
+  "join_config": "lobby/current-room.json",
+  "capture_dir": "lobby",
+  "team_nickname": "Player",
+  "fallback": {
+    "actor_uid": "0x515bb1e1dd242c",
+    "nickname": "Player"
+  },
+  "match": {
+    "found_delay": 3,
+    "estimate_seconds": 3,
+    "auto_match_seconds": null,
+    "join_delay": 1
+  }
+}

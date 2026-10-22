@@ -1,0 +1,14 @@
+{
+  "host": "127.0.0.1",
+  "port": 8099,
+  "accounts_root": "accounts",
+  "room": {
+    "enabled": true,
+    "mode": "dion",
+    "room_id": "dion-1",
+    "api_port": 18080,
+    "profile": "awp",
+    "lobby_api": "http://127.0.0.1:8010",
+    "idle_reset_seconds": 30
+  }
+}

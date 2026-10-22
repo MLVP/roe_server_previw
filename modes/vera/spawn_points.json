@@ -1,0 +1,10 @@
+{
+  "map_id": 16021,
+  "default_cell": [10, 10],
+  "height_basis": "ground points of Cache/Data/world/EU_Desert_4096/EU_Desert_4096.sfc: x=345746, z=341956, height=12779",
+  "grid_basis": "the cell index of the desert landing grid is not recovered; the table holds the one point we extracted, the client is answered with it for any birth request",
+  "points": [
+    [10, 10, 345746, 341956, 12779]
+  ],
+  "use_as_default_spawn": true
+}

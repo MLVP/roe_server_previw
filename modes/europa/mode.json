@@ -1,0 +1,110 @@
+{
+  "name": "europa",
+  "title": "Europa (Kill Zone)",
+  "description": "Kill Zone of the EU server, id 16007 (client tables: EuropaKillZone, world folder EU_Killzone_4096). The client loads this landscape, but the server data (zone, doors, breakables, scene rules) is still the Dione one. The loot and the two vehicles are placed at the local spawn point 360047 / 366722 / 40173.",
+  "enabled": true,
+  "map": {
+    "id": 16007,
+    "name": "Europa Kill Zone",
+    "compatibility": "dione_data_experimental",
+    "route": "0:127.0.0.1:18001",
+    "note": "Map 16007 = EU_Killzone_4096 / KillZone_001. Own landscape: spawn points, zone, evacuation and doors stay the Dione ones, exactly as the other launcher does it (crates/roe-core/src/maps.rs, 'Kill Zone', Experimental). Client hours 7/8/15/16."
+  },
+  "duration_seconds": 86400,
+  "room": {
+    "idle_reset_seconds": 30,
+    "max_players": 1
+  },
+  "launcher_args": [
+    "--kit",
+    "glider",
+    "--mode",
+    "cycle",
+    "--cycle-scale",
+    "3",
+    "--weapon-profile",
+    "citori",
+    "--target",
+    "armored",
+    "--target-los",
+    "off",
+    "--selection-seconds",
+    "7",
+    "--reliable-udp",
+    "--idle-handoff",
+    "--winter-doors",
+    "--winter-windows",
+    "--endless",
+    "--auto-match-seconds",
+    "12",
+    "--loot-catalog",
+    "loot-killzone-64.json"
+  ],
+  "features": {
+    "weather_random": true,
+    "medicine": true,
+    "containers": false,
+    "revive": false,
+    "breakables": true,
+    "doors": true,
+    "windows": true,
+    "dynamic_events": {
+      "enabled": false,
+      "interval_seconds": 600,
+      "radius_cm": 50000,
+      "loot": true,
+      "vehicles": true
+    }
+  },
+  "weather": {
+    "start_hour": 8,
+    "temperature_raw": 500,
+    "randomize": true,
+    "hours": [
+      7,
+      8,
+      15,
+      16
+    ],
+    "temperatures": [
+      -500,
+      0,
+      500
+    ]
+  },
+  "spawn_points": "spawn_points_killzone.json",
+  "config": "config",
+  "heightmap": "../dion/heightmap_4096x4096_u16.raw",
+  "local_spawn": {
+    "point": [
+      364560,
+      532844,
+      38128
+    ],
+    "landing_cell": [
+      12,
+      26
+    ],
+    "source": "client memory (Cheat Engine): X=364559.86, Y(height)=38127.86, Z=532844.16",
+    "loot_items": 64,
+    "vehicles": [
+      {
+        "configuration": 102,
+        "position": [
+          364860,
+          532844,
+          38128
+        ]
+      },
+      {
+        "configuration": 109,
+        "position": [
+          364260,
+          532844,
+          38128
+        ]
+      }
+    ],
+    "generator": "tools/build_spawn_loot_2022.py --center 364560 532844 38128 --count 64"
+  }
+}

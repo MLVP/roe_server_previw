@@ -1,0 +1,727 @@
+{
+  "map_id": 16021,
+  "radius_cm": 2000,
+  "visible_limit": 128,
+  "batch_limit": 16,
+  "policy": "local_spawn_grid",
+  "original_positions_verified": false,
+  "original_algorithm_verified": false,
+  "native_all_definition_inventory_verified": true,
+  "native_mixed_layout_verified": false,
+  "grenade_hand_throw_effect_verified": false,
+  "native_windows_verified": false,
+  "native_mixed_catalog_loaded": true,
+  "native_all_mixed_pickups_verified": false,
+  "native_mixed_pickup_control_definition": 10201,
+  "spawn_center": [
+    345746,
+    341956,
+    12779
+  ],
+  "entities": [
+    {
+      "index": 170000,
+      "entity_uid": 22588366914584576,
+      "item_id": 10101,
+      "quantity": 1,
+      "position": [
+        345746,
+        341956,
+        12779
+      ]
+    },
+    {
+      "index": 170001,
+      "entity_uid": 22588366914584577,
+      "item_id": 10102,
+      "quantity": 1,
+      "position": [
+        345781,
+        341956,
+        12779
+      ]
+    },
+    {
+      "index": 170002,
+      "entity_uid": 22588366914584578,
+      "item_id": 10104,
+      "quantity": 1,
+      "position": [
+        345816,
+        341956,
+        12779
+      ]
+    },
+    {
+      "index": 170003,
+      "entity_uid": 22588366914584579,
+      "item_id": 10105,
+      "quantity": 1,
+      "position": [
+        345851,
+        341956,
+        12779
+      ]
+    },
+    {
+      "index": 170004,
+      "entity_uid": 22588366914584580,
+      "item_id": 10107,
+      "quantity": 1,
+      "position": [
+        345886,
+        341956,
+        12779
+      ]
+    },
+    {
+      "index": 170005,
+      "entity_uid": 22588366914584581,
+      "item_id": 10110,
+      "quantity": 1,
+      "position": [
+        345921,
+        341956,
+        12779
+      ]
+    },
+    {
+      "index": 170006,
+      "entity_uid": 22588366914584582,
+      "item_id": 10201,
+      "quantity": 1,
+      "position": [
+        345956,
+        341956,
+        12779
+      ]
+    },
+    {
+      "index": 170007,
+      "entity_uid": 22588366914584583,
+      "item_id": 10202,
+      "quantity": 1,
+      "position": [
+        345991,
+        341956,
+        12779
+      ]
+    },
+    {
+      "index": 170008,
+      "entity_uid": 22588366914584584,
+      "item_id": 10203,
+      "quantity": 1,
+      "position": [
+        345781,
+        341991,
+        12779
+      ]
+    },
+    {
+      "index": 170009,
+      "entity_uid": 22588366914584585,
+      "item_id": 10204,
+      "quantity": 1,
+      "position": [
+        345816,
+        341991,
+        12779
+      ]
+    },
+    {
+      "index": 170010,
+      "entity_uid": 22588366914584586,
+      "item_id": 10205,
+      "quantity": 1,
+      "position": [
+        345851,
+        341991,
+        12779
+      ]
+    },
+    {
+      "index": 170011,
+      "entity_uid": 22588366914584587,
+      "item_id": 10206,
+      "quantity": 1,
+      "position": [
+        345886,
+        341991,
+        12779
+      ]
+    },
+    {
+      "index": 170012,
+      "entity_uid": 22588366914584588,
+      "item_id": 10208,
+      "quantity": 1,
+      "position": [
+        345921,
+        341991,
+        12779
+      ]
+    },
+    {
+      "index": 170013,
+      "entity_uid": 22588366914584589,
+      "item_id": 10301,
+      "quantity": 1,
+      "position": [
+        345956,
+        341991,
+        12779
+      ]
+    },
+    {
+      "index": 170014,
+      "entity_uid": 22588366914584590,
+      "item_id": 10303,
+      "quantity": 1,
+      "position": [
+        345991,
+        341991,
+        12779
+      ]
+    },
+    {
+      "index": 170015,
+      "entity_uid": 22588366914584591,
+      "item_id": 10305,
+      "quantity": 1,
+      "position": [
+        346026,
+        341991,
+        12779
+      ]
+    },
+    {
+      "index": 170016,
+      "entity_uid": 22588366914584592,
+      "item_id": 10306,
+      "quantity": 1,
+      "position": [
+        345746,
+        342026,
+        12779
+      ]
+    },
+    {
+      "index": 170017,
+      "entity_uid": 22588366914584593,
+      "item_id": 10401,
+      "quantity": 1,
+      "position": [
+        345781,
+        342026,
+        12779
+      ]
+    },
+    {
+      "index": 170018,
+      "entity_uid": 22588366914584594,
+      "item_id": 10402,
+      "quantity": 1,
+      "position": [
+        345816,
+        342026,
+        12779
+      ]
+    },
+    {
+      "index": 170019,
+      "entity_uid": 22588366914584595,
+      "item_id": 10403,
+      "quantity": 1,
+      "position": [
+        345851,
+        342026,
+        12779
+      ]
+    },
+    {
+      "index": 170020,
+      "entity_uid": 22588366914584596,
+      "item_id": 10601,
+      "quantity": 1,
+      "position": [
+        345886,
+        342026,
+        12779
+      ]
+    },
+    {
+      "index": 170021,
+      "entity_uid": 22588366914584597,
+      "item_id": 10605,
+      "quantity": 1,
+      "position": [
+        345921,
+        342026,
+        12779
+      ]
+    },
+    {
+      "index": 170022,
+      "entity_uid": 22588366914584598,
+      "item_id": 20003,
+      "quantity": 1,
+      "position": [
+        345956,
+        342026,
+        12779
+      ]
+    },
+    {
+      "index": 170023,
+      "entity_uid": 22588366914584599,
+      "item_id": 30001,
+      "quantity": 1,
+      "position": [
+        345991,
+        342026,
+        12779
+      ]
+    },
+    {
+      "index": 170024,
+      "entity_uid": 22588366914584600,
+      "item_id": 30002,
+      "quantity": 1,
+      "position": [
+        345781,
+        342061,
+        12779
+      ]
+    },
+    {
+      "index": 170025,
+      "entity_uid": 22588366914584601,
+      "item_id": 30003,
+      "quantity": 1,
+      "position": [
+        345816,
+        342061,
+        12779
+      ]
+    },
+    {
+      "index": 170026,
+      "entity_uid": 22588366914584602,
+      "item_id": 30004,
+      "quantity": 1,
+      "position": [
+        345851,
+        342061,
+        12779
+      ]
+    },
+    {
+      "index": 170027,
+      "entity_uid": 22588366914584603,
+      "item_id": 30006,
+      "quantity": 1,
+      "position": [
+        345886,
+        342061,
+        12779
+      ]
+    },
+    {
+      "index": 170028,
+      "entity_uid": 22588366914584604,
+      "item_id": 30009,
+      "quantity": 1,
+      "position": [
+        345921,
+        342061,
+        12779
+      ]
+    },
+    {
+      "index": 170029,
+      "entity_uid": 22588366914584605,
+      "item_id": 40101,
+      "quantity": 1,
+      "position": [
+        345956,
+        342061,
+        12779
+      ]
+    },
+    {
+      "index": 170030,
+      "entity_uid": 22588366914584606,
+      "item_id": 40103,
+      "quantity": 1,
+      "position": [
+        345991,
+        342061,
+        12779
+      ]
+    },
+    {
+      "index": 170031,
+      "entity_uid": 22588366914584607,
+      "item_id": 40104,
+      "quantity": 1,
+      "position": [
+        346026,
+        342061,
+        12779
+      ]
+    },
+    {
+      "index": 170032,
+      "entity_uid": 22588366914584608,
+      "item_id": 40105,
+      "quantity": 1,
+      "position": [
+        345746,
+        342096,
+        12779
+      ]
+    },
+    {
+      "index": 170033,
+      "entity_uid": 22588366914584609,
+      "item_id": 40106,
+      "quantity": 1,
+      "position": [
+        345781,
+        342096,
+        12779
+      ]
+    },
+    {
+      "index": 170034,
+      "entity_uid": 22588366914584610,
+      "item_id": 40107,
+      "quantity": 1,
+      "position": [
+        345816,
+        342096,
+        12779
+      ]
+    },
+    {
+      "index": 170035,
+      "entity_uid": 22588366914584611,
+      "item_id": 40108,
+      "quantity": 1,
+      "position": [
+        345851,
+        342096,
+        12779
+      ]
+    },
+    {
+      "index": 170036,
+      "entity_uid": 22588366914584612,
+      "item_id": 40109,
+      "quantity": 1,
+      "position": [
+        345886,
+        342096,
+        12779
+      ]
+    },
+    {
+      "index": 170037,
+      "entity_uid": 22588366914584613,
+      "item_id": 40110,
+      "quantity": 1,
+      "position": [
+        345921,
+        342096,
+        12779
+      ]
+    },
+    {
+      "index": 170038,
+      "entity_uid": 22588366914584614,
+      "item_id": 40111,
+      "quantity": 1,
+      "position": [
+        345956,
+        342096,
+        12779
+      ]
+    },
+    {
+      "index": 170039,
+      "entity_uid": 22588366914584615,
+      "item_id": 40112,
+      "quantity": 1,
+      "position": [
+        345991,
+        342096,
+        12779
+      ]
+    },
+    {
+      "index": 170040,
+      "entity_uid": 22588366914584616,
+      "item_id": 40201,
+      "quantity": 1,
+      "position": [
+        345781,
+        342131,
+        12779
+      ]
+    },
+    {
+      "index": 170041,
+      "entity_uid": 22588366914584617,
+      "item_id": 40202,
+      "quantity": 1,
+      "position": [
+        345816,
+        342131,
+        12779
+      ]
+    },
+    {
+      "index": 170042,
+      "entity_uid": 22588366914584618,
+      "item_id": 40302,
+      "quantity": 1,
+      "position": [
+        345851,
+        342131,
+        12779
+      ]
+    },
+    {
+      "index": 170043,
+      "entity_uid": 22588366914584619,
+      "item_id": 40303,
+      "quantity": 1,
+      "position": [
+        345886,
+        342131,
+        12779
+      ]
+    },
+    {
+      "index": 170044,
+      "entity_uid": 22588366914584620,
+      "item_id": 40304,
+      "quantity": 1,
+      "position": [
+        345921,
+        342131,
+        12779
+      ]
+    },
+    {
+      "index": 170045,
+      "entity_uid": 22588366914584621,
+      "item_id": 40305,
+      "quantity": 1,
+      "position": [
+        345956,
+        342131,
+        12779
+      ]
+    },
+    {
+      "index": 170046,
+      "entity_uid": 22588366914584622,
+      "item_id": 40306,
+      "quantity": 1,
+      "position": [
+        345991,
+        342131,
+        12779
+      ]
+    },
+    {
+      "index": 170047,
+      "entity_uid": 22588366914584623,
+      "item_id": 40401,
+      "quantity": 1,
+      "position": [
+        346026,
+        342131,
+        12779
+      ]
+    },
+    {
+      "index": 170048,
+      "entity_uid": 22588366914584624,
+      "item_id": 40403,
+      "quantity": 1,
+      "position": [
+        345746,
+        342166,
+        12779
+      ]
+    },
+    {
+      "index": 170049,
+      "entity_uid": 22588366914584625,
+      "item_id": 40405,
+      "quantity": 1,
+      "position": [
+        345781,
+        342166,
+        12779
+      ]
+    },
+    {
+      "index": 170050,
+      "entity_uid": 22588366914584626,
+      "item_id": 40502,
+      "quantity": 1,
+      "position": [
+        345816,
+        342166,
+        12779
+      ]
+    },
+    {
+      "index": 170051,
+      "entity_uid": 22588366914584627,
+      "item_id": 50001,
+      "quantity": 1,
+      "position": [
+        345851,
+        342166,
+        12779
+      ]
+    },
+    {
+      "index": 170052,
+      "entity_uid": 22588366914584628,
+      "item_id": 50002,
+      "quantity": 1,
+      "position": [
+        345886,
+        342166,
+        12779
+      ]
+    },
+    {
+      "index": 170053,
+      "entity_uid": 22588366914584629,
+      "item_id": 50003,
+      "quantity": 1,
+      "position": [
+        345921,
+        342166,
+        12779
+      ]
+    },
+    {
+      "index": 170054,
+      "entity_uid": 22588366914584630,
+      "item_id": 70001,
+      "quantity": 1,
+      "position": [
+        345956,
+        342166,
+        12779
+      ]
+    },
+    {
+      "index": 170055,
+      "entity_uid": 22588366914584631,
+      "item_id": 70002,
+      "quantity": 1,
+      "position": [
+        345991,
+        342166,
+        12779
+      ]
+    },
+    {
+      "index": 170056,
+      "entity_uid": 22588366914584632,
+      "item_id": 70003,
+      "quantity": 1,
+      "position": [
+        345781,
+        342201,
+        12779
+      ]
+    },
+    {
+      "index": 170057,
+      "entity_uid": 22588366914584633,
+      "item_id": 200102,
+      "quantity": 1,
+      "position": [
+        345816,
+        342201,
+        12779
+      ]
+    },
+    {
+      "index": 170058,
+      "entity_uid": 22588366914584634,
+      "item_id": 200103,
+      "quantity": 1,
+      "position": [
+        345851,
+        342201,
+        12779
+      ]
+    },
+    {
+      "index": 170059,
+      "entity_uid": 22588366914584635,
+      "item_id": 201002,
+      "quantity": 1,
+      "position": [
+        345886,
+        342201,
+        12779
+      ]
+    },
+    {
+      "index": 170060,
+      "entity_uid": 22588366914584636,
+      "item_id": 201003,
+      "quantity": 1,
+      "position": [
+        345921,
+        342201,
+        12779
+      ]
+    },
+    {
+      "index": 170061,
+      "entity_uid": 22588366914584637,
+      "item_id": 10101,
+      "quantity": 1,
+      "position": [
+        345956,
+        342201,
+        12779
+      ]
+    },
+    {
+      "index": 170062,
+      "entity_uid": 22588366914584638,
+      "item_id": 10102,
+      "quantity": 1,
+      "position": [
+        345991,
+        342201,
+        12779
+      ]
+    },
+    {
+      "index": 170063,
+      "entity_uid": 22588366914584639,
+      "item_id": 10104,
+      "quantity": 1,
+      "position": [
+        346026,
+        342201,
+        12779
+      ]
+    }
+  ]
+}

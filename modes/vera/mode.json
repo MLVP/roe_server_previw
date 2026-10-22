@@ -1,0 +1,110 @@
+{
+  "name": "vera",
+  "title": "Vera (Desert)",
+  "description": "Desert map of the EU server, id 16021 (client tables: world folder EU_Desert_4096, scene Desert_001). The client loads this landscape; the server data (zone, doors, breakables, scene rules, heightmap) stays the Dione one, like the Kill Zone mode. The loot and the two vehicles are placed at the local spawn point 345746 / 341956 / 12779, taken from the ground points of the client archive Cache/Data/world/EU_Desert_4096/EU_Desert_4096.sfc.",
+  "enabled": true,
+  "map": {
+    "id": 16021,
+    "name": "Vera Desert",
+    "compatibility": "dione_data_experimental",
+    "route": "0:127.0.0.1:18001",
+    "note": "Map 16021 = EU_Desert_4096 / Desert_001. Own landscape: spawn grid, zone, evacuation, doors and heightmap stay the Dione ones. Client hours 7/8/15/16."
+  },
+  "duration_seconds": 86400,
+  "room": {
+    "idle_reset_seconds": 30,
+    "max_players": 1
+  },
+  "launcher_args": [
+    "--kit",
+    "glider",
+    "--mode",
+    "cycle",
+    "--cycle-scale",
+    "3",
+    "--weapon-profile",
+    "citori",
+    "--target",
+    "armored",
+    "--target-los",
+    "off",
+    "--selection-seconds",
+    "7",
+    "--reliable-udp",
+    "--idle-handoff",
+    "--winter-doors",
+    "--winter-windows",
+    "--endless",
+    "--auto-match-seconds",
+    "12",
+    "--loot-catalog",
+    "loot-desert-64.json"
+  ],
+  "features": {
+    "weather_random": true,
+    "medicine": true,
+    "containers": false,
+    "revive": false,
+    "breakables": true,
+    "doors": true,
+    "windows": true,
+    "dynamic_events": {
+      "enabled": false,
+      "interval_seconds": 600,
+      "radius_cm": 50000,
+      "loot": true,
+      "vehicles": true
+    }
+  },
+  "weather": {
+    "start_hour": 8,
+    "temperature_raw": 500,
+    "randomize": true,
+    "hours": [
+      7,
+      8,
+      15,
+      16
+    ],
+    "temperatures": [
+      -500,
+      0,
+      500
+    ]
+  },
+  "spawn_points": "spawn_points.json",
+  "config": "config",
+  "heightmap": "../dion/heightmap_4096x4096_u16.raw",
+  "local_spawn": {
+    "point": [
+      345746,
+      341956,
+      12779
+    ],
+    "landing_cell": [
+      10,
+      10
+    ],
+    "source": "ground points of Cache/Data/world/EU_Desert_4096/EU_Desert_4096.sfc (x, z, height), nearest the map centre with the flattest neighbourhood",
+    "loot_items": 64,
+    "vehicles": [
+      {
+        "configuration": 102,
+        "position": [
+          346046,
+          341956,
+          12779
+        ]
+      },
+      {
+        "configuration": 109,
+        "position": [
+          345446,
+          341956,
+          12779
+        ]
+      }
+    ],
+    "generator": "tools/build_spawn_loot_2022.py --center 345746 341956 12779 --count 64 --map-id 16021"
+  }
+}

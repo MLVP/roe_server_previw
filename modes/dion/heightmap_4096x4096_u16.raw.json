@@ -1,0 +1,30 @@
+{
+  "format": "raw",
+  "dtype": "uint16",
+  "endian": "little",
+  "size": [
+    4096,
+    4096
+  ],
+  "bytes": 33554432,
+  "mode": "coarse-nearest",
+  "coarse": 256,
+  "fill_radius": 2,
+  "map_id": 16010,
+  "source": "F:\\ROERevive\\tools\\ROE_local_test_1\\modes\\dion\\spawn_points.json",
+  "source_points": 660,
+  "origin": [
+    222900.0,
+    223000.0
+  ],
+  "extent": [
+    373300.0,
+    373200.0
+  ],
+  "z_range": [
+    246916.0,
+    292439.0
+  ],
+  "no_data": 0,
+  "row_order": "min_y_to_max_y"
+}

@@ -1,0 +1,61 @@
+{
+  "name": "fdtd",
+  "title": "From Dusk Till Dawn",
+  "description": "Dione at night: map 16011, EU_IcelandNight_4096 / IceLandNight_01. Same landscape as 16010, night lighting, client time table allows hour 0 only. The local profile (spawn grid, zone, doors, breakables, heightmap) is the shared IceLand one.",
+  "enabled": true,
+  "map": {
+    "id": 16011,
+    "name": "Dione at night",
+    "compatibility": "shared_iceland_profile",
+    "route": "0:127.0.0.1:18001",
+    "note": "Map 16011 = EU_IcelandNight_4096 / IceLandNight_01. The client time table allows hour 0 only (night). The other launcher calls this map broken because the stock server has no support for the night event mode; the local room drives the scene itself."
+  },
+  "duration_seconds": 86400,
+  "room": {
+    "idle_reset_seconds": 30,
+    "max_players": 1
+  },
+  "launcher_args": [
+    "--kit", "glider",
+    "--mode", "cycle",
+    "--cycle-scale", "3",
+    "--weapon-profile", "citori",
+    "--target", "armored",
+    "--target-los", "off",
+    "--selection-seconds", "7",
+    "--reliable-udp",
+    "--idle-handoff",
+    "--winter-doors",
+    "--winter-windows",
+    "--endless",
+    "--auto-match-seconds", "12",
+    "--vehicle-configuration", "109",
+    "--loot-catalog", "loot-pool61.json"
+  ],
+  "features": {
+    "weather_random": true,
+    "medicine": true,
+    "containers": false,
+    "revive": false,
+    "breakables": true,
+    "doors": true,
+    "windows": true,
+    "dynamic_events": {
+      "enabled": false,
+      "interval_seconds": 600,
+      "radius_cm": 50000,
+      "loot": true,
+      "vehicles": true
+    }
+  },
+  "weather": {
+    "start_hour": 0,
+    "temperature_raw": -500,
+    "randomize": true,
+    "hours": [0],
+    "temperatures": [-500, 0, 500]
+  },
+  "spawn_points": "spawn_points.json",
+  "config": "config",
+  "heightmap": "heightmap_4096x4096_u16.raw"
+}
