@@ -2,8 +2,9 @@
 
 Пустынная карта ("Vera" в клиенте, мир `EU_Desert_4096`, сцена
 `Desert_001`), id **16021**. Клиент грузит эту карту у себя; серверные
-данные (зона, двери, breakables, сцена, heightmap) остаются от Dione -
-так же, как в режиме Kill Zone.
+данные (зона, сцена, heightmap) остаются от Dione -
+так же, как в режиме Kill Zone. Двери и breakables описываются
+своими каталогами режима (см. ниже).
 
 ## Как запустить
 
@@ -67,10 +68,20 @@ x, z, height). Критерий выбора: ближе к центру кар�
 ```text
 --kit glider --mode cycle --cycle-scale 3 --weapon-profile citori
 --target armored --target-los off --selection-seconds 7
---reliable-udp --idle-handoff --winter-doors --winter-windows
+--reliable-udp --idle-handoff
+--door-catalog doors-vera.json --breakable-catalog breakables-vera.json
 --endless --auto-match-seconds 12
 --loot-catalog loot-desert-64.json
 ```
+
+## Двери и окна
+
+На пустыне id сущностей выдаются при загрузке карты и меняются от
+сессии к сессии, поэтому в `doors-vera.json` и `breakables-vera.json`
+нет закреплённых id: стоит `accept_unknown: true`, состояния дверей
+подтверждаются по запросу клиента, а прочность и число частей берутся
+из первого запроса удара. Проверка дистанции включается только если
+позиция сущности есть в каталоге.
 
 ## Что остаётся от профиля Dione
 

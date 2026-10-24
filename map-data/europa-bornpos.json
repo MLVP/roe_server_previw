@@ -1,0 +1,11288 @@
+{
+ "map_id": 16007,
+ "source": "Data.Table.BlockBornPosTable map_id=16009 (тот же мир EU_KillZone_4096, уровень 001)",
+ "archive": "SFC/Common.sfc",
+ "index": 3306,
+ "offset": 20830491,
+ "bytes": 80595,
+ "grid_cells": 1024,
+ "usable": 904,
+ "cell_range": [
+  0,
+  31,
+  0,
+  31
+ ],
+ "position_range": [
+  209544,
+  610600,
+  211200,
+  613216
+ ],
+ "cells": [
+  {
+   "cell": [
+    0,
+    0
+   ],
+   "position_cm": [
+    211200,
+    211200
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    0,
+    1
+   ],
+   "position_cm": [
+    211200,
+    224000
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    0,
+    2
+   ],
+   "position_cm": [
+    211200,
+    236800
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    0,
+    3
+   ],
+   "position_cm": [
+    209544,
+    250919
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    0,
+    4
+   ],
+   "position_cm": [
+    211200,
+    262400
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    0,
+    5
+   ],
+   "position_cm": [
+    211200,
+    275200
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    0,
+    6
+   ],
+   "position_cm": [
+    211200,
+    288000
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    0,
+    7
+   ],
+   "position_cm": [
+    211200,
+    300800
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    0,
+    8
+   ],
+   "position_cm": [
+    211200,
+    313600
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    0,
+    9
+   ],
+   "position_cm": [
+    211200,
+    326400
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    0,
+    10
+   ],
+   "position_cm": [
+    211200,
+    339200
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    0,
+    11
+   ],
+   "position_cm": [
+    211200,
+    352000
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    0,
+    12
+   ],
+   "position_cm": [
+    211200,
+    364800
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    0,
+    13
+   ],
+   "position_cm": [
+    211200,
+    377600
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    0,
+    14
+   ],
+   "position_cm": [
+    211200,
+    390400
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    0,
+    15
+   ],
+   "position_cm": [
+    211200,
+    403200
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    0,
+    16
+   ],
+   "position_cm": [
+    213814,
+    415890
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    0,
+    17
+   ],
+   "position_cm": [
+    215933,
+    428241
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    0,
+    18
+   ],
+   "position_cm": [
+    211200,
+    441600
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    0,
+    19
+   ],
+   "position_cm": [
+    209772,
+    455389
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    0,
+    20
+   ],
+   "position_cm": [
+    210744,
+    469247
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    0,
+    21
+   ],
+   "position_cm": [
+    211200,
+    480000
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    0,
+    22
+   ],
+   "position_cm": [
+    211200,
+    492800
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    0,
+    23
+   ],
+   "position_cm": [
+    211200,
+    505600
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    0,
+    24
+   ],
+   "position_cm": [
+    211200,
+    518400
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    0,
+    25
+   ],
+   "position_cm": [
+    211200,
+    531200
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    0,
+    26
+   ],
+   "position_cm": [
+    211200,
+    544000
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    0,
+    27
+   ],
+   "position_cm": [
+    211200,
+    556800
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    0,
+    28
+   ],
+   "position_cm": [
+    211200,
+    569600
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    0,
+    29
+   ],
+   "position_cm": [
+    211200,
+    582400
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    0,
+    30
+   ],
+   "position_cm": [
+    211200,
+    595200
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    0,
+    31
+   ],
+   "position_cm": [
+    211200,
+    608000
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    1,
+    0
+   ],
+   "position_cm": [
+    224000,
+    211200
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    1,
+    1
+   ],
+   "position_cm": [
+    224000,
+    224000
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    1,
+    2
+   ],
+   "position_cm": [
+    228696,
+    241033
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    1,
+    3
+   ],
+   "position_cm": [
+    226305,
+    254213
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    1,
+    4
+   ],
+   "position_cm": [
+    221090,
+    264978
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    1,
+    5
+   ],
+   "position_cm": [
+    225415,
+    270090
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    1,
+    6
+   ],
+   "position_cm": [
+    224000,
+    288000
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    1,
+    7
+   ],
+   "position_cm": [
+    224000,
+    300800
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    1,
+    8
+   ],
+   "position_cm": [
+    226813,
+    310878
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    1,
+    9
+   ],
+   "position_cm": [
+    220052,
+    323595
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    1,
+    10
+   ],
+   "position_cm": [
+    224000,
+    339200
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    1,
+    11
+   ],
+   "position_cm": [
+    222936,
+    353014
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    1,
+    12
+   ],
+   "position_cm": [
+    223857,
+    364724
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    1,
+    13
+   ],
+   "position_cm": [
+    224000,
+    377600
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    1,
+    14
+   ],
+   "position_cm": [
+    222933,
+    393381
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    1,
+    15
+   ],
+   "position_cm": [
+    220707,
+    406470
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    1,
+    16
+   ],
+   "position_cm": [
+    226170,
+    410738
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    1,
+    17
+   ],
+   "position_cm": [
+    221793,
+    432837
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    1,
+    18
+   ],
+   "position_cm": [
+    229023,
+    440086
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    1,
+    19
+   ],
+   "position_cm": [
+    226600,
+    451157
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    1,
+    20
+   ],
+   "position_cm": [
+    227222,
+    463251
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    1,
+    21
+   ],
+   "position_cm": [
+    224000,
+    480000
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    1,
+    22
+   ],
+   "position_cm": [
+    224000,
+    492800
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    1,
+    23
+   ],
+   "position_cm": [
+    224000,
+    505600
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    1,
+    24
+   ],
+   "position_cm": [
+    224000,
+    518400
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    1,
+    25
+   ],
+   "position_cm": [
+    224000,
+    531200
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    1,
+    26
+   ],
+   "position_cm": [
+    224000,
+    544000
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    1,
+    27
+   ],
+   "position_cm": [
+    224000,
+    556800
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    1,
+    28
+   ],
+   "position_cm": [
+    224855,
+    570161
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    1,
+    29
+   ],
+   "position_cm": [
+    224000,
+    582400
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    1,
+    30
+   ],
+   "position_cm": [
+    224000,
+    595200
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    1,
+    31
+   ],
+   "position_cm": [
+    224000,
+    608000
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    2,
+    0
+   ],
+   "position_cm": [
+    236800,
+    211200
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    2,
+    1
+   ],
+   "position_cm": [
+    235343,
+    229029
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    2,
+    2
+   ],
+   "position_cm": [
+    238295,
+    231629
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    2,
+    3
+   ],
+   "position_cm": [
+    233649,
+    247748
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    2,
+    4
+   ],
+   "position_cm": [
+    235461,
+    263387
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    2,
+    5
+   ],
+   "position_cm": [
+    236800,
+    275200
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    2,
+    6
+   ],
+   "position_cm": [
+    236800,
+    288000
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    2,
+    7
+   ],
+   "position_cm": [
+    232829,
+    299482
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    2,
+    8
+   ],
+   "position_cm": [
+    235977,
+    309169
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    2,
+    9
+   ],
+   "position_cm": [
+    234298,
+    325708
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    2,
+    10
+   ],
+   "position_cm": [
+    236415,
+    338120
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    2,
+    11
+   ],
+   "position_cm": [
+    235885,
+    348909
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    2,
+    12
+   ],
+   "position_cm": [
+    233859,
+    359639
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    2,
+    13
+   ],
+   "position_cm": [
+    237899,
+    373027
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    2,
+    14
+   ],
+   "position_cm": [
+    240444,
+    395586
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    2,
+    15
+   ],
+   "position_cm": [
+    234657,
+    404009
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    2,
+    16
+   ],
+   "position_cm": [
+    237192,
+    413098
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    2,
+    17
+   ],
+   "position_cm": [
+    232223,
+    429400
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    2,
+    18
+   ],
+   "position_cm": [
+    236801,
+    445202
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    2,
+    19
+   ],
+   "position_cm": [
+    234762,
+    450631
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    2,
+    20
+   ],
+   "position_cm": [
+    235539,
+    469740
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    2,
+    21
+   ],
+   "position_cm": [
+    235531,
+    477281
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    2,
+    22
+   ],
+   "position_cm": [
+    236800,
+    492800
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    2,
+    23
+   ],
+   "position_cm": [
+    236800,
+    505600
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    2,
+    24
+   ],
+   "position_cm": [
+    236800,
+    518400
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    2,
+    25
+   ],
+   "position_cm": [
+    236800,
+    531200
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    2,
+    26
+   ],
+   "position_cm": [
+    241517,
+    544027
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    2,
+    27
+   ],
+   "position_cm": [
+    238459,
+    552559
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    2,
+    28
+   ],
+   "position_cm": [
+    241897,
+    567298
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    2,
+    29
+   ],
+   "position_cm": [
+    236800,
+    582400
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    2,
+    30
+   ],
+   "position_cm": [
+    236800,
+    595200
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    2,
+    31
+   ],
+   "position_cm": [
+    236800,
+    608000
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    3,
+    0
+   ],
+   "position_cm": [
+    249600,
+    211200
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    3,
+    1
+   ],
+   "position_cm": [
+    249600,
+    224000
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    3,
+    2
+   ],
+   "position_cm": [
+    246001,
+    238777
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    3,
+    3
+   ],
+   "position_cm": [
+    249600,
+    249600
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    3,
+    4
+   ],
+   "position_cm": [
+    245406,
+    261559
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    3,
+    5
+   ],
+   "position_cm": [
+    249600,
+    275200
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    3,
+    6
+   ],
+   "position_cm": [
+    253661,
+    288678
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    3,
+    7
+   ],
+   "position_cm": [
+    245584,
+    298842
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    3,
+    8
+   ],
+   "position_cm": [
+    247612,
+    312011
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    3,
+    9
+   ],
+   "position_cm": [
+    244274,
+    329304
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    3,
+    10
+   ],
+   "position_cm": [
+    252687,
+    342259
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    3,
+    11
+   ],
+   "position_cm": [
+    252156,
+    346694
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    3,
+    12
+   ],
+   "position_cm": [
+    244413,
+    360547
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    3,
+    13
+   ],
+   "position_cm": [
+    245284,
+    374796
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    3,
+    14
+   ],
+   "position_cm": [
+    246388,
+    387800
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    3,
+    15
+   ],
+   "position_cm": [
+    249430,
+    401783
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    3,
+    16
+   ],
+   "position_cm": [
+    247375,
+    420518
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    3,
+    17
+   ],
+   "position_cm": [
+    249600,
+    428800
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    3,
+    18
+   ],
+   "position_cm": [
+    252393,
+    445156
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    3,
+    19
+   ],
+   "position_cm": [
+    246032,
+    453509
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    3,
+    20
+   ],
+   "position_cm": [
+    246787,
+    463471
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    3,
+    21
+   ],
+   "position_cm": [
+    249543,
+    480343
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    3,
+    22
+   ],
+   "position_cm": [
+    249600,
+    492800
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    3,
+    23
+   ],
+   "position_cm": [
+    249600,
+    505600
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    3,
+    24
+   ],
+   "position_cm": [
+    249600,
+    518400
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    3,
+    25
+   ],
+   "position_cm": [
+    249600,
+    531200
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    3,
+    26
+   ],
+   "position_cm": [
+    250326,
+    548466
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    3,
+    27
+   ],
+   "position_cm": [
+    246488,
+    555780
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    3,
+    28
+   ],
+   "position_cm": [
+    253519,
+    565669
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    3,
+    29
+   ],
+   "position_cm": [
+    249600,
+    582400
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    3,
+    30
+   ],
+   "position_cm": [
+    249600,
+    595200
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    3,
+    31
+   ],
+   "position_cm": [
+    249600,
+    608000
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    4,
+    0
+   ],
+   "position_cm": [
+    262400,
+    211200
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    4,
+    1
+   ],
+   "position_cm": [
+    257991,
+    229247
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    4,
+    2
+   ],
+   "position_cm": [
+    265900,
+    236949
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    4,
+    3
+   ],
+   "position_cm": [
+    262400,
+    249600
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    4,
+    4
+   ],
+   "position_cm": [
+    262400,
+    262400
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    4,
+    5
+   ],
+   "position_cm": [
+    264313,
+    280562
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    4,
+    6
+   ],
+   "position_cm": [
+    260957,
+    290495
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    4,
+    7
+   ],
+   "position_cm": [
+    262893,
+    297252
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    4,
+    8
+   ],
+   "position_cm": [
+    259560,
+    317738
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    4,
+    9
+   ],
+   "position_cm": [
+    263046,
+    324415
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    4,
+    10
+   ],
+   "position_cm": [
+    261703,
+    341954
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    4,
+    11
+   ],
+   "position_cm": [
+    267019,
+    347827
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    4,
+    12
+   ],
+   "position_cm": [
+    260464,
+    364170
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    4,
+    13
+   ],
+   "position_cm": [
+    262719,
+    381656
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    4,
+    14
+   ],
+   "position_cm": [
+    258922,
+    386433
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    4,
+    15
+   ],
+   "position_cm": [
+    259598,
+    400013
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    4,
+    16
+   ],
+   "position_cm": [
+    262774,
+    412059
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    4,
+    17
+   ],
+   "position_cm": [
+    266727,
+    432649
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    4,
+    18
+   ],
+   "position_cm": [
+    266005,
+    446014
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    4,
+    19
+   ],
+   "position_cm": [
+    266210,
+    454737
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    4,
+    20
+   ],
+   "position_cm": [
+    261361,
+    467337
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    4,
+    21
+   ],
+   "position_cm": [
+    261819,
+    479700
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    4,
+    22
+   ],
+   "position_cm": [
+    262400,
+    492800
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    4,
+    23
+   ],
+   "position_cm": [
+    262400,
+    505600
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    4,
+    24
+   ],
+   "position_cm": [
+    262400,
+    518400
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    4,
+    25
+   ],
+   "position_cm": [
+    262400,
+    531200
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    4,
+    26
+   ],
+   "position_cm": [
+    260958,
+    546669
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    4,
+    27
+   ],
+   "position_cm": [
+    264726,
+    553007
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    4,
+    28
+   ],
+   "position_cm": [
+    267548,
+    571662
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    4,
+    29
+   ],
+   "position_cm": [
+    265200,
+    583981
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    4,
+    30
+   ],
+   "position_cm": [
+    262400,
+    595200
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    4,
+    31
+   ],
+   "position_cm": [
+    262400,
+    608000
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    5,
+    0
+   ],
+   "position_cm": [
+    275200,
+    211200
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    5,
+    1
+   ],
+   "position_cm": [
+    275200,
+    224000
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    5,
+    2
+   ],
+   "position_cm": [
+    275200,
+    236800
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    5,
+    3
+   ],
+   "position_cm": [
+    278593,
+    251710
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    5,
+    4
+   ],
+   "position_cm": [
+    274573,
+    266313
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    5,
+    5
+   ],
+   "position_cm": [
+    274829,
+    272789
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    5,
+    6
+   ],
+   "position_cm": [
+    274761,
+    284662
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    5,
+    7
+   ],
+   "position_cm": [
+    275612,
+    299652
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    5,
+    8
+   ],
+   "position_cm": [
+    277277,
+    315458
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    5,
+    9
+   ],
+   "position_cm": [
+    272496,
+    328205
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    5,
+    10
+   ],
+   "position_cm": [
+    278981,
+    334279
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    5,
+    11
+   ],
+   "position_cm": [
+    277281,
+    353579
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    5,
+    12
+   ],
+   "position_cm": [
+    277121,
+    367211
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    5,
+    13
+   ],
+   "position_cm": [
+    272178,
+    380898
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    5,
+    14
+   ],
+   "position_cm": [
+    271439,
+    389681
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    5,
+    15
+   ],
+   "position_cm": [
+    272545,
+    403371
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    5,
+    16
+   ],
+   "position_cm": [
+    280580,
+    421177
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    5,
+    17
+   ],
+   "position_cm": [
+    276812,
+    428152
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    5,
+    18
+   ],
+   "position_cm": [
+    271818,
+    442518
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    5,
+    19
+   ],
+   "position_cm": [
+    273863,
+    456071
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    5,
+    20
+   ],
+   "position_cm": [
+    277983,
+    463598
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    5,
+    21
+   ],
+   "position_cm": [
+    271707,
+    477795
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    5,
+    22
+   ],
+   "position_cm": [
+    275850,
+    489994
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    5,
+    23
+   ],
+   "position_cm": [
+    275200,
+    505600
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    5,
+    24
+   ],
+   "position_cm": [
+    275200,
+    518400
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    5,
+    25
+   ],
+   "position_cm": [
+    280092,
+    533171
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    5,
+    26
+   ],
+   "position_cm": [
+    273437,
+    540245
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    5,
+    27
+   ],
+   "position_cm": [
+    280373,
+    551598
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    5,
+    28
+   ],
+   "position_cm": [
+    275480,
+    574369
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    5,
+    29
+   ],
+   "position_cm": [
+    279118,
+    579731
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    5,
+    30
+   ],
+   "position_cm": [
+    277130,
+    590958
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    5,
+    31
+   ],
+   "position_cm": [
+    275200,
+    608000
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    6,
+    0
+   ],
+   "position_cm": [
+    288000,
+    211200
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    6,
+    1
+   ],
+   "position_cm": [
+    288000,
+    224000
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    6,
+    2
+   ],
+   "position_cm": [
+    288000,
+    236800
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    6,
+    3
+   ],
+   "position_cm": [
+    292976,
+    252709
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    6,
+    4
+   ],
+   "position_cm": [
+    287952,
+    264974
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    6,
+    5
+   ],
+   "position_cm": [
+    287310,
+    273684
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    6,
+    6
+   ],
+   "position_cm": [
+    284559,
+    288017
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    6,
+    7
+   ],
+   "position_cm": [
+    292364,
+    305762
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    6,
+    8
+   ],
+   "position_cm": [
+    291626,
+    314874
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    6,
+    9
+   ],
+   "position_cm": [
+    283364,
+    322051
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    6,
+    10
+   ],
+   "position_cm": [
+    288770,
+    338461
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    6,
+    11
+   ],
+   "position_cm": [
+    291189,
+    354903
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    6,
+    12
+   ],
+   "position_cm": [
+    284190,
+    369948
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    6,
+    13
+   ],
+   "position_cm": [
+    290536,
+    372599
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    6,
+    14
+   ],
+   "position_cm": [
+    292928,
+    388457
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    6,
+    15
+   ],
+   "position_cm": [
+    284304,
+    399594
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    6,
+    16
+   ],
+   "position_cm": [
+    291307,
+    411879
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    6,
+    17
+   ],
+   "position_cm": [
+    292903,
+    430940
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    6,
+    18
+   ],
+   "position_cm": [
+    283945,
+    444629
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    6,
+    19
+   ],
+   "position_cm": [
+    287313,
+    455055
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    6,
+    20
+   ],
+   "position_cm": [
+    287687,
+    468472
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    6,
+    21
+   ],
+   "position_cm": [
+    286847,
+    478651
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    6,
+    22
+   ],
+   "position_cm": [
+    292408,
+    489872
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    6,
+    23
+   ],
+   "position_cm": [
+    286099,
+    503546
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    6,
+    24
+   ],
+   "position_cm": [
+    288000,
+    518400
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    6,
+    25
+   ],
+   "position_cm": [
+    288000,
+    531200
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    6,
+    26
+   ],
+   "position_cm": [
+    290870,
+    541160
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    6,
+    27
+   ],
+   "position_cm": [
+    284096,
+    552926
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    6,
+    28
+   ],
+   "position_cm": [
+    287870,
+    566878
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    6,
+    29
+   ],
+   "position_cm": [
+    291670,
+    578687
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    6,
+    30
+   ],
+   "position_cm": [
+    284238,
+    590692
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    6,
+    31
+   ],
+   "position_cm": [
+    288000,
+    608000
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    7,
+    0
+   ],
+   "position_cm": [
+    300800,
+    211200
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    7,
+    1
+   ],
+   "position_cm": [
+    300800,
+    224000
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    7,
+    2
+   ],
+   "position_cm": [
+    305252,
+    241837
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    7,
+    3
+   ],
+   "position_cm": [
+    305020,
+    251739
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    7,
+    4
+   ],
+   "position_cm": [
+    300045,
+    266506
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    7,
+    5
+   ],
+   "position_cm": [
+    303854,
+    277313
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    7,
+    6
+   ],
+   "position_cm": [
+    296877,
+    290200
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    7,
+    7
+   ],
+   "position_cm": [
+    303922,
+    296433
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    7,
+    8
+   ],
+   "position_cm": [
+    298752,
+    310922
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    7,
+    9
+   ],
+   "position_cm": [
+    303167,
+    329467
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    7,
+    10
+   ],
+   "position_cm": [
+    300520,
+    343124
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    7,
+    11
+   ],
+   "position_cm": [
+    304658,
+    354870
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    7,
+    12
+   ],
+   "position_cm": [
+    305104,
+    361672
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    7,
+    13
+   ],
+   "position_cm": [
+    297129,
+    374219
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    7,
+    14
+   ],
+   "position_cm": [
+    297732,
+    391992
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    7,
+    15
+   ],
+   "position_cm": [
+    298229,
+    401361
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    7,
+    16
+   ],
+   "position_cm": [
+    302679,
+    414906
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    7,
+    17
+   ],
+   "position_cm": [
+    295760,
+    431975
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    7,
+    18
+   ],
+   "position_cm": [
+    300740,
+    443993
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    7,
+    19
+   ],
+   "position_cm": [
+    298810,
+    450466
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    7,
+    20
+   ],
+   "position_cm": [
+    305915,
+    465751
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    7,
+    21
+   ],
+   "position_cm": [
+    298108,
+    483009
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    7,
+    22
+   ],
+   "position_cm": [
+    297875,
+    488565
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    7,
+    23
+   ],
+   "position_cm": [
+    302412,
+    503330
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    7,
+    24
+   ],
+   "position_cm": [
+    300800,
+    518400
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    7,
+    25
+   ],
+   "position_cm": [
+    300800,
+    531200
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    7,
+    26
+   ],
+   "position_cm": [
+    301849,
+    545342
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    7,
+    27
+   ],
+   "position_cm": [
+    297463,
+    555839
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    7,
+    28
+   ],
+   "position_cm": [
+    304815,
+    572199
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    7,
+    29
+   ],
+   "position_cm": [
+    304706,
+    584541
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    7,
+    30
+   ],
+   "position_cm": [
+    300281,
+    591180
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    7,
+    31
+   ],
+   "position_cm": [
+    300800,
+    608000
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    8,
+    0
+   ],
+   "position_cm": [
+    313600,
+    211200
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    8,
+    1
+   ],
+   "position_cm": [
+    313600,
+    224000
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    8,
+    2
+   ],
+   "position_cm": [
+    315235,
+    240532
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    8,
+    3
+   ],
+   "position_cm": [
+    309941,
+    254264
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    8,
+    4
+   ],
+   "position_cm": [
+    317397,
+    262771
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    8,
+    5
+   ],
+   "position_cm": [
+    317176,
+    271315
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    8,
+    6
+   ],
+   "position_cm": [
+    318318,
+    285216
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    8,
+    7
+   ],
+   "position_cm": [
+    308923,
+    295410
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    8,
+    8
+   ],
+   "position_cm": [
+    312569,
+    316368
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    8,
+    9
+   ],
+   "position_cm": [
+    316704,
+    330883
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    8,
+    10
+   ],
+   "position_cm": [
+    317190,
+    338983
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    8,
+    11
+   ],
+   "position_cm": [
+    316739,
+    347371
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    8,
+    12
+   ],
+   "position_cm": [
+    316038,
+    369253
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    8,
+    13
+   ],
+   "position_cm": [
+    318526,
+    372918
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    8,
+    14
+   ],
+   "position_cm": [
+    308966,
+    390415
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    8,
+    15
+   ],
+   "position_cm": [
+    310632,
+    404503
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    8,
+    16
+   ],
+   "position_cm": [
+    309285,
+    414343
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    8,
+    17
+   ],
+   "position_cm": [
+    311385,
+    433025
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    8,
+    18
+   ],
+   "position_cm": [
+    312714,
+    436422
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    8,
+    19
+   ],
+   "position_cm": [
+    309141,
+    453729
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    8,
+    20
+   ],
+   "position_cm": [
+    308302,
+    467099
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    8,
+    21
+   ],
+   "position_cm": [
+    312366,
+    474905
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    8,
+    22
+   ],
+   "position_cm": [
+    317815,
+    495587
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    8,
+    23
+   ],
+   "position_cm": [
+    313202,
+    501602
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    8,
+    24
+   ],
+   "position_cm": [
+    313600,
+    518400
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    8,
+    25
+   ],
+   "position_cm": [
+    313600,
+    531200
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    8,
+    26
+   ],
+   "position_cm": [
+    313600,
+    544000
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    8,
+    27
+   ],
+   "position_cm": [
+    309098,
+    560692
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    8,
+    28
+   ],
+   "position_cm": [
+    308332,
+    566245
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    8,
+    29
+   ],
+   "position_cm": [
+    309719,
+    586202
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    8,
+    30
+   ],
+   "position_cm": [
+    309000,
+    590924
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    8,
+    31
+   ],
+   "position_cm": [
+    313600,
+    608000
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    9,
+    0
+   ],
+   "position_cm": [
+    326400,
+    211200
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    9,
+    1
+   ],
+   "position_cm": [
+    326400,
+    224000
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    9,
+    2
+   ],
+   "position_cm": [
+    329805,
+    241179
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    9,
+    3
+   ],
+   "position_cm": [
+    328615,
+    245958
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    9,
+    4
+   ],
+   "position_cm": [
+    327353,
+    264472
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    9,
+    5
+   ],
+   "position_cm": [
+    327012,
+    277127
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    9,
+    6
+   ],
+   "position_cm": [
+    325387,
+    283377
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    9,
+    7
+   ],
+   "position_cm": [
+    323497,
+    302751
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    9,
+    8
+   ],
+   "position_cm": [
+    325598,
+    312627
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    9,
+    9
+   ],
+   "position_cm": [
+    321246,
+    326799
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    9,
+    10
+   ],
+   "position_cm": [
+    323139,
+    334607
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    9,
+    11
+   ],
+   "position_cm": [
+    322488,
+    351399
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    9,
+    12
+   ],
+   "position_cm": [
+    326400,
+    364800
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    9,
+    13
+   ],
+   "position_cm": [
+    326400,
+    377600
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    9,
+    14
+   ],
+   "position_cm": [
+    326400,
+    390400
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    9,
+    15
+   ],
+   "position_cm": [
+    326400,
+    403200
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    9,
+    16
+   ],
+   "position_cm": [
+    326400,
+    416000
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    9,
+    17
+   ],
+   "position_cm": [
+    322807,
+    433315
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    9,
+    18
+   ],
+   "position_cm": [
+    331661,
+    441603
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    9,
+    19
+   ],
+   "position_cm": [
+    328380,
+    449079
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    9,
+    20
+   ],
+   "position_cm": [
+    328213,
+    468518
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    9,
+    21
+   ],
+   "position_cm": [
+    327545,
+    475153
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    9,
+    22
+   ],
+   "position_cm": [
+    326100,
+    490886
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    9,
+    23
+   ],
+   "position_cm": [
+    326400,
+    505600
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    9,
+    24
+   ],
+   "position_cm": [
+    326400,
+    518400
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    9,
+    25
+   ],
+   "position_cm": [
+    326400,
+    531200
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    9,
+    26
+   ],
+   "position_cm": [
+    325021,
+    549070
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    9,
+    27
+   ],
+   "position_cm": [
+    330894,
+    552635
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    9,
+    28
+   ],
+   "position_cm": [
+    329786,
+    573369
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    9,
+    29
+   ],
+   "position_cm": [
+    331230,
+    585044
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    9,
+    30
+   ],
+   "position_cm": [
+    326400,
+    595200
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    9,
+    31
+   ],
+   "position_cm": [
+    326400,
+    608000
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    10,
+    0
+   ],
+   "position_cm": [
+    339200,
+    211200
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    10,
+    1
+   ],
+   "position_cm": [
+    339200,
+    224000
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    10,
+    2
+   ],
+   "position_cm": [
+    339200,
+    236800
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    10,
+    3
+   ],
+   "position_cm": [
+    336028,
+    251150
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    10,
+    4
+   ],
+   "position_cm": [
+    335665,
+    264259
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    10,
+    5
+   ],
+   "position_cm": [
+    339200,
+    275200
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    10,
+    6
+   ],
+   "position_cm": [
+    339200,
+    288000
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    10,
+    7
+   ],
+   "position_cm": [
+    333933,
+    305953
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    10,
+    8
+   ],
+   "position_cm": [
+    337263,
+    318635
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    10,
+    9
+   ],
+   "position_cm": [
+    340780,
+    322919
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    10,
+    10
+   ],
+   "position_cm": [
+    339200,
+    339200
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    10,
+    11
+   ],
+   "position_cm": [
+    338374,
+    351048
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    10,
+    12
+   ],
+   "position_cm": [
+    343779,
+    360060
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    10,
+    13
+   ],
+   "position_cm": [
+    335446,
+    377312
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    10,
+    14
+   ],
+   "position_cm": [
+    343555,
+    387814
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    10,
+    15
+   ],
+   "position_cm": [
+    339200,
+    403200
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    10,
+    16
+   ],
+   "position_cm": [
+    344114,
+    414093
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    10,
+    17
+   ],
+   "position_cm": [
+    339200,
+    428800
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    10,
+    18
+   ],
+   "position_cm": [
+    340066,
+    446125
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    10,
+    19
+   ],
+   "position_cm": [
+    340062,
+    450536
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    10,
+    20
+   ],
+   "position_cm": [
+    338909,
+    462220
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    10,
+    21
+   ],
+   "position_cm": [
+    344009,
+    482552
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    10,
+    22
+   ],
+   "position_cm": [
+    335723,
+    493389
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    10,
+    23
+   ],
+   "position_cm": [
+    344356,
+    501142
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    10,
+    24
+   ],
+   "position_cm": [
+    343920,
+    522437
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    10,
+    25
+   ],
+   "position_cm": [
+    340140,
+    526985
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    10,
+    26
+   ],
+   "position_cm": [
+    344046,
+    546152
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    10,
+    27
+   ],
+   "position_cm": [
+    339200,
+    556800
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    10,
+    28
+   ],
+   "position_cm": [
+    337353,
+    568060
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    10,
+    29
+   ],
+   "position_cm": [
+    339313,
+    578415
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    10,
+    30
+   ],
+   "position_cm": [
+    340506,
+    596840
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    10,
+    31
+   ],
+   "position_cm": [
+    339200,
+    608000
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    11,
+    0
+   ],
+   "position_cm": [
+    352000,
+    211200
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    11,
+    1
+   ],
+   "position_cm": [
+    352000,
+    224000
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    11,
+    2
+   ],
+   "position_cm": [
+    349400,
+    234050
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    11,
+    3
+   ],
+   "position_cm": [
+    346957,
+    254700
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    11,
+    4
+   ],
+   "position_cm": [
+    348041,
+    258352
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    11,
+    5
+   ],
+   "position_cm": [
+    352000,
+    275200
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    11,
+    6
+   ],
+   "position_cm": [
+    353546,
+    285255
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    11,
+    7
+   ],
+   "position_cm": [
+    355812,
+    303787
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    11,
+    8
+   ],
+   "position_cm": [
+    346862,
+    313238
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    11,
+    9
+   ],
+   "position_cm": [
+    352000,
+    326400
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    11,
+    10
+   ],
+   "position_cm": [
+    355232,
+    342893
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    11,
+    11
+   ],
+   "position_cm": [
+    351198,
+    354403
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    11,
+    12
+   ],
+   "position_cm": [
+    352215,
+    363895
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    11,
+    13
+   ],
+   "position_cm": [
+    346637,
+    373487
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    11,
+    14
+   ],
+   "position_cm": [
+    352782,
+    386157
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    11,
+    15
+   ],
+   "position_cm": [
+    354319,
+    399290
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    11,
+    16
+   ],
+   "position_cm": [
+    347503,
+    419468
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    11,
+    17
+   ],
+   "position_cm": [
+    353848,
+    425595
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    11,
+    18
+   ],
+   "position_cm": [
+    352000,
+    441600
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    11,
+    19
+   ],
+   "position_cm": [
+    352595,
+    459044
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    11,
+    20
+   ],
+   "position_cm": [
+    356495,
+    469552
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    11,
+    21
+   ],
+   "position_cm": [
+    355931,
+    475136
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    11,
+    22
+   ],
+   "position_cm": [
+    348127,
+    492028
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    11,
+    23
+   ],
+   "position_cm": [
+    348019,
+    501676
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    11,
+    24
+   ],
+   "position_cm": [
+    353671,
+    514997
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    11,
+    25
+   ],
+   "position_cm": [
+    356027,
+    529489
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    11,
+    26
+   ],
+   "position_cm": [
+    353040,
+    539072
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    11,
+    27
+   ],
+   "position_cm": [
+    356223,
+    557311
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    11,
+    28
+   ],
+   "position_cm": [
+    355017,
+    570846
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    11,
+    29
+   ],
+   "position_cm": [
+    356115,
+    586460
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    11,
+    30
+   ],
+   "position_cm": [
+    349687,
+    591976
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    11,
+    31
+   ],
+   "position_cm": [
+    352000,
+    608000
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    12,
+    0
+   ],
+   "position_cm": [
+    364800,
+    211200
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    12,
+    1
+   ],
+   "position_cm": [
+    364300,
+    223400
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    12,
+    2
+   ],
+   "position_cm": [
+    368600,
+    236800
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    12,
+    3
+   ],
+   "position_cm": [
+    364800,
+    249600
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    12,
+    4
+   ],
+   "position_cm": [
+    368049,
+    265474
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    12,
+    5
+   ],
+   "position_cm": [
+    370044,
+    269954
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    12,
+    6
+   ],
+   "position_cm": [
+    361950,
+    288308
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    12,
+    7
+   ],
+   "position_cm": [
+    364699,
+    296460
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    12,
+    8
+   ],
+   "position_cm": [
+    364800,
+    313600
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    12,
+    9
+   ],
+   "position_cm": [
+    364800,
+    326400
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    12,
+    10
+   ],
+   "position_cm": [
+    366501,
+    337982
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    12,
+    11
+   ],
+   "position_cm": [
+    368267,
+    346634
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    12,
+    12
+   ],
+   "position_cm": [
+    364948,
+    364007
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    12,
+    13
+   ],
+   "position_cm": [
+    362059,
+    373117
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    12,
+    14
+   ],
+   "position_cm": [
+    359590,
+    394012
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    12,
+    15
+   ],
+   "position_cm": [
+    369036,
+    402856
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    12,
+    16
+   ],
+   "position_cm": [
+    365159,
+    418300
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    12,
+    17
+   ],
+   "position_cm": [
+    361235,
+    433189
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    12,
+    18
+   ],
+   "position_cm": [
+    364800,
+    441600
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    12,
+    19
+   ],
+   "position_cm": [
+    364800,
+    454400
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    12,
+    20
+   ],
+   "position_cm": [
+    364800,
+    467200
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    12,
+    21
+   ],
+   "position_cm": [
+    364800,
+    480000
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    12,
+    22
+   ],
+   "position_cm": [
+    364800,
+    492800
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    12,
+    23
+   ],
+   "position_cm": [
+    364800,
+    505600
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    12,
+    24
+   ],
+   "position_cm": [
+    365142,
+    521825
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    12,
+    25
+   ],
+   "position_cm": [
+    362366,
+    529368
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    12,
+    26
+   ],
+   "position_cm": [
+    359823,
+    546452
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    12,
+    27
+   ],
+   "position_cm": [
+    365030,
+    559585
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    12,
+    28
+   ],
+   "position_cm": [
+    359437,
+    570333
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    12,
+    29
+   ],
+   "position_cm": [
+    364800,
+    582400
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    12,
+    30
+   ],
+   "position_cm": [
+    359441,
+    596586
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    12,
+    31
+   ],
+   "position_cm": [
+    369715,
+    606667
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    13,
+    0
+   ],
+   "position_cm": [
+    377600,
+    211200
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    13,
+    1
+   ],
+   "position_cm": [
+    375500,
+    220600
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    13,
+    2
+   ],
+   "position_cm": [
+    373600,
+    235700
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    13,
+    3
+   ],
+   "position_cm": [
+    377600,
+    249600
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    13,
+    4
+   ],
+   "position_cm": [
+    377600,
+    262400
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    13,
+    5
+   ],
+   "position_cm": [
+    373012,
+    279926
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    13,
+    6
+   ],
+   "position_cm": [
+    372942,
+    283849
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    13,
+    7
+   ],
+   "position_cm": [
+    381527,
+    305860
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    13,
+    8
+   ],
+   "position_cm": [
+    377888,
+    309712
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    13,
+    9
+   ],
+   "position_cm": [
+    382427,
+    327138
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    13,
+    10
+   ],
+   "position_cm": [
+    379575,
+    339855
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    13,
+    11
+   ],
+   "position_cm": [
+    377645,
+    353154
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    13,
+    12
+   ],
+   "position_cm": [
+    380928,
+    364527
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    13,
+    13
+   ],
+   "position_cm": [
+    373556,
+    374444
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    13,
+    14
+   ],
+   "position_cm": [
+    378576,
+    392993
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    13,
+    15
+   ],
+   "position_cm": [
+    376693,
+    398882
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    13,
+    16
+   ],
+   "position_cm": [
+    377041,
+    413893
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    13,
+    17
+   ],
+   "position_cm": [
+    377600,
+    428800
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    13,
+    18
+   ],
+   "position_cm": [
+    382227,
+    443363
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    13,
+    19
+   ],
+   "position_cm": [
+    381458,
+    449481
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    13,
+    20
+   ],
+   "position_cm": [
+    382389,
+    470892
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    13,
+    21
+   ],
+   "position_cm": [
+    377600,
+    480000
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    13,
+    22
+   ],
+   "position_cm": [
+    377600,
+    492800
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    13,
+    23
+   ],
+   "position_cm": [
+    382682,
+    508322
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    13,
+    24
+   ],
+   "position_cm": [
+    381120,
+    517550
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    13,
+    25
+   ],
+   "position_cm": [
+    374184,
+    534418
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    13,
+    26
+   ],
+   "position_cm": [
+    374254,
+    543565
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    13,
+    27
+   ],
+   "position_cm": [
+    377600,
+    556800
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    13,
+    28
+   ],
+   "position_cm": [
+    377600,
+    569600
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    13,
+    29
+   ],
+   "position_cm": [
+    379878,
+    586495
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    13,
+    30
+   ],
+   "position_cm": [
+    371737,
+    591794
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    13,
+    31
+   ],
+   "position_cm": [
+    378172,
+    604263
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    14,
+    0
+   ],
+   "position_cm": [
+    390400,
+    211200
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    14,
+    1
+   ],
+   "position_cm": [
+    390400,
+    224000
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    14,
+    2
+   ],
+   "position_cm": [
+    394711,
+    237774
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    14,
+    3
+   ],
+   "position_cm": [
+    390400,
+    249600
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    14,
+    4
+   ],
+   "position_cm": [
+    393238,
+    267673
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    14,
+    5
+   ],
+   "position_cm": [
+    391367,
+    279961
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    14,
+    6
+   ],
+   "position_cm": [
+    393731,
+    288642
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    14,
+    7
+   ],
+   "position_cm": [
+    391266,
+    303063
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    14,
+    8
+   ],
+   "position_cm": [
+    395446,
+    314894
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    14,
+    9
+   ],
+   "position_cm": [
+    386028,
+    321409
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    14,
+    10
+   ],
+   "position_cm": [
+    390511,
+    343146
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    14,
+    11
+   ],
+   "position_cm": [
+    389271,
+    349362
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    14,
+    12
+   ],
+   "position_cm": [
+    387625,
+    367356
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    14,
+    13
+   ],
+   "position_cm": [
+    391890,
+    379831
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    14,
+    14
+   ],
+   "position_cm": [
+    391962,
+    389673
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    14,
+    15
+   ],
+   "position_cm": [
+    395325,
+    398179
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    14,
+    16
+   ],
+   "position_cm": [
+    389762,
+    414403
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    14,
+    17
+   ],
+   "position_cm": [
+    392413,
+    428292
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    14,
+    18
+   ],
+   "position_cm": [
+    391738,
+    437917
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    14,
+    19
+   ],
+   "position_cm": [
+    388921,
+    450949
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    14,
+    20
+   ],
+   "position_cm": [
+    385836,
+    463651
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    14,
+    21
+   ],
+   "position_cm": [
+    389634,
+    481631
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    14,
+    22
+   ],
+   "position_cm": [
+    393016,
+    487554
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    14,
+    23
+   ],
+   "position_cm": [
+    388981,
+    501686
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    14,
+    24
+   ],
+   "position_cm": [
+    387916,
+    519606
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    14,
+    25
+   ],
+   "position_cm": [
+    394443,
+    535606
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    14,
+    26
+   ],
+   "position_cm": [
+    392254,
+    545136
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    14,
+    27
+   ],
+   "position_cm": [
+    390400,
+    556800
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    14,
+    28
+   ],
+   "position_cm": [
+    390400,
+    569600
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    14,
+    29
+   ],
+   "position_cm": [
+    391053,
+    578127
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    14,
+    30
+   ],
+   "position_cm": [
+    383441,
+    583245
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    14,
+    31
+   ],
+   "position_cm": [
+    390400,
+    608000
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    15,
+    0
+   ],
+   "position_cm": [
+    403200,
+    211200
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    15,
+    1
+   ],
+   "position_cm": [
+    403200,
+    224000
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    15,
+    2
+   ],
+   "position_cm": [
+    398388,
+    241892
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    15,
+    3
+   ],
+   "position_cm": [
+    404743,
+    244396
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    15,
+    4
+   ],
+   "position_cm": [
+    402139,
+    263720
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    15,
+    5
+   ],
+   "position_cm": [
+    403532,
+    276063
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    15,
+    6
+   ],
+   "position_cm": [
+    398885,
+    290758
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    15,
+    7
+   ],
+   "position_cm": [
+    406710,
+    305531
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    15,
+    8
+   ],
+   "position_cm": [
+    407149,
+    311608
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    15,
+    9
+   ],
+   "position_cm": [
+    407720,
+    323541
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    15,
+    10
+   ],
+   "position_cm": [
+    397930,
+    344244
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    15,
+    11
+   ],
+   "position_cm": [
+    401960,
+    354213
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    15,
+    12
+   ],
+   "position_cm": [
+    404497,
+    369527
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    15,
+    13
+   ],
+   "position_cm": [
+    405321,
+    377376
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    15,
+    14
+   ],
+   "position_cm": [
+    402280,
+    395695
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    15,
+    15
+   ],
+   "position_cm": [
+    406012,
+    401998
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    15,
+    16
+   ],
+   "position_cm": [
+    397891,
+    415925
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    15,
+    17
+   ],
+   "position_cm": [
+    398638,
+    427471
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    15,
+    18
+   ],
+   "position_cm": [
+    405332,
+    443670
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    15,
+    19
+   ],
+   "position_cm": [
+    399305,
+    453684
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    15,
+    20
+   ],
+   "position_cm": [
+    402937,
+    461853
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    15,
+    21
+   ],
+   "position_cm": [
+    403969,
+    475596
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    15,
+    22
+   ],
+   "position_cm": [
+    401699,
+    497729
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    15,
+    23
+   ],
+   "position_cm": [
+    404335,
+    503440
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    15,
+    24
+   ],
+   "position_cm": [
+    404971,
+    519006
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    15,
+    25
+   ],
+   "position_cm": [
+    400366,
+    529691
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    15,
+    26
+   ],
+   "position_cm": [
+    401757,
+    545647
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    15,
+    27
+   ],
+   "position_cm": [
+    401819,
+    558852
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    15,
+    28
+   ],
+   "position_cm": [
+    403849,
+    564455
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    15,
+    29
+   ],
+   "position_cm": [
+    403200,
+    582400
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    15,
+    30
+   ],
+   "position_cm": [
+    403200,
+    595200
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    15,
+    31
+   ],
+   "position_cm": [
+    403200,
+    608000
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    16,
+    0
+   ],
+   "position_cm": [
+    416000,
+    211200
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    16,
+    1
+   ],
+   "position_cm": [
+    416000,
+    224000
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    16,
+    2
+   ],
+   "position_cm": [
+    416000,
+    236800
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    16,
+    3
+   ],
+   "position_cm": [
+    418331,
+    253387
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    16,
+    4
+   ],
+   "position_cm": [
+    414266,
+    262553
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    16,
+    5
+   ],
+   "position_cm": [
+    412475,
+    277317
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    16,
+    6
+   ],
+   "position_cm": [
+    412288,
+    292712
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    16,
+    7
+   ],
+   "position_cm": [
+    418612,
+    300898
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    16,
+    8
+   ],
+   "position_cm": [
+    419544,
+    316705
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    16,
+    9
+   ],
+   "position_cm": [
+    413829,
+    323360
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    16,
+    10
+   ],
+   "position_cm": [
+    416911,
+    335150
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    16,
+    11
+   ],
+   "position_cm": [
+    420805,
+    346746
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    16,
+    12
+   ],
+   "position_cm": [
+    417489,
+    366716
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    16,
+    13
+   ],
+   "position_cm": [
+    419467,
+    375662
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    16,
+    14
+   ],
+   "position_cm": [
+    420253,
+    393128
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    16,
+    15
+   ],
+   "position_cm": [
+    412966,
+    407856
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    16,
+    16
+   ],
+   "position_cm": [
+    419853,
+    410777
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    16,
+    17
+   ],
+   "position_cm": [
+    417760,
+    424577
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    16,
+    18
+   ],
+   "position_cm": [
+    412323,
+    443865
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    16,
+    19
+   ],
+   "position_cm": [
+    420964,
+    454389
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    16,
+    20
+   ],
+   "position_cm": [
+    416593,
+    463239
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    16,
+    21
+   ],
+   "position_cm": [
+    416280,
+    475055
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    16,
+    22
+   ],
+   "position_cm": [
+    414925,
+    490291
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    16,
+    23
+   ],
+   "position_cm": [
+    416553,
+    502668
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    16,
+    24
+   ],
+   "position_cm": [
+    414771,
+    514956
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    16,
+    25
+   ],
+   "position_cm": [
+    419003,
+    529056
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    16,
+    26
+   ],
+   "position_cm": [
+    413907,
+    539181
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    16,
+    27
+   ],
+   "position_cm": [
+    414002,
+    552732
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    16,
+    28
+   ],
+   "position_cm": [
+    412133,
+    565023
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    16,
+    29
+   ],
+   "position_cm": [
+    416000,
+    582400
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    16,
+    30
+   ],
+   "position_cm": [
+    416000,
+    595200
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    16,
+    31
+   ],
+   "position_cm": [
+    416000,
+    608000
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    17,
+    0
+   ],
+   "position_cm": [
+    428800,
+    211200
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    17,
+    1
+   ],
+   "position_cm": [
+    428800,
+    224000
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    17,
+    2
+   ],
+   "position_cm": [
+    428800,
+    236800
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    17,
+    3
+   ],
+   "position_cm": [
+    430939,
+    250589
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    17,
+    4
+   ],
+   "position_cm": [
+    427497,
+    264784
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    17,
+    5
+   ],
+   "position_cm": [
+    429021,
+    279013
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    17,
+    6
+   ],
+   "position_cm": [
+    427398,
+    287454
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    17,
+    7
+   ],
+   "position_cm": [
+    429473,
+    301008
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    17,
+    8
+   ],
+   "position_cm": [
+    431834,
+    317682
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    17,
+    9
+   ],
+   "position_cm": [
+    427267,
+    328530
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    17,
+    10
+   ],
+   "position_cm": [
+    427622,
+    338541
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    17,
+    11
+   ],
+   "position_cm": [
+    429667,
+    351240
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    17,
+    12
+   ],
+   "position_cm": [
+    432620,
+    368735
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    17,
+    13
+   ],
+   "position_cm": [
+    429177,
+    381863
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    17,
+    14
+   ],
+   "position_cm": [
+    431687,
+    389398
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    17,
+    15
+   ],
+   "position_cm": [
+    426027,
+    398493
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    17,
+    16
+   ],
+   "position_cm": [
+    433148,
+    411688
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    17,
+    17
+   ],
+   "position_cm": [
+    431350,
+    429886
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    17,
+    18
+   ],
+   "position_cm": [
+    423651,
+    445063
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    17,
+    19
+   ],
+   "position_cm": [
+    428616,
+    453348
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    17,
+    20
+   ],
+   "position_cm": [
+    429246,
+    461836
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    17,
+    21
+   ],
+   "position_cm": [
+    429735,
+    477219
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    17,
+    22
+   ],
+   "position_cm": [
+    431865,
+    492583
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    17,
+    23
+   ],
+   "position_cm": [
+    431627,
+    506299
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    17,
+    24
+   ],
+   "position_cm": [
+    427264,
+    517868
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    17,
+    25
+   ],
+   "position_cm": [
+    426228,
+    533886
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    17,
+    26
+   ],
+   "position_cm": [
+    433009,
+    540470
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    17,
+    27
+   ],
+   "position_cm": [
+    428901,
+    559428
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    17,
+    28
+   ],
+   "position_cm": [
+    427379,
+    564677
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    17,
+    29
+   ],
+   "position_cm": [
+    433865,
+    578465
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    17,
+    30
+   ],
+   "position_cm": [
+    428800,
+    595200
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    17,
+    31
+   ],
+   "position_cm": [
+    428800,
+    608000
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    18,
+    0
+   ],
+   "position_cm": [
+    441600,
+    211200
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    18,
+    1
+   ],
+   "position_cm": [
+    439271,
+    229327
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    18,
+    2
+   ],
+   "position_cm": [
+    444079,
+    239991
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    18,
+    3
+   ],
+   "position_cm": [
+    437515,
+    246056
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    18,
+    4
+   ],
+   "position_cm": [
+    445830,
+    266464
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    18,
+    5
+   ],
+   "position_cm": [
+    445103,
+    277713
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    18,
+    6
+   ],
+   "position_cm": [
+    436226,
+    286848
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    18,
+    7
+   ],
+   "position_cm": [
+    443692,
+    300467
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    18,
+    8
+   ],
+   "position_cm": [
+    443507,
+    310642
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    18,
+    9
+   ],
+   "position_cm": [
+    437827,
+    323213
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    18,
+    10
+   ],
+   "position_cm": [
+    436359,
+    341261
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    18,
+    11
+   ],
+   "position_cm": [
+    446074,
+    353902
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    18,
+    12
+   ],
+   "position_cm": [
+    437147,
+    365382
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    18,
+    13
+   ],
+   "position_cm": [
+    439542,
+    380214
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    18,
+    14
+   ],
+   "position_cm": [
+    440680,
+    392338
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    18,
+    15
+   ],
+   "position_cm": [
+    439472,
+    398125
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    18,
+    16
+   ],
+   "position_cm": [
+    443465,
+    413167
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    18,
+    17
+   ],
+   "position_cm": [
+    443704,
+    431318
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    18,
+    18
+   ],
+   "position_cm": [
+    436558,
+    437794
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    18,
+    19
+   ],
+   "position_cm": [
+    438748,
+    451762
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    18,
+    20
+   ],
+   "position_cm": [
+    440032,
+    462450
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    18,
+    21
+   ],
+   "position_cm": [
+    439650,
+    478458
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    18,
+    22
+   ],
+   "position_cm": [
+    441098,
+    487541
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    18,
+    23
+   ],
+   "position_cm": [
+    437900,
+    505180
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    18,
+    24
+   ],
+   "position_cm": [
+    442358,
+    516327
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    18,
+    25
+   ],
+   "position_cm": [
+    443393,
+    532118
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    18,
+    26
+   ],
+   "position_cm": [
+    439763,
+    544866
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    18,
+    27
+   ],
+   "position_cm": [
+    439019,
+    559485
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    18,
+    28
+   ],
+   "position_cm": [
+    441222,
+    573936
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    18,
+    29
+   ],
+   "position_cm": [
+    441498,
+    579276
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    18,
+    30
+   ],
+   "position_cm": [
+    441600,
+    595200
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    18,
+    31
+   ],
+   "position_cm": [
+    441600,
+    608000
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    19,
+    0
+   ],
+   "position_cm": [
+    454400,
+    211200
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    19,
+    1
+   ],
+   "position_cm": [
+    454400,
+    224000
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    19,
+    2
+   ],
+   "position_cm": [
+    453221,
+    241696
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    19,
+    3
+   ],
+   "position_cm": [
+    454993,
+    246404
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    19,
+    4
+   ],
+   "position_cm": [
+    452516,
+    259551
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    19,
+    5
+   ],
+   "position_cm": [
+    455309,
+    273881
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    19,
+    6
+   ],
+   "position_cm": [
+    458870,
+    287549
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    19,
+    7
+   ],
+   "position_cm": [
+    459236,
+    303570
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    19,
+    8
+   ],
+   "position_cm": [
+    449492,
+    317083
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    19,
+    9
+   ],
+   "position_cm": [
+    453188,
+    323154
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    19,
+    10
+   ],
+   "position_cm": [
+    458745,
+    336778
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    19,
+    11
+   ],
+   "position_cm": [
+    451356,
+    348400
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    19,
+    12
+   ],
+   "position_cm": [
+    451640,
+    367750
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    19,
+    13
+   ],
+   "position_cm": [
+    456580,
+    381931
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    19,
+    14
+   ],
+   "position_cm": [
+    452675,
+    385151
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    19,
+    15
+   ],
+   "position_cm": [
+    449936,
+    407784
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    19,
+    16
+   ],
+   "position_cm": [
+    456808,
+    410605
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    19,
+    17
+   ],
+   "position_cm": [
+    453132,
+    430643
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    19,
+    18
+   ],
+   "position_cm": [
+    449949,
+    444400
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    19,
+    19
+   ],
+   "position_cm": [
+    457901,
+    456735
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    19,
+    20
+   ],
+   "position_cm": [
+    454854,
+    464088
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    19,
+    21
+   ],
+   "position_cm": [
+    458889,
+    479398
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    19,
+    22
+   ],
+   "position_cm": [
+    457841,
+    496646
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    19,
+    23
+   ],
+   "position_cm": [
+    459296,
+    509217
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    19,
+    24
+   ],
+   "position_cm": [
+    452571,
+    519250
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    19,
+    25
+   ],
+   "position_cm": [
+    458840,
+    526765
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    19,
+    26
+   ],
+   "position_cm": [
+    451766,
+    542369
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    19,
+    27
+   ],
+   "position_cm": [
+    451519,
+    554520
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    19,
+    28
+   ],
+   "position_cm": [
+    455274,
+    573969
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    19,
+    29
+   ],
+   "position_cm": [
+    452271,
+    584210
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    19,
+    30
+   ],
+   "position_cm": [
+    449296,
+    590739
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    19,
+    31
+   ],
+   "position_cm": [
+    454400,
+    608000
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    20,
+    0
+   ],
+   "position_cm": [
+    467200,
+    211200
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    20,
+    1
+   ],
+   "position_cm": [
+    467200,
+    224000
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    20,
+    2
+   ],
+   "position_cm": [
+    465103,
+    240211
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    20,
+    3
+   ],
+   "position_cm": [
+    463846,
+    246049
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    20,
+    4
+   ],
+   "position_cm": [
+    469648,
+    265987
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    20,
+    5
+   ],
+   "position_cm": [
+    471845,
+    272059
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    20,
+    6
+   ],
+   "position_cm": [
+    472133,
+    283336
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    20,
+    7
+   ],
+   "position_cm": [
+    470029,
+    305747
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    20,
+    8
+   ],
+   "position_cm": [
+    470077,
+    317608
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    20,
+    9
+   ],
+   "position_cm": [
+    471308,
+    324740
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    20,
+    10
+   ],
+   "position_cm": [
+    467200,
+    339200
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    20,
+    11
+   ],
+   "position_cm": [
+    471562,
+    351391
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    20,
+    12
+   ],
+   "position_cm": [
+    468594,
+    364024
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    20,
+    13
+   ],
+   "position_cm": [
+    464047,
+    376041
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    20,
+    14
+   ],
+   "position_cm": [
+    468186,
+    390067
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    20,
+    15
+   ],
+   "position_cm": [
+    470588,
+    400863
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    20,
+    16
+   ],
+   "position_cm": [
+    471093,
+    415466
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    20,
+    17
+   ],
+   "position_cm": [
+    470984,
+    429717
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    20,
+    18
+   ],
+   "position_cm": [
+    462327,
+    446436
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    20,
+    19
+   ],
+   "position_cm": [
+    466724,
+    451809
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    20,
+    20
+   ],
+   "position_cm": [
+    464975,
+    469350
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    20,
+    21
+   ],
+   "position_cm": [
+    462331,
+    476515
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    20,
+    22
+   ],
+   "position_cm": [
+    469531,
+    497694
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    20,
+    23
+   ],
+   "position_cm": [
+    468506,
+    510151
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    20,
+    24
+   ],
+   "position_cm": [
+    466391,
+    522284
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    20,
+    25
+   ],
+   "position_cm": [
+    472149,
+    526384
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    20,
+    26
+   ],
+   "position_cm": [
+    468483,
+    543970
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    20,
+    27
+   ],
+   "position_cm": [
+    469800,
+    553668
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    20,
+    28
+   ],
+   "position_cm": [
+    471233,
+    565285
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    20,
+    29
+   ],
+   "position_cm": [
+    466626,
+    579879
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    20,
+    30
+   ],
+   "position_cm": [
+    464837,
+    592394
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    20,
+    31
+   ],
+   "position_cm": [
+    467200,
+    608000
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    21,
+    0
+   ],
+   "position_cm": [
+    480000,
+    211200
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    21,
+    1
+   ],
+   "position_cm": [
+    480000,
+    224000
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    21,
+    2
+   ],
+   "position_cm": [
+    483478,
+    240291
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    21,
+    3
+   ],
+   "position_cm": [
+    484279,
+    250496
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    21,
+    4
+   ],
+   "position_cm": [
+    475674,
+    266473
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    21,
+    5
+   ],
+   "position_cm": [
+    479399,
+    280089
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    21,
+    6
+   ],
+   "position_cm": [
+    481310,
+    291578
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    21,
+    7
+   ],
+   "position_cm": [
+    477217,
+    299838
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    21,
+    8
+   ],
+   "position_cm": [
+    479565,
+    314543
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    21,
+    9
+   ],
+   "position_cm": [
+    482703,
+    321761
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    21,
+    10
+   ],
+   "position_cm": [
+    476733,
+    340265
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    21,
+    11
+   ],
+   "position_cm": [
+    481415,
+    349595
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    21,
+    12
+   ],
+   "position_cm": [
+    475208,
+    361796
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    21,
+    13
+   ],
+   "position_cm": [
+    480251,
+    375602
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    21,
+    14
+   ],
+   "position_cm": [
+    479387,
+    394562
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    21,
+    15
+   ],
+   "position_cm": [
+    481239,
+    403326
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    21,
+    16
+   ],
+   "position_cm": [
+    479187,
+    419097
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    21,
+    17
+   ],
+   "position_cm": [
+    484653,
+    426065
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    21,
+    18
+   ],
+   "position_cm": [
+    484763,
+    437905
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    21,
+    19
+   ],
+   "position_cm": [
+    483561,
+    453011
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    21,
+    20
+   ],
+   "position_cm": [
+    474977,
+    464760
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    21,
+    21
+   ],
+   "position_cm": [
+    478900,
+    484278
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    21,
+    22
+   ],
+   "position_cm": [
+    483408,
+    492578
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    21,
+    23
+   ],
+   "position_cm": [
+    486156,
+    500429
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    21,
+    24
+   ],
+   "position_cm": [
+    479017,
+    523028
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    21,
+    25
+   ],
+   "position_cm": [
+    481310,
+    530825
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    21,
+    26
+   ],
+   "position_cm": [
+    479798,
+    540160
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    21,
+    27
+   ],
+   "position_cm": [
+    483027,
+    561385
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    21,
+    28
+   ],
+   "position_cm": [
+    478496,
+    568465
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    21,
+    29
+   ],
+   "position_cm": [
+    480231,
+    585065
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    21,
+    30
+   ],
+   "position_cm": [
+    476617,
+    591883
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    21,
+    31
+   ],
+   "position_cm": [
+    480000,
+    608000
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    22,
+    0
+   ],
+   "position_cm": [
+    492800,
+    211200
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    22,
+    1
+   ],
+   "position_cm": [
+    492800,
+    224000
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    22,
+    2
+   ],
+   "position_cm": [
+    492800,
+    236800
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    22,
+    3
+   ],
+   "position_cm": [
+    497683,
+    246756
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    22,
+    4
+   ],
+   "position_cm": [
+    488523,
+    257848
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    22,
+    5
+   ],
+   "position_cm": [
+    493266,
+    277308
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    22,
+    6
+   ],
+   "position_cm": [
+    497356,
+    286369
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    22,
+    7
+   ],
+   "position_cm": [
+    497963,
+    304677
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    22,
+    8
+   ],
+   "position_cm": [
+    490222,
+    316244
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    22,
+    9
+   ],
+   "position_cm": [
+    491790,
+    321310
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    22,
+    10
+   ],
+   "position_cm": [
+    491972,
+    334814
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    22,
+    11
+   ],
+   "position_cm": [
+    488302,
+    357197
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    22,
+    12
+   ],
+   "position_cm": [
+    487407,
+    370078
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    22,
+    13
+   ],
+   "position_cm": [
+    488751,
+    378753
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    22,
+    14
+   ],
+   "position_cm": [
+    489950,
+    391431
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    22,
+    15
+   ],
+   "position_cm": [
+    487479,
+    406815
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    22,
+    16
+   ],
+   "position_cm": [
+    490378,
+    414434
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    22,
+    17
+   ],
+   "position_cm": [
+    488170,
+    427189
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    22,
+    18
+   ],
+   "position_cm": [
+    494960,
+    446411
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    22,
+    19
+   ],
+   "position_cm": [
+    487896,
+    455715
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    22,
+    20
+   ],
+   "position_cm": [
+    490579,
+    465633
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    22,
+    21
+   ],
+   "position_cm": [
+    492592,
+    484176
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    22,
+    22
+   ],
+   "position_cm": [
+    488477,
+    489756
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    22,
+    23
+   ],
+   "position_cm": [
+    497286,
+    509424
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    22,
+    24
+   ],
+   "position_cm": [
+    490771,
+    513592
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    22,
+    25
+   ],
+   "position_cm": [
+    489817,
+    526374
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    22,
+    26
+   ],
+   "position_cm": [
+    497557,
+    541920
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    22,
+    27
+   ],
+   "position_cm": [
+    491345,
+    561564
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    22,
+    28
+   ],
+   "position_cm": [
+    490597,
+    569496
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    22,
+    29
+   ],
+   "position_cm": [
+    496891,
+    586753
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    22,
+    30
+   ],
+   "position_cm": [
+    489129,
+    590249
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    22,
+    31
+   ],
+   "position_cm": [
+    492800,
+    608000
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    23,
+    0
+   ],
+   "position_cm": [
+    505600,
+    211200
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    23,
+    1
+   ],
+   "position_cm": [
+    505600,
+    224000
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    23,
+    2
+   ],
+   "position_cm": [
+    501966,
+    235249
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    23,
+    3
+   ],
+   "position_cm": [
+    500761,
+    253790
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    23,
+    4
+   ],
+   "position_cm": [
+    501506,
+    267271
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    23,
+    5
+   ],
+   "position_cm": [
+    509158,
+    277546
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    23,
+    6
+   ],
+   "position_cm": [
+    508432,
+    289992
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    23,
+    7
+   ],
+   "position_cm": [
+    504706,
+    300191
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    23,
+    8
+   ],
+   "position_cm": [
+    503160,
+    316503
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    23,
+    9
+   ],
+   "position_cm": [
+    506326,
+    328596
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    23,
+    10
+   ],
+   "position_cm": [
+    507230,
+    339552
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    23,
+    11
+   ],
+   "position_cm": [
+    503619,
+    352767
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    23,
+    12
+   ],
+   "position_cm": [
+    501805,
+    364566
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    23,
+    13
+   ],
+   "position_cm": [
+    504503,
+    373956
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    23,
+    14
+   ],
+   "position_cm": [
+    506669,
+    395395
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    23,
+    15
+   ],
+   "position_cm": [
+    510016,
+    404997
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    23,
+    16
+   ],
+   "position_cm": [
+    506310,
+    415247
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    23,
+    17
+   ],
+   "position_cm": [
+    510320,
+    431490
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    23,
+    18
+   ],
+   "position_cm": [
+    508696,
+    438862
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    23,
+    19
+   ],
+   "position_cm": [
+    510440,
+    451576
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    23,
+    20
+   ],
+   "position_cm": [
+    502332,
+    462972
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    23,
+    21
+   ],
+   "position_cm": [
+    503296,
+    477739
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    23,
+    22
+   ],
+   "position_cm": [
+    508764,
+    495003
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    23,
+    23
+   ],
+   "position_cm": [
+    508130,
+    504498
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    23,
+    24
+   ],
+   "position_cm": [
+    508880,
+    519831
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    23,
+    25
+   ],
+   "position_cm": [
+    501294,
+    530709
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    23,
+    26
+   ],
+   "position_cm": [
+    501982,
+    546688
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    23,
+    27
+   ],
+   "position_cm": [
+    504050,
+    554788
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    23,
+    28
+   ],
+   "position_cm": [
+    502654,
+    572354
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    23,
+    29
+   ],
+   "position_cm": [
+    508919,
+    578697
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    23,
+    30
+   ],
+   "position_cm": [
+    507948,
+    597948
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    23,
+    31
+   ],
+   "position_cm": [
+    505600,
+    608000
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    24,
+    0
+   ],
+   "position_cm": [
+    518400,
+    211200
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    24,
+    1
+   ],
+   "position_cm": [
+    518400,
+    224000
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    24,
+    2
+   ],
+   "position_cm": [
+    521802,
+    240197
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    24,
+    3
+   ],
+   "position_cm": [
+    514393,
+    254988
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    24,
+    4
+   ],
+   "position_cm": [
+    521183,
+    259861
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    24,
+    5
+   ],
+   "position_cm": [
+    515640,
+    271854
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    24,
+    6
+   ],
+   "position_cm": [
+    515749,
+    286325
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    24,
+    7
+   ],
+   "position_cm": [
+    514588,
+    304387
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    24,
+    8
+   ],
+   "position_cm": [
+    520539,
+    309288
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    24,
+    9
+   ],
+   "position_cm": [
+    519612,
+    323039
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    24,
+    10
+   ],
+   "position_cm": [
+    514814,
+    338935
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    24,
+    11
+   ],
+   "position_cm": [
+    513215,
+    353782
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    24,
+    12
+   ],
+   "position_cm": [
+    521165,
+    367828
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    24,
+    13
+   ],
+   "position_cm": [
+    522205,
+    378367
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    24,
+    14
+   ],
+   "position_cm": [
+    522999,
+    388372
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    24,
+    15
+   ],
+   "position_cm": [
+    522729,
+    405182
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    24,
+    16
+   ],
+   "position_cm": [
+    522808,
+    412168
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    24,
+    17
+   ],
+   "position_cm": [
+    515210,
+    425156
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    24,
+    18
+   ],
+   "position_cm": [
+    521868,
+    439998
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    24,
+    19
+   ],
+   "position_cm": [
+    516518,
+    458181
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    24,
+    20
+   ],
+   "position_cm": [
+    521462,
+    464897
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    24,
+    21
+   ],
+   "position_cm": [
+    522906,
+    484876
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    24,
+    22
+   ],
+   "position_cm": [
+    521233,
+    488676
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    24,
+    23
+   ],
+   "position_cm": [
+    523667,
+    508648
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    24,
+    24
+   ],
+   "position_cm": [
+    521458,
+    517912
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    24,
+    25
+   ],
+   "position_cm": [
+    518562,
+    533611
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    24,
+    26
+   ],
+   "position_cm": [
+    523340,
+    548141
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    24,
+    27
+   ],
+   "position_cm": [
+    523744,
+    553588
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    24,
+    28
+   ],
+   "position_cm": [
+    519645,
+    574142
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    24,
+    29
+   ],
+   "position_cm": [
+    518561,
+    582573
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    24,
+    30
+   ],
+   "position_cm": [
+    519523,
+    597943
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    24,
+    31
+   ],
+   "position_cm": [
+    518400,
+    608000
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    25,
+    0
+   ],
+   "position_cm": [
+    531200,
+    211200
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    25,
+    1
+   ],
+   "position_cm": [
+    536435,
+    222730
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    25,
+    2
+   ],
+   "position_cm": [
+    532984,
+    242030
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    25,
+    3
+   ],
+   "position_cm": [
+    532314,
+    252405
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    25,
+    4
+   ],
+   "position_cm": [
+    526592,
+    259876
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    25,
+    5
+   ],
+   "position_cm": [
+    528168,
+    275051
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    25,
+    6
+   ],
+   "position_cm": [
+    534667,
+    292319
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    25,
+    7
+   ],
+   "position_cm": [
+    533846,
+    298987
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    25,
+    8
+   ],
+   "position_cm": [
+    527007,
+    308536
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    25,
+    9
+   ],
+   "position_cm": [
+    525979,
+    327932
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    25,
+    10
+   ],
+   "position_cm": [
+    536353,
+    342996
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    25,
+    11
+   ],
+   "position_cm": [
+    528954,
+    355886
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    25,
+    12
+   ],
+   "position_cm": [
+    535261,
+    364291
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    25,
+    13
+   ],
+   "position_cm": [
+    536262,
+    377847
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    25,
+    14
+   ],
+   "position_cm": [
+    536322,
+    395296
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    25,
+    15
+   ],
+   "position_cm": [
+    528700,
+    399961
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    25,
+    16
+   ],
+   "position_cm": [
+    527575,
+    412788
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    25,
+    17
+   ],
+   "position_cm": [
+    528940,
+    425967
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    25,
+    18
+   ],
+   "position_cm": [
+    529205,
+    437390
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    25,
+    19
+   ],
+   "position_cm": [
+    535396,
+    453865
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    25,
+    20
+   ],
+   "position_cm": [
+    526318,
+    471589
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    25,
+    21
+   ],
+   "position_cm": [
+    531051,
+    478445
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    25,
+    22
+   ],
+   "position_cm": [
+    526758,
+    488580
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    25,
+    23
+   ],
+   "position_cm": [
+    531706,
+    510619
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    25,
+    24
+   ],
+   "position_cm": [
+    531871,
+    518567
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    25,
+    25
+   ],
+   "position_cm": [
+    531066,
+    531592
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    25,
+    26
+   ],
+   "position_cm": [
+    534438,
+    546417
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    25,
+    27
+   ],
+   "position_cm": [
+    531272,
+    555712
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    25,
+    28
+   ],
+   "position_cm": [
+    528389,
+    564887
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    25,
+    29
+   ],
+   "position_cm": [
+    529976,
+    580182
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    25,
+    30
+   ],
+   "position_cm": [
+    526557,
+    591507
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    25,
+    31
+   ],
+   "position_cm": [
+    531200,
+    608000
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    26,
+    0
+   ],
+   "position_cm": [
+    544000,
+    211200
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    26,
+    1
+   ],
+   "position_cm": [
+    545204,
+    224261
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    26,
+    2
+   ],
+   "position_cm": [
+    544278,
+    240251
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    26,
+    3
+   ],
+   "position_cm": [
+    545296,
+    247813
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    26,
+    4
+   ],
+   "position_cm": [
+    547944,
+    261817
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    26,
+    5
+   ],
+   "position_cm": [
+    546476,
+    276084
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    26,
+    6
+   ],
+   "position_cm": [
+    544412,
+    286469
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    26,
+    7
+   ],
+   "position_cm": [
+    545710,
+    300272
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    26,
+    8
+   ],
+   "position_cm": [
+    545265,
+    317372
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    26,
+    9
+   ],
+   "position_cm": [
+    547126,
+    326888
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    26,
+    10
+   ],
+   "position_cm": [
+    547121,
+    342145
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    26,
+    11
+   ],
+   "position_cm": [
+    542496,
+    350126
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    26,
+    12
+   ],
+   "position_cm": [
+    545490,
+    364959
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    26,
+    13
+   ],
+   "position_cm": [
+    546883,
+    377321
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    26,
+    14
+   ],
+   "position_cm": [
+    539857,
+    388521
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    26,
+    15
+   ],
+   "position_cm": [
+    541255,
+    405662
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    26,
+    16
+   ],
+   "position_cm": [
+    547782,
+    411707
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    26,
+    17
+   ],
+   "position_cm": [
+    548087,
+    432053
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    26,
+    18
+   ],
+   "position_cm": [
+    543321,
+    444231
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    26,
+    19
+   ],
+   "position_cm": [
+    541269,
+    454371
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    26,
+    20
+   ],
+   "position_cm": [
+    542774,
+    470261
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    26,
+    21
+   ],
+   "position_cm": [
+    543975,
+    476700
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    26,
+    22
+   ],
+   "position_cm": [
+    540125,
+    492659
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    26,
+    23
+   ],
+   "position_cm": [
+    545572,
+    500783
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    26,
+    24
+   ],
+   "position_cm": [
+    545330,
+    521273
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    26,
+    25
+   ],
+   "position_cm": [
+    545071,
+    530250
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    26,
+    26
+   ],
+   "position_cm": [
+    544417,
+    541741
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    26,
+    27
+   ],
+   "position_cm": [
+    539350,
+    556881
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    26,
+    28
+   ],
+   "position_cm": [
+    549202,
+    566932
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    26,
+    29
+   ],
+   "position_cm": [
+    544000,
+    582400
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    26,
+    30
+   ],
+   "position_cm": [
+    544000,
+    595200
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    26,
+    31
+   ],
+   "position_cm": [
+    544000,
+    608000
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    27,
+    0
+   ],
+   "position_cm": [
+    556800,
+    211200
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    27,
+    1
+   ],
+   "position_cm": [
+    551725,
+    220151
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    27,
+    2
+   ],
+   "position_cm": [
+    558512,
+    240017
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    27,
+    3
+   ],
+   "position_cm": [
+    554134,
+    253313
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    27,
+    4
+   ],
+   "position_cm": [
+    552533,
+    265737
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    27,
+    5
+   ],
+   "position_cm": [
+    555493,
+    271888
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    27,
+    6
+   ],
+   "position_cm": [
+    557773,
+    286925
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    27,
+    7
+   ],
+   "position_cm": [
+    546787,
+    294064
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    27,
+    8
+   ],
+   "position_cm": [
+    555288,
+    308816
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    27,
+    9
+   ],
+   "position_cm": [
+    560147,
+    321180
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    27,
+    10
+   ],
+   "position_cm": [
+    557743,
+    344265
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    27,
+    11
+   ],
+   "position_cm": [
+    557975,
+    348522
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    27,
+    12
+   ],
+   "position_cm": [
+    553827,
+    366528
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    27,
+    13
+   ],
+   "position_cm": [
+    551702,
+    378527
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    27,
+    14
+   ],
+   "position_cm": [
+    552854,
+    392414
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    27,
+    15
+   ],
+   "position_cm": [
+    555113,
+    402451
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    27,
+    16
+   ],
+   "position_cm": [
+    553213,
+    416239
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    27,
+    17
+   ],
+   "position_cm": [
+    560104,
+    433961
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    27,
+    18
+   ],
+   "position_cm": [
+    560795,
+    436321
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    27,
+    19
+   ],
+   "position_cm": [
+    556413,
+    457512
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    27,
+    20
+   ],
+   "position_cm": [
+    561986,
+    466162
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    27,
+    21
+   ],
+   "position_cm": [
+    557736,
+    480236
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    27,
+    22
+   ],
+   "position_cm": [
+    554277,
+    497613
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    27,
+    23
+   ],
+   "position_cm": [
+    552562,
+    504531
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    27,
+    24
+   ],
+   "position_cm": [
+    552977,
+    522338
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    27,
+    25
+   ],
+   "position_cm": [
+    559558,
+    534625
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    27,
+    26
+   ],
+   "position_cm": [
+    552027,
+    548927
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    27,
+    27
+   ],
+   "position_cm": [
+    553120,
+    557040
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    27,
+    28
+   ],
+   "position_cm": [
+    559438,
+    565705
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    27,
+    29
+   ],
+   "position_cm": [
+    556800,
+    582400
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    27,
+    30
+   ],
+   "position_cm": [
+    556800,
+    595200
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    27,
+    31
+   ],
+   "position_cm": [
+    556800,
+    608000
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    28,
+    0
+   ],
+   "position_cm": [
+    569600,
+    211200
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    28,
+    1
+   ],
+   "position_cm": [
+    569600,
+    224000
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    28,
+    2
+   ],
+   "position_cm": [
+    569600,
+    236800
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    28,
+    3
+   ],
+   "position_cm": [
+    569600,
+    249600
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    28,
+    4
+   ],
+   "position_cm": [
+    565661,
+    260336
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    28,
+    5
+   ],
+   "position_cm": [
+    570915,
+    280485
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    28,
+    6
+   ],
+   "position_cm": [
+    569417,
+    288456
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    28,
+    7
+   ],
+   "position_cm": [
+    565223,
+    302837
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    28,
+    8
+   ],
+   "position_cm": [
+    566216,
+    312802
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    28,
+    9
+   ],
+   "position_cm": [
+    572297,
+    326836
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    28,
+    10
+   ],
+   "position_cm": [
+    569724,
+    336512
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    28,
+    11
+   ],
+   "position_cm": [
+    568520,
+    352360
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    28,
+    12
+   ],
+   "position_cm": [
+    565210,
+    366777
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    28,
+    13
+   ],
+   "position_cm": [
+    573974,
+    374017
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    28,
+    14
+   ],
+   "position_cm": [
+    571003,
+    389010
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    28,
+    15
+   ],
+   "position_cm": [
+    569353,
+    400395
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    28,
+    16
+   ],
+   "position_cm": [
+    567687,
+    415756
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    28,
+    17
+   ],
+   "position_cm": [
+    568666,
+    423507
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    28,
+    18
+   ],
+   "position_cm": [
+    570686,
+    445252
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    28,
+    19
+   ],
+   "position_cm": [
+    571684,
+    458034
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    28,
+    20
+   ],
+   "position_cm": [
+    564268,
+    465286
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    28,
+    21
+   ],
+   "position_cm": [
+    566443,
+    483396
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    28,
+    22
+   ],
+   "position_cm": [
+    573857,
+    491747
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    28,
+    23
+   ],
+   "position_cm": [
+    566837,
+    501535
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    28,
+    24
+   ],
+   "position_cm": [
+    573620,
+    513032
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    28,
+    25
+   ],
+   "position_cm": [
+    571748,
+    527559
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    28,
+    26
+   ],
+   "position_cm": [
+    573656,
+    542409
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    28,
+    27
+   ],
+   "position_cm": [
+    568062,
+    561755
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    28,
+    28
+   ],
+   "position_cm": [
+    574444,
+    564237
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    28,
+    29
+   ],
+   "position_cm": [
+    569600,
+    582400
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    28,
+    30
+   ],
+   "position_cm": [
+    569600,
+    595200
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    28,
+    31
+   ],
+   "position_cm": [
+    568705,
+    613216
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    29,
+    0
+   ],
+   "position_cm": [
+    582400,
+    211200
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    29,
+    1
+   ],
+   "position_cm": [
+    582400,
+    224000
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    29,
+    2
+   ],
+   "position_cm": [
+    582400,
+    236800
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    29,
+    3
+   ],
+   "position_cm": [
+    582400,
+    249600
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    29,
+    4
+   ],
+   "position_cm": [
+    582400,
+    262400
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    29,
+    5
+   ],
+   "position_cm": [
+    582400,
+    275200
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    29,
+    6
+   ],
+   "position_cm": [
+    583017,
+    292264
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    29,
+    7
+   ],
+   "position_cm": [
+    586489,
+    302127
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    29,
+    8
+   ],
+   "position_cm": [
+    586014,
+    308334
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    29,
+    9
+   ],
+   "position_cm": [
+    581614,
+    321566
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    29,
+    10
+   ],
+   "position_cm": [
+    577132,
+    336150
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    29,
+    11
+   ],
+   "position_cm": [
+    586291,
+    353593
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    29,
+    12
+   ],
+   "position_cm": [
+    583134,
+    359964
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    29,
+    13
+   ],
+   "position_cm": [
+    579215,
+    372588
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    29,
+    14
+   ],
+   "position_cm": [
+    582400,
+    390400
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    29,
+    15
+   ],
+   "position_cm": [
+    582400,
+    403200
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    29,
+    16
+   ],
+   "position_cm": [
+    582400,
+    416000
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    29,
+    17
+   ],
+   "position_cm": [
+    582400,
+    428800
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    29,
+    18
+   ],
+   "position_cm": [
+    582400,
+    441600
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    29,
+    19
+   ],
+   "position_cm": [
+    587735,
+    458452
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    29,
+    20
+   ],
+   "position_cm": [
+    586073,
+    469043
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    29,
+    21
+   ],
+   "position_cm": [
+    585560,
+    483244
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    29,
+    22
+   ],
+   "position_cm": [
+    579495,
+    493129
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    29,
+    23
+   ],
+   "position_cm": [
+    578766,
+    501018
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    29,
+    24
+   ],
+   "position_cm": [
+    582002,
+    517361
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    29,
+    25
+   ],
+   "position_cm": [
+    583681,
+    534441
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    29,
+    26
+   ],
+   "position_cm": [
+    579759,
+    543876
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    29,
+    27
+   ],
+   "position_cm": [
+    582400,
+    556800
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    29,
+    28
+   ],
+   "position_cm": [
+    582400,
+    569600
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    29,
+    29
+   ],
+   "position_cm": [
+    582400,
+    582400
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    29,
+    30
+   ],
+   "position_cm": [
+    587069,
+    597584
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    29,
+    31
+   ],
+   "position_cm": [
+    583935,
+    603338
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    30,
+    0
+   ],
+   "position_cm": [
+    595200,
+    211200
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    30,
+    1
+   ],
+   "position_cm": [
+    595200,
+    224000
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    30,
+    2
+   ],
+   "position_cm": [
+    595200,
+    236800
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    30,
+    3
+   ],
+   "position_cm": [
+    595200,
+    249600
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    30,
+    4
+   ],
+   "position_cm": [
+    595200,
+    262400
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    30,
+    5
+   ],
+   "position_cm": [
+    595200,
+    275200
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    30,
+    6
+   ],
+   "position_cm": [
+    595200,
+    288000
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    30,
+    7
+   ],
+   "position_cm": [
+    590417,
+    301885
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    30,
+    8
+   ],
+   "position_cm": [
+    592896,
+    317101
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    30,
+    9
+   ],
+   "position_cm": [
+    595200,
+    326400
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    30,
+    10
+   ],
+   "position_cm": [
+    595200,
+    339200
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    30,
+    11
+   ],
+   "position_cm": [
+    595200,
+    352000
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    30,
+    12
+   ],
+   "position_cm": [
+    595200,
+    364800
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    30,
+    13
+   ],
+   "position_cm": [
+    595200,
+    377600
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    30,
+    14
+   ],
+   "position_cm": [
+    595200,
+    390400
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    30,
+    15
+   ],
+   "position_cm": [
+    595200,
+    403200
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    30,
+    16
+   ],
+   "position_cm": [
+    595200,
+    416000
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    30,
+    17
+   ],
+   "position_cm": [
+    595200,
+    428800
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    30,
+    18
+   ],
+   "position_cm": [
+    595200,
+    441600
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    30,
+    19
+   ],
+   "position_cm": [
+    595200,
+    454400
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    30,
+    20
+   ],
+   "position_cm": [
+    595293,
+    469388
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    30,
+    21
+   ],
+   "position_cm": [
+    595200,
+    480000
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    30,
+    22
+   ],
+   "position_cm": [
+    595200,
+    492800
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    30,
+    23
+   ],
+   "position_cm": [
+    595200,
+    505600
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    30,
+    24
+   ],
+   "position_cm": [
+    595200,
+    518400
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    30,
+    25
+   ],
+   "position_cm": [
+    600150,
+    535734
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    30,
+    26
+   ],
+   "position_cm": [
+    595200,
+    544000
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    30,
+    27
+   ],
+   "position_cm": [
+    595200,
+    556800
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    30,
+    28
+   ],
+   "position_cm": [
+    595200,
+    569600
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    30,
+    29
+   ],
+   "position_cm": [
+    598267,
+    581635
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    30,
+    30
+   ],
+   "position_cm": [
+    590515,
+    597847
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    30,
+    31
+   ],
+   "position_cm": [
+    598380,
+    602901
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    31,
+    0
+   ],
+   "position_cm": [
+    608000,
+    211200
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    31,
+    1
+   ],
+   "position_cm": [
+    608000,
+    224000
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    31,
+    2
+   ],
+   "position_cm": [
+    608000,
+    236800
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    31,
+    3
+   ],
+   "position_cm": [
+    608000,
+    249600
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    31,
+    4
+   ],
+   "position_cm": [
+    608000,
+    262400
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    31,
+    5
+   ],
+   "position_cm": [
+    608000,
+    275200
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    31,
+    6
+   ],
+   "position_cm": [
+    608000,
+    288000
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    31,
+    7
+   ],
+   "position_cm": [
+    608000,
+    300800
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    31,
+    8
+   ],
+   "position_cm": [
+    608000,
+    313600
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    31,
+    9
+   ],
+   "position_cm": [
+    608000,
+    326400
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    31,
+    10
+   ],
+   "position_cm": [
+    608000,
+    339200
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    31,
+    11
+   ],
+   "position_cm": [
+    608000,
+    352000
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    31,
+    12
+   ],
+   "position_cm": [
+    608000,
+    364800
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    31,
+    13
+   ],
+   "position_cm": [
+    608000,
+    377600
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    31,
+    14
+   ],
+   "position_cm": [
+    608000,
+    390400
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    31,
+    15
+   ],
+   "position_cm": [
+    608000,
+    403200
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    31,
+    16
+   ],
+   "position_cm": [
+    608000,
+    416000
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    31,
+    17
+   ],
+   "position_cm": [
+    608000,
+    428800
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    31,
+    18
+   ],
+   "position_cm": [
+    608000,
+    441600
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    31,
+    19
+   ],
+   "position_cm": [
+    608000,
+    454400
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    31,
+    20
+   ],
+   "position_cm": [
+    608000,
+    467200
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    31,
+    21
+   ],
+   "position_cm": [
+    608000,
+    480000
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    31,
+    22
+   ],
+   "position_cm": [
+    608000,
+    492800
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    31,
+    23
+   ],
+   "position_cm": [
+    608000,
+    505600
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    31,
+    24
+   ],
+   "position_cm": [
+    608000,
+    518400
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    31,
+    25
+   ],
+   "position_cm": [
+    608000,
+    531200
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    31,
+    26
+   ],
+   "position_cm": [
+    608000,
+    544000
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    31,
+    27
+   ],
+   "position_cm": [
+    608000,
+    556800
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    31,
+    28
+   ],
+   "position_cm": [
+    608000,
+    569600
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    31,
+    29
+   ],
+   "position_cm": [
+    609373,
+    584360
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    31,
+    30
+   ],
+   "position_cm": [
+    607754,
+    598075
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    31,
+    31
+   ],
+   "position_cm": [
+    610600,
+    611231
+   ],
+   "blacklisted": true
+  }
+ ]
+}

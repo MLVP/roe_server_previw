@@ -14,8 +14,8 @@
     "nickname": "Player"
   },
   "match": {
-    "found_delay": 3,
-    "estimate_seconds": 3,
+    "found_delay": 1,
+    "estimate_seconds": 1,
     "auto_match_seconds": null,
     "join_delay": 1
   }

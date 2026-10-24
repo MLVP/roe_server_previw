@@ -104,7 +104,7 @@ def export_report(run, destination):
     summary['source_hashes'] = {k: v for k, v in hashes.items()
                                 if k in ('tools/windows_launch.py', 'server/directory/weapon_probe_2022.py',
                                          'server/directory/winter_selection_2022.py', 'server/directory/world_probe_2022.py',
-                                         'server/directory/actor_probe_2022.py', 'tools/match_pacing_2022.py', 'SOURCE-MANIFEST.json')
+                                         'server/directory/actor_probe_2022.py', 'tools/match_pacing_2022.py')
                                 and isinstance(v, str) and re.fullmatch('[0-9a-fA-F]{64}', v)}
     destination.mkdir(parents=True)
     (destination/'scene').mkdir()

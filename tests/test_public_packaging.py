@@ -23,11 +23,15 @@ class PackagingTests(unittest.TestCase):
             self.assertNotIn(payload, text, 'встроенный CK payload: ' + str(path))
 
     def test_no_csharp_in_server_code(self):
-        # C# остался только в справочнике search_ (протокол), в сервере его нет.
+        # C# остался в справочнике search_ (протокол) и в архивах
+        # some_RE_data (чужие материалы для чтения); в сервере его нет.
         sources = [path for path in ROOT.rglob('*.cs')
-                   if '.tools' not in path.parts and not path.parts[len(ROOT.parts):len(ROOT.parts)+1] == (REFERENCE,)]
+                   if '.tools' not in path.parts
+                   and 'some_RE_data' not in path.parts
+                   and not path.parts[len(ROOT.parts):len(ROOT.parts)+1] == (REFERENCE,)]
         self.assertEqual(sources, [], 'C# в серверном коде не нужен: ' + str(sources[:3]))
-        self.assertEqual([path for path in ROOT.rglob('*.csproj') if '.tools' not in path.parts], [])
+        self.assertEqual([path for path in ROOT.rglob('*.csproj')
+                          if '.tools' not in path.parts and 'some_RE_data' not in path.parts], [])
 
     def test_mit_notice_is_kept(self):
         # Уведомление MIT обязано остаться в проекте, даже если справочник

@@ -26,7 +26,12 @@ class ModeFolderTests(unittest.TestCase):
         self.assertEqual(mode['room']['idle_reset_seconds'], 30)
         self.assertFalse(mode['features']['dynamic_events']['enabled'])
         self.assertEqual(mode['features']['dynamic_events']['interval_seconds'], 600)
-        self.assertIn('--loot-catalog', mode['launcher_args'])
+        # Основной режим лута — рантайм-генерация по точкам оригинала;
+        # статический каталог (loot-pool61.json) остаётся запасным вариантом.
+        self.assertIn('--loot-generation', mode['launcher_args'])
+        generation = mode['launcher_args'][mode['launcher_args'].index('--loot-generation') + 1]
+        self.assertEqual(generation, 'runtime')
+        self.assertIn('--loot-points', mode['launcher_args'])
         self.assertIn('--endless', mode['launcher_args'])
 
     def test_unknown_mode_is_rejected(self):
@@ -116,7 +121,10 @@ class RoomApiTests(unittest.TestCase):
         self.assertTrue(features['features']['weather_random'])
         self.assertFalse(features['features']['revive'])
         self.assertFalse(features['features']['dynamic_events']['enabled'])
-        self.assertTrue(features['loot_catalog'].endswith('loot-pool61.json'))
+        # Лут собирается в рантайме из точек оригинала.
+        self.assertEqual(features['loot_generation'], 'runtime')
+        self.assertIsNone(features['loot_catalog'])
+        self.assertTrue(features['loot_points'].endswith('dion-entitypoints.json'))
 
     def test_heightmap_endpoint(self):
         value = self.room.handle('/api/heightmap', {})
@@ -242,10 +250,17 @@ class LocalSpawnTests(unittest.TestCase):
         table = json.loads((ROOT / 'modes' / 'europa' / 'spawn_points_killzone.json').read_text(encoding='utf-8'))
         self.assertEqual(table['map_id'], 16007)
         self.assertEqual(table['default_cell'], [12, 26])
-        self.assertEqual(table['points'], [[12, 26, 364560, 532844, 38128]])
+        # Первая точка - прежняя дефолтная; дальше полная сетка высадки 32x32
+        # из BlockBornPosTable (904 свободные клетки), см. docs/MAP-POINTS-20261023.md.
+        self.assertEqual(table['points'][0], [12, 26, 364560, 532844, 38128])
+        self.assertGreater(len(table['points']), 1)
+        self.assertIn('bornpos', str(table.get('bornpos_source', '')).lower())
         from winter_selection_2022 import load_spawn_points
         points = load_spawn_points(ROOT / 'modes' / 'europa' / 'spawn_points_killzone.json')
-        self.assertEqual(points, ((12, 26, 364560, 532844, 38128),))
+        self.assertEqual(points[0], (12, 26, 364560, 532844, 38128))
+        self.assertEqual(len(points), len(table['points']))
+        self.assertEqual(len({p[:2] for p in points}), len(points))
+        self.assertTrue(all(0 <= cell <= 31 for point in points for cell in point[:2]))
 
 
 class IdleResetTests(unittest.TestCase):
@@ -298,6 +313,103 @@ class IdleResetTests(unittest.TestCase):
                 self.assertGreaterEqual(len(created), 2)
                 self.assertNotEqual(created[0], created[1])
                 self.assertTrue((created[0] / 'packets.log').is_file())
+        finally:
+            room_manager.subprocess.Popen = real_popen
+            room_manager.ROOMS = original_rooms
+
+    def test_finished_match_resets_room_after_udp_silence(self):
+        """Конец матча (маркер + тишина UDP) сразу готовит новую сессию."""
+        real_popen = room_manager.subprocess.Popen
+        created = []
+
+        class FakeProc:
+            def __init__(self, command, **kwargs):
+                self.pid = 2000 + len(created)
+                self.returncode = None
+                session = Path(command[command.index('--room-run-dir') + 1])
+                session.mkdir(parents=True, exist_ok=True)
+                (session / 'proxy.log').write_text('{"kind": "ready"}\n', encoding='utf-8')
+                (session / 'endpoint.log').write_text('{"kind": "ready"}\n', encoding='utf-8')
+                created.append(session)
+
+            def poll(self):
+                return self.returncode
+
+            def terminate(self):
+                self.returncode = 0
+
+            def wait(self, timeout=None):
+                self.returncode = 0
+                return 0
+
+        room_manager.subprocess.Popen = FakeProc
+        original_rooms = room_manager.ROOMS
+        try:
+            with tempfile.TemporaryDirectory() as folder:
+                room_manager.ROOMS = Path(folder) / 'rooms'
+                room = room_manager.Room('dion', 'finished-test', Path(folder), 'default',
+                                         duration=600, idle_reset=600)
+                room.finished_reset_seconds = 1
+                room.start('test')
+                first = created[0]
+                with (first / 'endpoint.log').open('a', encoding='utf-8') as handle:
+                    handle.write('{"kind": "gameplay_handoff_complete", "handoff_mode": "explicit_close"}\n')
+                packet_log = first / 'packets.log'
+                packet_log.write_text('2020-01-01T00:00:00+00:00\trecv\tclient_to_server\tudp\t()\t00\n',
+                                      encoding='utf-8')
+                silent = time.time() - 10
+                os.utime(packet_log, (silent, silent))
+                monitor = threading.Thread(target=room.monitor, daemon=True)
+                monitor.start()
+                deadline = time.time() + 20
+                while time.time() < deadline and len(created) < 2:
+                    time.sleep(0.2)
+                room.shutdown_event.set()
+                room.stop(user=True)
+                self.assertGreaterEqual(len(created), 2)
+        finally:
+            room_manager.subprocess.Popen = real_popen
+            room_manager.ROOMS = original_rooms
+
+    def test_fresh_room_without_players_is_not_reset(self):
+        """Комната без игроков не пересоздаётся вхолостую (ever_active=False)."""
+        real_popen = room_manager.subprocess.Popen
+        created = []
+
+        class FakeProc:
+            def __init__(self, command, **kwargs):
+                self.pid = 3000 + len(created)
+                self.returncode = None
+                session = Path(command[command.index('--room-run-dir') + 1])
+                session.mkdir(parents=True, exist_ok=True)
+                (session / 'proxy.log').write_text('{"kind": "ready"}\n', encoding='utf-8')
+                (session / 'endpoint.log').write_text('{"kind": "ready"}\n', encoding='utf-8')
+                created.append(session)
+
+            def poll(self):
+                return self.returncode
+
+            def terminate(self):
+                self.returncode = 0
+
+            def wait(self, timeout=None):
+                self.returncode = 0
+                return 0
+
+        room_manager.subprocess.Popen = FakeProc
+        original_rooms = room_manager.ROOMS
+        try:
+            with tempfile.TemporaryDirectory() as folder:
+                room_manager.ROOMS = Path(folder) / 'rooms'
+                room = room_manager.Room('dion', 'fresh-test', Path(folder), 'default',
+                                         duration=600, idle_reset=1)
+                room.start('test')
+                monitor = threading.Thread(target=room.monitor, daemon=True)
+                monitor.start()
+                time.sleep(3.5)
+                room.shutdown_event.set()
+                room.stop(user=True)
+                self.assertEqual(len(created), 1)
         finally:
             room_manager.subprocess.Popen = real_popen
             room_manager.ROOMS = original_rooms

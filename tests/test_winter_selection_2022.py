@@ -19,6 +19,11 @@ class WinterSelectionTests(unittest.TestCase):
         point, replies, event = choose_cell(struct.pack('>IQIII', 2, 42, 31, 26, 1), 42, 1, 2, False, points)
         self.assertEqual(point, points[1])
         self.assertTrue(event['snapped'])
+        # Клиент KillZone шлёт trailing=0xFFFFFFFF («флаг не задан») — это валидный запрос.
+        point, replies, event = choose_cell(
+            struct.pack('>IQIII', 2, 42, 12, 26, 0xFFFFFFFF), 42, 1, 2, False, points)
+        self.assertEqual(point, points[0])
+        self.assertEqual(event['request_flag'], 0xFFFFFFFF)
 
     def test_foreign_invalid_late_cell_does_not_move_player(self):
         points = ((12, 26, 365100, 544000, 259407),)

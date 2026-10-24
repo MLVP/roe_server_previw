@@ -1,14 +1,14 @@
 {
   "name": "vera",
   "title": "Vera (Desert)",
-  "description": "Desert map of the EU server, id 16021 (client tables: world folder EU_Desert_4096, scene Desert_001). The client loads this landscape; the server data (zone, doors, breakables, scene rules, heightmap) stays the Dione one, like the Kill Zone mode. The loot and the two vehicles are placed at the local spawn point 345746 / 341956 / 12779, taken from the ground points of the client archive Cache/Data/world/EU_Desert_4096/EU_Desert_4096.sfc.",
+  "description": "Desert map of the EU server, id 16021 (client tables: world folder EU_Desert_4096, scene Desert_001). The client loads this landscape; the server data (zone, scene rules, heightmap) stays the Dione one, like the Kill Zone mode. Doors and breakables use the mode catalogs doors-vera.json / breakables-vera.json with accept_unknown, because entity ids are assigned per map load. The loot and the two vehicles are placed at the local spawn point 345746 / 341956 / 12779, taken from the ground points of the client archive Cache/Data/world/EU_Desert_4096/EU_Desert_4096.sfc. Loot is generated at room load from map-data/vera-entitypoints.json (runtime across the whole map); the static loot-desert-64.json stays as the exceptional --loot-catalog fallback.",
   "enabled": true,
   "map": {
     "id": 16021,
     "name": "Vera Desert",
     "compatibility": "dione_data_experimental",
     "route": "0:127.0.0.1:18001",
-    "note": "Map 16021 = EU_Desert_4096 / Desert_001. Own landscape: spawn grid, zone, evacuation, doors and heightmap stay the Dione ones. Client hours 7/8/15/16."
+    "note": "Map 16021 = EU_Desert_4096 / Desert_001. Own landscape: spawn grid; zone, evacuation and heightmap stay the Dione ones; doors and breakables come from the mode catalogs (accept_unknown). Client hours 7/8/15/16."
   },
   "duration_seconds": 86400,
   "room": {
@@ -32,13 +32,21 @@
     "7",
     "--reliable-udp",
     "--idle-handoff",
-    "--winter-doors",
-    "--winter-windows",
+    "--door-catalog",
+    "doors-vera.json",
+    "--breakable-catalog",
+    "breakables-vera.json",
     "--endless",
     "--auto-match-seconds",
     "12",
-    "--loot-catalog",
-    "loot-desert-64.json"
+    "--loot-generation",
+"runtime",
+"--loot-points",
+"../../map-data/vera-entitypoints.json",
+"--loot-pools",
+"../common/loot-pools.json",
+"--loot-weights",
+"loot-weights.json"
   ],
   "features": {
     "weather_random": true,

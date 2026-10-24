@@ -1,0 +1,11 @@
+{
+  "map": 16021,
+  "accept_unknown": true,
+  "interaction_radius_cm": 400,
+  "visibility_radius_cm": 6000,
+  "provenance": {
+    "source": "live 0x6f57 probes of the EU_Desert_4096 client (map 16021)",
+    "note": "Entity ids of the Desert are assigned per map load and change between sessions, so no ids are pinned here. The server confirms the state requested by the client and keeps it for the session; the distance check runs only when a position is present in this file."
+  },
+  "doors": []
+}

@@ -125,7 +125,7 @@ def extract_region(client, target):
 
 def materialize(run, kit, client=None, cycle=False, weapon_profile='citori', target_los='off',
                 loot_catalog=None, death_on_zero=False, own_armor_absorb_percent=0, validate_movement=False,
-                frag_damage=100, start_hour=8, temperature_raw=500, native_airdrop=False, native_evacuation=False, diagnostic_departure=False, original_jeeps=False, climb_practice=False, vehicle_profile='jeep', vehicle_configuration=None, boat_practice=False, bot_ground_route=False, bot_behavior=False, account_profile='default', winter_doors=False, winter_windows=False, cycle_scale=1, diagnostic_hazard=False, nickname=None, endless=False, config_overlay=None, map_id=16010, spawn_origin=None):
+                frag_damage=100, start_hour=8, temperature_raw=500, native_airdrop=False, native_evacuation=False, diagnostic_departure=False, original_jeeps=False, climb_practice=False, vehicle_profile='jeep', vehicle_configuration=None, vehicle_points=None, vehicle_count=12, vehicle_configs='102,109', boat_practice=False, bot_ground_route=False, bot_behavior=False, account_profile='default', winter_doors=False, winter_windows=False, cycle_scale=1, diagnostic_hazard=False, nickname=None, endless=False, config_overlay=None, map_id=16010, spawn_origin=None, door_catalog=None, breakable_catalog=None):
     if type(cycle_scale) is not int or not 1 <= cycle_scale <= 10:
         raise ValueError('CycleScale: целое1..10')
     if type(diagnostic_hazard) is not bool:
@@ -325,6 +325,17 @@ def materialize(run, kit, client=None, cycle=False, weapon_profile='citori', tar
         for name in ('scene-walk','scene-cycle'):
             scene = vehicle_scene(json.loads(configs[name].read_text()), configuration)
             configs[name].write_text(json.dumps(scene,ensure_ascii=False,indent=2),encoding='utf-8')
+    if vehicle_points is not None:
+        # Машины в оригинальных точках карты: случайные точки, случайный тип
+        # из пула configurations (по умолчанию проверенные 102 jeep / 109 snowmotor).
+        # Идёт после --vehicle-configuration: приоритет у точек карты.
+        from vehicle_points_2022 import spawn_vehicles_from_points
+        configurations = tuple(int(value) for value in str(vehicle_configs).split(',') if value.strip())
+        for name in ('scene-walk', 'scene-cycle'):
+            scene = spawn_vehicles_from_points(json.loads(configs[name].read_text()),
+                                               vehicle_points, vehicle_count,
+                                               configurations=configurations)
+            configs[name].write_text(json.dumps(scene, ensure_ascii=False, indent=2), encoding='utf-8')
     if boat_practice:
         from boat_practice_2022 import practice_scene
         name='scene-walk'
@@ -500,7 +511,18 @@ def materialize(run, kit, client=None, cycle=False, weapon_profile='citori', tar
         ActorFixture.load(configs['actor'])
     if type(winter_windows) is not bool:
         raise ValueError('WinterWindows должен быть bool')
-    if winter_windows:
+    if breakable_catalog is not None:
+        # Каталог другой карты (например Europa 16007): id от клиента,
+        # позиции опциональны, см. accept_unknown в файле.
+        from breakable_state_2022 import BreakableFixture
+        source = Path(breakable_catalog)
+        if not source.is_file():
+            raise ValueError('BreakableCatalog: нужен существующий JSON')
+        BreakableFixture.load(source)
+        target = run/'winter-breakables.json'
+        target.write_bytes(source.read_bytes())
+        configs['winter-breakables'] = target
+    elif winter_windows:
         from breakable_state_2022 import BreakableFixture
         source = ROOT/'config/winter-breakables.json'
         BreakableFixture.load(source)
@@ -509,7 +531,16 @@ def materialize(run, kit, client=None, cycle=False, weapon_profile='citori', tar
         configs['winter-breakables'] = target
     if type(winter_doors) is not bool:
         raise ValueError('WinterDoors должен быть bool')
-    if winter_doors:
+    if door_catalog is not None:
+        from door_state_2022 import DoorFixture
+        source = Path(door_catalog)
+        if not source.is_file():
+            raise ValueError('DoorCatalog: нужен существующий JSON')
+        DoorFixture.load(source)
+        target = run/'winter-doors.json'
+        target.write_bytes(source.read_bytes())
+        configs['winter-doors'] = target
+    elif winter_doors:
         from door_state_2022 import DoorFixture
         source = ROOT/'config/winter-doors.json'
         DoorFixture.load(source)
@@ -653,7 +684,7 @@ def write_launch_summary(run, args):
                    source_hashes={name:digest(ROOT/name) for name in (
                        'tools/windows_launch.py', 'server/directory/weapon_probe_2022.py',
                        'server/directory/winter_selection_2022.py', 'server/directory/world_probe_2022.py',
-                       'server/directory/actor_probe_2022.py', 'tools/match_pacing_2022.py', 'SOURCE-MANIFEST.json')})
+                       'server/directory/actor_probe_2022.py', 'tools/match_pacing_2022.py')})
     from local_account_2022 import local_account
     account = local_account(ROOT/'runtime', getattr(args, 'profile', 'default'), accounts_root=ROOT/'accounts')
     summary.update(local_profile=account['name'], local_profile_id='local-2022:'+account['name'], local_actor_uid=hex(account['actor_uid']),
@@ -676,6 +707,8 @@ def write_launch_summary(run, args):
     summary['vehicle_damage_practice'] = getattr(args, 'vehicle_damage_practice', False)
     summary['vehicle_profile'] = getattr(args, 'vehicle_profile', 'jeep')
     summary['original_vehicle_rng'] = False
+    summary['vehicle_points_spawn'] = str(args.vehicle_points) if args.vehicle_points else None
+    summary['vehicle_points_count'] = args.vehicle_count if args.vehicle_points else 0
     summary['climb_practice'] = getattr(args, 'climb_practice', False)
     if summary['climb_practice']:
         summary['spawn_selection_supported'] = False
@@ -711,8 +744,24 @@ def main():
     parser.add_argument('--weapon-profile',choices=('citori','m4','ak47','r700','mosin','usp45'),default='citori')
     parser.add_argument('--winter-windows', action='store_true', help='Подтверждение разрушения стекла; одиночный учебный peer')
     parser.add_argument('--winter-doors', action='store_true', help='Обратимые двери зимы: F/состояние; одиночный peer')
+    parser.add_argument('--door-catalog', type=Path,
+                        help='Каталог дверей своей карты (map/doors/accept_unknown); отменяет --winter-doors')
+    parser.add_argument('--breakable-catalog', type=Path,
+                        help='Каталог разрушения своей карты (map/entities/accept_unknown); отменяет --winter-windows')
     parser.add_argument('--loot-catalog', type=Path,
                         help='Явный JSON каталога предметов; проверяется и сохраняется в журнале запуска')
+    parser.add_argument('--loot-generation', choices=('catalog', 'runtime'), default='catalog',
+                        help='catalog: статический --loot-catalog; runtime: случайный каталог на всю карту при загрузке комнаты')
+    parser.add_argument('--loot-points', type=Path,
+                        help='map-data/<map>-entitypoints.json с точками лута оригинала (runtime)')
+    parser.add_argument('--loot-pools', type=Path,
+                        help='modes/common/loot-pools.json с поддерживаемыми id (runtime)')
+    parser.add_argument('--loot-max-entities', type=int, default=12000,
+                        help='Потолок сущностей рантайм-каталога (1..50000)')
+    parser.add_argument('--loot-seed', type=int,
+                        help='Фиксированный seed генератора; без него каждая сессия случайна')
+    parser.add_argument('--loot-weights', type=Path,
+                        help='modes/<map>/loot-weights.json: шансы генерации предметов (runtime); без файла — все 1.0')
     parser.add_argument('--native-airdrop',action='store_true',
                         help='Одиночный native501 flight+client MOVE_REQ; исходная серверная физика не восстановлена')
     parser.add_argument('--vehicle-damage-practice', action='store_true', help='Учебные500HP за попадание по корпусу102/109; исходная формула не восстановлена')
@@ -765,6 +814,12 @@ def main():
                         help='Не отключать сборщик крашей Tencent (TQM64\\TQMCenter_64.exe)')
     parser.add_argument('--auto-match-seconds',type=float,
                         help='start the training match automatically after N seconds without a client search request')
+    parser.add_argument('--vehicle-points', type=Path,
+                        help='map-data/<map>-vehiclepoints.json: спаун машин в оригинальных точках карты; точки и тип (102 jeep / 109 snowmotor) случайные')
+    parser.add_argument('--vehicle-count', type=int, default=12,
+                        help='сколько машин поставить в точках карты (1..500)')
+    parser.add_argument('--vehicle-configs', default='102,109',
+                        help='пул типов машин через запятую для --vehicle-points (проверены 102 jeep / 109 snowmotor; другие id требуют проверки в игре)')
     parser.add_argument('--vehicle-configuration',type=int,
                         help='vehicle type for the 164-byte ground vehicle spawn (102 jeep, 109 snowmotor)')
     parser.add_argument('--room-run-dir',type=Path,help='explicit run directory for the room manager')
@@ -778,6 +833,27 @@ def main():
     parser.add_argument('--lan-tunnel', action='store_true', help='Loopback UDP<->TCP server дляSSH; требует --services-only')
     parser.add_argument('--services-only',action='store_true',help=argparse.SUPPRESS)
     args=parser.parse_args()
+    if args.loot_generation == 'runtime':
+        # Проверяем файлы до старта сервисов: ошибка должна быть понятной,
+        # а не падением эндпоинта посреди запуска комнаты.
+        for name, value in (('--loot-points', args.loot_points), ('--loot-pools', args.loot_pools)):
+            if value is None:
+                parser.error('loot-generation runtime требует ' + name)
+            if not Path(value).is_file():
+                parser.error(name + ': файл не найден: ' + str(value))
+    if args.loot_weights is not None and not Path(args.loot_weights).is_file():
+        parser.error('--loot-weights: файл не найден: ' + str(args.loot_weights))
+    if args.vehicle_points is not None:
+        if not Path(args.vehicle_points).is_file():
+            parser.error('--vehicle-points: файл не найден: ' + str(args.vehicle_points))
+        if not 1 <= args.vehicle_count <= 500:
+            parser.error('--vehicle-count: 1..500')
+        try:
+            configs_pool = [int(value) for value in str(args.vehicle_configs).split(',') if value.strip()]
+        except ValueError:
+            configs_pool = []
+        if not configs_pool or any(not 0 < value < 1000 for value in configs_pool):
+            parser.error('--vehicle-configs: id через запятую, каждый 1..999')
     from local_account_2022 import local_account
     try:
         account = local_account(ROOT/'runtime', args.profile, accounts_root=ROOT/'accounts')
@@ -888,7 +964,7 @@ def main():
                             own_armor_absorb_percent=args.own_armor_absorb_percent,
                             validate_movement=args.validate_movement, frag_damage=args.frag_damage,
                             start_hour=args.start_hour, temperature_raw=args.temperature_raw,
-                            native_airdrop=args.native_airdrop, native_evacuation=args.native_evacuation, diagnostic_departure=args.diagnostic_departure, original_jeeps=args.original_jeeps, climb_practice=args.climb_practice, vehicle_profile=args.vehicle_profile, vehicle_configuration=args.vehicle_configuration, boat_practice=args.boat_practice, bot_ground_route=args.bot_ground_route, bot_behavior=args.bot_behavior, account_profile=args.profile, winter_doors=args.winter_doors, winter_windows=args.winter_windows, cycle_scale=args.cycle_scale, diagnostic_hazard=args.diagnostic_hazard,nickname=args.nickname,endless=args.endless,config_overlay=args.config_overlay,map_id=args.map_id,spawn_origin=args.spawn_origin)
+                            native_airdrop=args.native_airdrop, native_evacuation=args.native_evacuation, diagnostic_departure=args.diagnostic_departure, original_jeeps=args.original_jeeps, climb_practice=args.climb_practice, vehicle_profile=args.vehicle_profile, vehicle_configuration=args.vehicle_configuration, vehicle_points=args.vehicle_points, vehicle_count=args.vehicle_count, vehicle_configs=args.vehicle_configs, boat_practice=args.boat_practice, bot_ground_route=args.bot_ground_route, bot_behavior=args.bot_behavior, account_profile=args.profile, winter_doors=args.winter_doors, winter_windows=args.winter_windows, cycle_scale=args.cycle_scale, diagnostic_hazard=args.diagnostic_hazard,nickname=args.nickname,endless=args.endless,config_overlay=args.config_overlay,map_id=args.map_id,spawn_origin=args.spawn_origin,door_catalog=args.door_catalog,breakable_catalog=args.breakable_catalog)
         join=json.loads(configs['join'].read_text(encoding='utf-8'))
         join['notification']['unknown_28']=args.map_id
         join['notification']['instance_id']=args.instance_id
@@ -932,7 +1008,7 @@ def main():
                         own_armor_absorb_percent=args.own_armor_absorb_percent,
                         validate_movement=args.validate_movement, frag_damage=args.frag_damage,
                         start_hour=args.start_hour, temperature_raw=args.temperature_raw,
-                            native_airdrop=args.native_airdrop, native_evacuation=args.native_evacuation, diagnostic_departure=args.diagnostic_departure, original_jeeps=args.original_jeeps, climb_practice=args.climb_practice, vehicle_profile=args.vehicle_profile, vehicle_configuration=args.vehicle_configuration, boat_practice=args.boat_practice, bot_ground_route=args.bot_ground_route, bot_behavior=args.bot_behavior, account_profile=args.profile, winter_doors=args.winter_doors, winter_windows=args.winter_windows, cycle_scale=args.cycle_scale, diagnostic_hazard=args.diagnostic_hazard,nickname=args.nickname,endless=args.endless,config_overlay=args.config_overlay,map_id=args.map_id,spawn_origin=args.spawn_origin)
+                            native_airdrop=args.native_airdrop, native_evacuation=args.native_evacuation, diagnostic_departure=args.diagnostic_departure, original_jeeps=args.original_jeeps, climb_practice=args.climb_practice, vehicle_profile=args.vehicle_profile, vehicle_configuration=args.vehicle_configuration, vehicle_points=args.vehicle_points, vehicle_count=args.vehicle_count, vehicle_configs=args.vehicle_configs, boat_practice=args.boat_practice, bot_ground_route=args.bot_ground_route, bot_behavior=args.bot_behavior, account_profile=args.profile, winter_doors=args.winter_doors, winter_windows=args.winter_windows, cycle_scale=args.cycle_scale, diagnostic_hazard=args.diagnostic_hazard,nickname=args.nickname,endless=args.endless,config_overlay=args.config_overlay,map_id=args.map_id,spawn_origin=args.spawn_origin,door_catalog=args.door_catalog,breakable_catalog=args.breakable_catalog)
     join=json.loads(configs['join'].read_text(encoding='utf-8'))
     join['notification']['unknown_28']=args.map_id
     join['notification']['instance_id']=args.instance_id
@@ -985,6 +1061,11 @@ def main():
                 command+=['--door-config',str(configs['winter-doors'])]
             if 'custom-loot-catalog' in configs:
                 command+=['--loot-catalog',str(configs['custom-loot-catalog'])]
+            if args.loot_generation=='runtime':
+                command+=['--loot-generation','runtime','--loot-points',str(args.loot_points),'--loot-pools',str(args.loot_pools)]
+                if args.loot_max_entities is not None:command+=['--loot-max-entities',str(args.loot_max_entities)]
+                if args.loot_seed is not None:command+=['--loot-seed',str(args.loot_seed)]
+            if args.loot_weights is not None:command+=['--loot-weights',str(args.loot_weights)]
             if args.mode=='cycle':command+=['--world-config',str(configs['world']),'--evacuation-delay-seconds','8','--evacuation-result-config',str(configs['evacuation'])]
             if args.live_control:command+=['--live-commands',str(run/'live-commands.json')]
             if args.spawn_points is not None:command+=['--spawn-points',str(args.spawn_points)]
@@ -995,6 +1076,8 @@ def main():
             print(f'Сервисы готовы. Режим: {args.mode}; оружие: {args.weapon_profile}; комплект: {args.kit}. Журнал: {run}',flush=True)
             if 'custom-loot-catalog' in configs:
                 print('Лут каталога появляется на земле у заданных координат. Откройте Tab → Vicinity; оружие не выдаётся в руки.', flush=True)
+            elif args.loot_generation=='runtime':
+                print('Лут генерируется в рантайме по точкам всей карты; журнал генерации в endpoint.log, каталог в runtime-loot-catalog.json.', flush=True)
             if args.boat_practice:
                 print('BoatPractice: фиксированный старт на лодке203. После приземления F — водитель, W/S — ход/тормоз, F — выход в воду; WASD — плавание.',flush=True)
             if args.climb_practice:

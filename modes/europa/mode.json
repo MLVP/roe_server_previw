@@ -1,7 +1,7 @@
 {
   "name": "europa",
   "title": "Europa (Kill Zone)",
-  "description": "Kill Zone of the EU server, id 16007 (client tables: EuropaKillZone, world folder EU_Killzone_4096). The client loads this landscape, but the server data (zone, doors, breakables, scene rules) is still the Dione one. The loot and the two vehicles are placed at the local spawn point 360047 / 366722 / 40173.",
+  "description": "Kill Zone of the EU server, id 16007 (client tables: EuropaKillZone, world folder EU_Killzone_4096). The client loads this landscape, but the server data (zone, doors, breakables, scene rules) is still the Dione one. The loot and the two vehicles are placed at the local spawn point 360047 / 366722 / 40173. Loot is generated at room load from map-data/europa-entitypoints.json (runtime across the whole map); the static loot-killzone-64.json stays as the exceptional --loot-catalog fallback.",
   "enabled": true,
   "map": {
     "id": 16007,
@@ -32,13 +32,25 @@
     "7",
     "--reliable-udp",
     "--idle-handoff",
-    "--winter-doors",
-    "--winter-windows",
+    "--door-catalog",
+    "doors-europa.json",
+    "--breakable-catalog",
+    "breakables-europa.json",
     "--endless",
     "--auto-match-seconds",
     "12",
-    "--loot-catalog",
-    "loot-killzone-64.json"
+    "--loot-generation",
+"runtime",
+"--loot-points",
+"../../map-data/europa-entitypoints.json",
+"--loot-pools",
+"../common/loot-pools.json",
+"--loot-weights",
+"loot-weights.json",
+"--vehicle-points",
+"../../map-data/europa-vehiclepoints.json",
+"--vehicle-count",
+"32"
   ],
   "features": {
     "weather_random": true,

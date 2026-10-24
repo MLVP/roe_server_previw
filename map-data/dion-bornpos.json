@@ -1,0 +1,11288 @@
+{
+ "map_id": 16010,
+ "source": "Data.Table.BlockBornPosTable map_id=16010",
+ "archive": "SFC/Common.sfc",
+ "index": 4045,
+ "offset": 24522721,
+ "bytes": 83668,
+ "grid_cells": 1024,
+ "usable": 660,
+ "cell_range": [
+  0,
+  31,
+  0,
+  31
+ ],
+ "position_range": [
+  211200,
+  608000,
+  211200,
+  608000
+ ],
+ "cells": [
+  {
+   "cell": [
+    0,
+    0
+   ],
+   "position_cm": [
+    211200,
+    211200
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    0,
+    1
+   ],
+   "position_cm": [
+    211200,
+    224000
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    0,
+    2
+   ],
+   "position_cm": [
+    211200,
+    236800
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    0,
+    3
+   ],
+   "position_cm": [
+    211200,
+    249600
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    0,
+    4
+   ],
+   "position_cm": [
+    211200,
+    262400
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    0,
+    5
+   ],
+   "position_cm": [
+    211200,
+    275200
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    0,
+    6
+   ],
+   "position_cm": [
+    211200,
+    288000
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    0,
+    7
+   ],
+   "position_cm": [
+    211200,
+    300800
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    0,
+    8
+   ],
+   "position_cm": [
+    211200,
+    313600
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    0,
+    9
+   ],
+   "position_cm": [
+    211200,
+    326400
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    0,
+    10
+   ],
+   "position_cm": [
+    211200,
+    339200
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    0,
+    11
+   ],
+   "position_cm": [
+    211200,
+    352000
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    0,
+    12
+   ],
+   "position_cm": [
+    211200,
+    364800
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    0,
+    13
+   ],
+   "position_cm": [
+    211200,
+    377600
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    0,
+    14
+   ],
+   "position_cm": [
+    211200,
+    390400
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    0,
+    15
+   ],
+   "position_cm": [
+    211200,
+    403200
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    0,
+    16
+   ],
+   "position_cm": [
+    211200,
+    416000
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    0,
+    17
+   ],
+   "position_cm": [
+    211200,
+    428800
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    0,
+    18
+   ],
+   "position_cm": [
+    211200,
+    441600
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    0,
+    19
+   ],
+   "position_cm": [
+    211200,
+    454400
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    0,
+    20
+   ],
+   "position_cm": [
+    211200,
+    467200
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    0,
+    21
+   ],
+   "position_cm": [
+    211200,
+    480000
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    0,
+    22
+   ],
+   "position_cm": [
+    211200,
+    492800
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    0,
+    23
+   ],
+   "position_cm": [
+    211200,
+    505600
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    0,
+    24
+   ],
+   "position_cm": [
+    211200,
+    518400
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    0,
+    25
+   ],
+   "position_cm": [
+    211200,
+    531200
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    0,
+    26
+   ],
+   "position_cm": [
+    211200,
+    544000
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    0,
+    27
+   ],
+   "position_cm": [
+    211200,
+    556800
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    0,
+    28
+   ],
+   "position_cm": [
+    211200,
+    569600
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    0,
+    29
+   ],
+   "position_cm": [
+    211200,
+    582400
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    0,
+    30
+   ],
+   "position_cm": [
+    211200,
+    595200
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    0,
+    31
+   ],
+   "position_cm": [
+    211200,
+    608000
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    1,
+    0
+   ],
+   "position_cm": [
+    224000,
+    211200
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    1,
+    1
+   ],
+   "position_cm": [
+    224000,
+    224000
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    1,
+    2
+   ],
+   "position_cm": [
+    224000,
+    236800
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    1,
+    3
+   ],
+   "position_cm": [
+    224000,
+    249600
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    1,
+    4
+   ],
+   "position_cm": [
+    224000,
+    262400
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    1,
+    5
+   ],
+   "position_cm": [
+    224000,
+    275200
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    1,
+    6
+   ],
+   "position_cm": [
+    224000,
+    288000
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    1,
+    7
+   ],
+   "position_cm": [
+    224000,
+    300800
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    1,
+    8
+   ],
+   "position_cm": [
+    224000,
+    313600
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    1,
+    9
+   ],
+   "position_cm": [
+    224400,
+    326400
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    1,
+    10
+   ],
+   "position_cm": [
+    224000,
+    339200
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    1,
+    11
+   ],
+   "position_cm": [
+    224000,
+    351900
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    1,
+    12
+   ],
+   "position_cm": [
+    224200,
+    364800
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    1,
+    13
+   ],
+   "position_cm": [
+    224000,
+    379100
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    1,
+    14
+   ],
+   "position_cm": [
+    223900,
+    390400
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    1,
+    15
+   ],
+   "position_cm": [
+    224000,
+    403200
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    1,
+    16
+   ],
+   "position_cm": [
+    224000,
+    416000
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    1,
+    17
+   ],
+   "position_cm": [
+    224000,
+    428800
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    1,
+    18
+   ],
+   "position_cm": [
+    224600,
+    441600
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    1,
+    19
+   ],
+   "position_cm": [
+    224700,
+    454400
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    1,
+    20
+   ],
+   "position_cm": [
+    224000,
+    467200
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    1,
+    21
+   ],
+   "position_cm": [
+    224000,
+    480000
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    1,
+    22
+   ],
+   "position_cm": [
+    224000,
+    492800
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    1,
+    23
+   ],
+   "position_cm": [
+    224000,
+    505600
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    1,
+    24
+   ],
+   "position_cm": [
+    224000,
+    518400
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    1,
+    25
+   ],
+   "position_cm": [
+    224000,
+    531200
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    1,
+    26
+   ],
+   "position_cm": [
+    224000,
+    544000
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    1,
+    27
+   ],
+   "position_cm": [
+    224000,
+    556800
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    1,
+    28
+   ],
+   "position_cm": [
+    224000,
+    569600
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    1,
+    29
+   ],
+   "position_cm": [
+    224000,
+    582400
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    1,
+    30
+   ],
+   "position_cm": [
+    224000,
+    595200
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    1,
+    31
+   ],
+   "position_cm": [
+    224000,
+    608000
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    2,
+    0
+   ],
+   "position_cm": [
+    236800,
+    211200
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    2,
+    1
+   ],
+   "position_cm": [
+    236800,
+    224000
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    2,
+    2
+   ],
+   "position_cm": [
+    236800,
+    236800
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    2,
+    3
+   ],
+   "position_cm": [
+    236800,
+    249600
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    2,
+    4
+   ],
+   "position_cm": [
+    236800,
+    261800
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    2,
+    5
+   ],
+   "position_cm": [
+    236800,
+    275200
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    2,
+    6
+   ],
+   "position_cm": [
+    236900,
+    288000
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    2,
+    7
+   ],
+   "position_cm": [
+    236800,
+    300800
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    2,
+    8
+   ],
+   "position_cm": [
+    233222,
+    316077
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    2,
+    9
+   ],
+   "position_cm": [
+    237800,
+    326400
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    2,
+    10
+   ],
+   "position_cm": [
+    236800,
+    339200
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    2,
+    11
+   ],
+   "position_cm": [
+    237900,
+    352000
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    2,
+    12
+   ],
+   "position_cm": [
+    237600,
+    364800
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    2,
+    13
+   ],
+   "position_cm": [
+    236800,
+    377600
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    2,
+    14
+   ],
+   "position_cm": [
+    236800,
+    390400
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    2,
+    15
+   ],
+   "position_cm": [
+    236800,
+    403200
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    2,
+    16
+   ],
+   "position_cm": [
+    236800,
+    415700
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    2,
+    17
+   ],
+   "position_cm": [
+    238400,
+    428800
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    2,
+    18
+   ],
+   "position_cm": [
+    236600,
+    441600
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    2,
+    19
+   ],
+   "position_cm": [
+    236800,
+    454400
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    2,
+    20
+   ],
+   "position_cm": [
+    236900,
+    467200
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    2,
+    21
+   ],
+   "position_cm": [
+    236800,
+    480000
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    2,
+    22
+   ],
+   "position_cm": [
+    236800,
+    492800
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    2,
+    23
+   ],
+   "position_cm": [
+    236800,
+    505600
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    2,
+    24
+   ],
+   "position_cm": [
+    236800,
+    518400
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    2,
+    25
+   ],
+   "position_cm": [
+    236800,
+    531200
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    2,
+    26
+   ],
+   "position_cm": [
+    236800,
+    544000
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    2,
+    27
+   ],
+   "position_cm": [
+    236800,
+    556800
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    2,
+    28
+   ],
+   "position_cm": [
+    236800,
+    569600
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    2,
+    29
+   ],
+   "position_cm": [
+    236800,
+    582400
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    2,
+    30
+   ],
+   "position_cm": [
+    236800,
+    595200
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    2,
+    31
+   ],
+   "position_cm": [
+    236800,
+    608000
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    3,
+    0
+   ],
+   "position_cm": [
+    249600,
+    211200
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    3,
+    1
+   ],
+   "position_cm": [
+    249600,
+    224000
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    3,
+    2
+   ],
+   "position_cm": [
+    249600,
+    236800
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    3,
+    3
+   ],
+   "position_cm": [
+    249600,
+    249600
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    3,
+    4
+   ],
+   "position_cm": [
+    249600,
+    262400
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    3,
+    5
+   ],
+   "position_cm": [
+    249600,
+    275200
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    3,
+    6
+   ],
+   "position_cm": [
+    249600,
+    288000
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    3,
+    7
+   ],
+   "position_cm": [
+    249600,
+    300800
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    3,
+    8
+   ],
+   "position_cm": [
+    249600,
+    313600
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    3,
+    9
+   ],
+   "position_cm": [
+    249600,
+    326400
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    3,
+    10
+   ],
+   "position_cm": [
+    252593,
+    339969
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    3,
+    11
+   ],
+   "position_cm": [
+    247258,
+    355068
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    3,
+    12
+   ],
+   "position_cm": [
+    249600,
+    364800
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    3,
+    13
+   ],
+   "position_cm": [
+    249600,
+    376300
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    3,
+    14
+   ],
+   "position_cm": [
+    249600,
+    388700
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    3,
+    15
+   ],
+   "position_cm": [
+    249600,
+    403200
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    3,
+    16
+   ],
+   "position_cm": [
+    249000,
+    416000
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    3,
+    17
+   ],
+   "position_cm": [
+    250100,
+    428800
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    3,
+    18
+   ],
+   "position_cm": [
+    249600,
+    441600
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    3,
+    19
+   ],
+   "position_cm": [
+    249600,
+    454400
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    3,
+    20
+   ],
+   "position_cm": [
+    249600,
+    467200
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    3,
+    21
+   ],
+   "position_cm": [
+    249600,
+    480000
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    3,
+    22
+   ],
+   "position_cm": [
+    249600,
+    492800
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    3,
+    23
+   ],
+   "position_cm": [
+    249600,
+    505600
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    3,
+    24
+   ],
+   "position_cm": [
+    249600,
+    518400
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    3,
+    25
+   ],
+   "position_cm": [
+    249600,
+    531200
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    3,
+    26
+   ],
+   "position_cm": [
+    249600,
+    544000
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    3,
+    27
+   ],
+   "position_cm": [
+    249600,
+    556800
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    3,
+    28
+   ],
+   "position_cm": [
+    249600,
+    569600
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    3,
+    29
+   ],
+   "position_cm": [
+    249600,
+    582400
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    3,
+    30
+   ],
+   "position_cm": [
+    249600,
+    595200
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    3,
+    31
+   ],
+   "position_cm": [
+    249600,
+    608000
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    4,
+    0
+   ],
+   "position_cm": [
+    262400,
+    211200
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    4,
+    1
+   ],
+   "position_cm": [
+    262400,
+    224000
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    4,
+    2
+   ],
+   "position_cm": [
+    262400,
+    236800
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    4,
+    3
+   ],
+   "position_cm": [
+    262400,
+    249600
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    4,
+    4
+   ],
+   "position_cm": [
+    262400,
+    262400
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    4,
+    5
+   ],
+   "position_cm": [
+    262400,
+    275200
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    4,
+    6
+   ],
+   "position_cm": [
+    262400,
+    288000
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    4,
+    7
+   ],
+   "position_cm": [
+    262400,
+    300800
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    4,
+    8
+   ],
+   "position_cm": [
+    262400,
+    313600
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    4,
+    9
+   ],
+   "position_cm": [
+    262400,
+    326400
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    4,
+    10
+   ],
+   "position_cm": [
+    262400,
+    339600
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    4,
+    11
+   ],
+   "position_cm": [
+    262455,
+    351551
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    4,
+    12
+   ],
+   "position_cm": [
+    262400,
+    365300
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    4,
+    13
+   ],
+   "position_cm": [
+    262800,
+    377600
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    4,
+    14
+   ],
+   "position_cm": [
+    262400,
+    389900
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    4,
+    15
+   ],
+   "position_cm": [
+    262400,
+    403300
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    4,
+    16
+   ],
+   "position_cm": [
+    262724,
+    419032
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    4,
+    17
+   ],
+   "position_cm": [
+    262400,
+    428800
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    4,
+    18
+   ],
+   "position_cm": [
+    262300,
+    441600
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    4,
+    19
+   ],
+   "position_cm": [
+    262400,
+    454400
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    4,
+    20
+   ],
+   "position_cm": [
+    262400,
+    467200
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    4,
+    21
+   ],
+   "position_cm": [
+    262300,
+    480000
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    4,
+    22
+   ],
+   "position_cm": [
+    262400,
+    492800
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    4,
+    23
+   ],
+   "position_cm": [
+    262400,
+    505600
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    4,
+    24
+   ],
+   "position_cm": [
+    262400,
+    518400
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    4,
+    25
+   ],
+   "position_cm": [
+    262400,
+    531200
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    4,
+    26
+   ],
+   "position_cm": [
+    262400,
+    544000
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    4,
+    27
+   ],
+   "position_cm": [
+    262400,
+    556800
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    4,
+    28
+   ],
+   "position_cm": [
+    262400,
+    569600
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    4,
+    29
+   ],
+   "position_cm": [
+    262400,
+    582400
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    4,
+    30
+   ],
+   "position_cm": [
+    262400,
+    595200
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    4,
+    31
+   ],
+   "position_cm": [
+    262400,
+    608000
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    5,
+    0
+   ],
+   "position_cm": [
+    275200,
+    211200
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    5,
+    1
+   ],
+   "position_cm": [
+    275200,
+    224100
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    5,
+    2
+   ],
+   "position_cm": [
+    275200,
+    236800
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    5,
+    3
+   ],
+   "position_cm": [
+    275200,
+    249600
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    5,
+    4
+   ],
+   "position_cm": [
+    275200,
+    262400
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    5,
+    5
+   ],
+   "position_cm": [
+    275200,
+    275200
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    5,
+    6
+   ],
+   "position_cm": [
+    275200,
+    288000
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    5,
+    7
+   ],
+   "position_cm": [
+    275200,
+    300900
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    5,
+    8
+   ],
+   "position_cm": [
+    275200,
+    312800
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    5,
+    9
+   ],
+   "position_cm": [
+    275000,
+    326400
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    5,
+    10
+   ],
+   "position_cm": [
+    274900,
+    339200
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    5,
+    11
+   ],
+   "position_cm": [
+    275200,
+    352800
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    5,
+    12
+   ],
+   "position_cm": [
+    275200,
+    364100
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    5,
+    13
+   ],
+   "position_cm": [
+    275200,
+    376500
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    5,
+    14
+   ],
+   "position_cm": [
+    275200,
+    390400
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    5,
+    15
+   ],
+   "position_cm": [
+    275200,
+    403200
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    5,
+    16
+   ],
+   "position_cm": [
+    275200,
+    416000
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    5,
+    17
+   ],
+   "position_cm": [
+    275200,
+    428800
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    5,
+    18
+   ],
+   "position_cm": [
+    275200,
+    441600
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    5,
+    19
+   ],
+   "position_cm": [
+    275500,
+    454400
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    5,
+    20
+   ],
+   "position_cm": [
+    275200,
+    467200
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    5,
+    21
+   ],
+   "position_cm": [
+    275200,
+    480000
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    5,
+    22
+   ],
+   "position_cm": [
+    275200,
+    492800
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    5,
+    23
+   ],
+   "position_cm": [
+    275200,
+    504400
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    5,
+    24
+   ],
+   "position_cm": [
+    275800,
+    518400
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    5,
+    25
+   ],
+   "position_cm": [
+    275200,
+    531200
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    5,
+    26
+   ],
+   "position_cm": [
+    275200,
+    544000
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    5,
+    27
+   ],
+   "position_cm": [
+    275200,
+    556800
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    5,
+    28
+   ],
+   "position_cm": [
+    275200,
+    569600
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    5,
+    29
+   ],
+   "position_cm": [
+    275200,
+    582400
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    5,
+    30
+   ],
+   "position_cm": [
+    275600,
+    595200
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    5,
+    31
+   ],
+   "position_cm": [
+    275200,
+    608000
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    6,
+    0
+   ],
+   "position_cm": [
+    288000,
+    211200
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    6,
+    1
+   ],
+   "position_cm": [
+    288000,
+    223700
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    6,
+    2
+   ],
+   "position_cm": [
+    288000,
+    236800
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    6,
+    3
+   ],
+   "position_cm": [
+    288000,
+    249600
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    6,
+    4
+   ],
+   "position_cm": [
+    288000,
+    262400
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    6,
+    5
+   ],
+   "position_cm": [
+    286800,
+    275200
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    6,
+    6
+   ],
+   "position_cm": [
+    288000,
+    288000
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    6,
+    7
+   ],
+   "position_cm": [
+    288000,
+    300800
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    6,
+    8
+   ],
+   "position_cm": [
+    288000,
+    313600
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    6,
+    9
+   ],
+   "position_cm": [
+    288000,
+    326400
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    6,
+    10
+   ],
+   "position_cm": [
+    288000,
+    339200
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    6,
+    11
+   ],
+   "position_cm": [
+    287100,
+    352000
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    6,
+    12
+   ],
+   "position_cm": [
+    288000,
+    364800
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    6,
+    13
+   ],
+   "position_cm": [
+    288000,
+    377600
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    6,
+    14
+   ],
+   "position_cm": [
+    288000,
+    390400
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    6,
+    15
+   ],
+   "position_cm": [
+    288100,
+    403200
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    6,
+    16
+   ],
+   "position_cm": [
+    288000,
+    416000
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    6,
+    17
+   ],
+   "position_cm": [
+    288000,
+    428800
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    6,
+    18
+   ],
+   "position_cm": [
+    288000,
+    441600
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    6,
+    19
+   ],
+   "position_cm": [
+    288000,
+    454400
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    6,
+    20
+   ],
+   "position_cm": [
+    288000,
+    467200
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    6,
+    21
+   ],
+   "position_cm": [
+    288000,
+    480000
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    6,
+    22
+   ],
+   "position_cm": [
+    288000,
+    492800
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    6,
+    23
+   ],
+   "position_cm": [
+    288000,
+    506900
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    6,
+    24
+   ],
+   "position_cm": [
+    288000,
+    518600
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    6,
+    25
+   ],
+   "position_cm": [
+    288000,
+    531100
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    6,
+    26
+   ],
+   "position_cm": [
+    288902,
+    543816
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    6,
+    27
+   ],
+   "position_cm": [
+    288000,
+    556800
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    6,
+    28
+   ],
+   "position_cm": [
+    288000,
+    569600
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    6,
+    29
+   ],
+   "position_cm": [
+    288000,
+    582400
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    6,
+    30
+   ],
+   "position_cm": [
+    288000,
+    595200
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    6,
+    31
+   ],
+   "position_cm": [
+    288000,
+    608000
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    7,
+    0
+   ],
+   "position_cm": [
+    300800,
+    211200
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    7,
+    1
+   ],
+   "position_cm": [
+    300800,
+    224000
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    7,
+    2
+   ],
+   "position_cm": [
+    300800,
+    236800
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    7,
+    3
+   ],
+   "position_cm": [
+    300800,
+    249600
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    7,
+    4
+   ],
+   "position_cm": [
+    298568,
+    263177
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    7,
+    5
+   ],
+   "position_cm": [
+    300800,
+    277200
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    7,
+    6
+   ],
+   "position_cm": [
+    300800,
+    288000
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    7,
+    7
+   ],
+   "position_cm": [
+    300800,
+    300800
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    7,
+    8
+   ],
+   "position_cm": [
+    300800,
+    313500
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    7,
+    9
+   ],
+   "position_cm": [
+    300800,
+    326400
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    7,
+    10
+   ],
+   "position_cm": [
+    300800,
+    339200
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    7,
+    11
+   ],
+   "position_cm": [
+    300800,
+    351200
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    7,
+    12
+   ],
+   "position_cm": [
+    300800,
+    364800
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    7,
+    13
+   ],
+   "position_cm": [
+    300800,
+    377600
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    7,
+    14
+   ],
+   "position_cm": [
+    300800,
+    390400
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    7,
+    15
+   ],
+   "position_cm": [
+    300800,
+    403200
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    7,
+    16
+   ],
+   "position_cm": [
+    300800,
+    416000
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    7,
+    17
+   ],
+   "position_cm": [
+    300800,
+    428800
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    7,
+    18
+   ],
+   "position_cm": [
+    300800,
+    441600
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    7,
+    19
+   ],
+   "position_cm": [
+    300800,
+    454400
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    7,
+    20
+   ],
+   "position_cm": [
+    300800,
+    467200
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    7,
+    21
+   ],
+   "position_cm": [
+    300800,
+    480000
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    7,
+    22
+   ],
+   "position_cm": [
+    300800,
+    492800
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    7,
+    23
+   ],
+   "position_cm": [
+    300800,
+    504500
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    7,
+    24
+   ],
+   "position_cm": [
+    300800,
+    518700
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    7,
+    25
+   ],
+   "position_cm": [
+    300800,
+    530900
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    7,
+    26
+   ],
+   "position_cm": [
+    300800,
+    544000
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    7,
+    27
+   ],
+   "position_cm": [
+    300800,
+    556500
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    7,
+    28
+   ],
+   "position_cm": [
+    300800,
+    569600
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    7,
+    29
+   ],
+   "position_cm": [
+    300800,
+    582400
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    7,
+    30
+   ],
+   "position_cm": [
+    300800,
+    595200
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    7,
+    31
+   ],
+   "position_cm": [
+    300800,
+    608000
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    8,
+    0
+   ],
+   "position_cm": [
+    313600,
+    211200
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    8,
+    1
+   ],
+   "position_cm": [
+    313600,
+    224000
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    8,
+    2
+   ],
+   "position_cm": [
+    313600,
+    237300
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    8,
+    3
+   ],
+   "position_cm": [
+    313600,
+    251300
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    8,
+    4
+   ],
+   "position_cm": [
+    312987,
+    262601
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    8,
+    5
+   ],
+   "position_cm": [
+    313600,
+    275200
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    8,
+    6
+   ],
+   "position_cm": [
+    313600,
+    288000
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    8,
+    7
+   ],
+   "position_cm": [
+    313600,
+    300800
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    8,
+    8
+   ],
+   "position_cm": [
+    313600,
+    313600
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    8,
+    9
+   ],
+   "position_cm": [
+    313600,
+    326400
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    8,
+    10
+   ],
+   "position_cm": [
+    313700,
+    339200
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    8,
+    11
+   ],
+   "position_cm": [
+    313600,
+    352000
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    8,
+    12
+   ],
+   "position_cm": [
+    313600,
+    364800
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    8,
+    13
+   ],
+   "position_cm": [
+    313600,
+    377600
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    8,
+    14
+   ],
+   "position_cm": [
+    313600,
+    390400
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    8,
+    15
+   ],
+   "position_cm": [
+    313600,
+    403200
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    8,
+    16
+   ],
+   "position_cm": [
+    313600,
+    416000
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    8,
+    17
+   ],
+   "position_cm": [
+    313600,
+    428800
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    8,
+    18
+   ],
+   "position_cm": [
+    313600,
+    441400
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    8,
+    19
+   ],
+   "position_cm": [
+    313600,
+    454400
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    8,
+    20
+   ],
+   "position_cm": [
+    315600,
+    467200
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    8,
+    21
+   ],
+   "position_cm": [
+    313600,
+    478700
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    8,
+    22
+   ],
+   "position_cm": [
+    313600,
+    492800
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    8,
+    23
+   ],
+   "position_cm": [
+    313300,
+    505600
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    8,
+    24
+   ],
+   "position_cm": [
+    313600,
+    518400
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    8,
+    25
+   ],
+   "position_cm": [
+    314300,
+    531200
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    8,
+    26
+   ],
+   "position_cm": [
+    313600,
+    544000
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    8,
+    27
+   ],
+   "position_cm": [
+    313600,
+    556800
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    8,
+    28
+   ],
+   "position_cm": [
+    314200,
+    569600
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    8,
+    29
+   ],
+   "position_cm": [
+    313600,
+    582400
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    8,
+    30
+   ],
+   "position_cm": [
+    313600,
+    595200
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    8,
+    31
+   ],
+   "position_cm": [
+    313600,
+    608000
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    9,
+    0
+   ],
+   "position_cm": [
+    326400,
+    211200
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    9,
+    1
+   ],
+   "position_cm": [
+    326400,
+    224300
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    9,
+    2
+   ],
+   "position_cm": [
+    326400,
+    236800
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    9,
+    3
+   ],
+   "position_cm": [
+    326400,
+    249600
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    9,
+    4
+   ],
+   "position_cm": [
+    326400,
+    262200
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    9,
+    5
+   ],
+   "position_cm": [
+    326400,
+    275200
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    9,
+    6
+   ],
+   "position_cm": [
+    326400,
+    288000
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    9,
+    7
+   ],
+   "position_cm": [
+    326400,
+    300800
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    9,
+    8
+   ],
+   "position_cm": [
+    326400,
+    313600
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    9,
+    9
+   ],
+   "position_cm": [
+    326400,
+    326400
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    9,
+    10
+   ],
+   "position_cm": [
+    326400,
+    339200
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    9,
+    11
+   ],
+   "position_cm": [
+    326400,
+    352000
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    9,
+    12
+   ],
+   "position_cm": [
+    326400,
+    364800
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    9,
+    13
+   ],
+   "position_cm": [
+    326400,
+    377600
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    9,
+    14
+   ],
+   "position_cm": [
+    326400,
+    390400
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    9,
+    15
+   ],
+   "position_cm": [
+    326400,
+    403200
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    9,
+    16
+   ],
+   "position_cm": [
+    326400,
+    415400
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    9,
+    17
+   ],
+   "position_cm": [
+    326400,
+    428800
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    9,
+    18
+   ],
+   "position_cm": [
+    326400,
+    441700
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    9,
+    19
+   ],
+   "position_cm": [
+    325800,
+    454400
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    9,
+    20
+   ],
+   "position_cm": [
+    326400,
+    467200
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    9,
+    21
+   ],
+   "position_cm": [
+    326400,
+    480000
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    9,
+    22
+   ],
+   "position_cm": [
+    326400,
+    494800
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    9,
+    23
+   ],
+   "position_cm": [
+    326400,
+    505600
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    9,
+    24
+   ],
+   "position_cm": [
+    326400,
+    518400
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    9,
+    25
+   ],
+   "position_cm": [
+    326400,
+    531200
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    9,
+    26
+   ],
+   "position_cm": [
+    326400,
+    544200
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    9,
+    27
+   ],
+   "position_cm": [
+    327100,
+    556800
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    9,
+    28
+   ],
+   "position_cm": [
+    326400,
+    570900
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    9,
+    29
+   ],
+   "position_cm": [
+    326900,
+    582400
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    9,
+    30
+   ],
+   "position_cm": [
+    326400,
+    595200
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    9,
+    31
+   ],
+   "position_cm": [
+    326400,
+    608000
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    10,
+    0
+   ],
+   "position_cm": [
+    339200,
+    211200
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    10,
+    1
+   ],
+   "position_cm": [
+    339200,
+    224000
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    10,
+    2
+   ],
+   "position_cm": [
+    339200,
+    236600
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    10,
+    3
+   ],
+   "position_cm": [
+    339200,
+    249600
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    10,
+    4
+   ],
+   "position_cm": [
+    338900,
+    262400
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    10,
+    5
+   ],
+   "position_cm": [
+    339200,
+    275200
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    10,
+    6
+   ],
+   "position_cm": [
+    339200,
+    288000
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    10,
+    7
+   ],
+   "position_cm": [
+    339200,
+    300800
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    10,
+    8
+   ],
+   "position_cm": [
+    339200,
+    313600
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    10,
+    9
+   ],
+   "position_cm": [
+    339200,
+    326400
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    10,
+    10
+   ],
+   "position_cm": [
+    340500,
+    339200
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    10,
+    11
+   ],
+   "position_cm": [
+    339200,
+    352000
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    10,
+    12
+   ],
+   "position_cm": [
+    339200,
+    364800
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    10,
+    13
+   ],
+   "position_cm": [
+    339200,
+    377600
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    10,
+    14
+   ],
+   "position_cm": [
+    339200,
+    390400
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    10,
+    15
+   ],
+   "position_cm": [
+    339200,
+    403200
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    10,
+    16
+   ],
+   "position_cm": [
+    339200,
+    416000
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    10,
+    17
+   ],
+   "position_cm": [
+    339200,
+    428800
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    10,
+    18
+   ],
+   "position_cm": [
+    339200,
+    441600
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    10,
+    19
+   ],
+   "position_cm": [
+    339200,
+    454400
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    10,
+    20
+   ],
+   "position_cm": [
+    339200,
+    467200
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    10,
+    21
+   ],
+   "position_cm": [
+    339200,
+    480000
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    10,
+    22
+   ],
+   "position_cm": [
+    339200,
+    493000
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    10,
+    23
+   ],
+   "position_cm": [
+    339200,
+    505600
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    10,
+    24
+   ],
+   "position_cm": [
+    339200,
+    519500
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    10,
+    25
+   ],
+   "position_cm": [
+    338800,
+    531200
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    10,
+    26
+   ],
+   "position_cm": [
+    339200,
+    544000
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    10,
+    27
+   ],
+   "position_cm": [
+    339200,
+    556800
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    10,
+    28
+   ],
+   "position_cm": [
+    339200,
+    569300
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    10,
+    29
+   ],
+   "position_cm": [
+    339200,
+    582400
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    10,
+    30
+   ],
+   "position_cm": [
+    339200,
+    595200
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    10,
+    31
+   ],
+   "position_cm": [
+    339200,
+    608000
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    11,
+    0
+   ],
+   "position_cm": [
+    352000,
+    211200
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    11,
+    1
+   ],
+   "position_cm": [
+    350100,
+    224000
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    11,
+    2
+   ],
+   "position_cm": [
+    352000,
+    237600
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    11,
+    3
+   ],
+   "position_cm": [
+    352000,
+    249600
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    11,
+    4
+   ],
+   "position_cm": [
+    352800,
+    262400
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    11,
+    5
+   ],
+   "position_cm": [
+    352000,
+    275200
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    11,
+    6
+   ],
+   "position_cm": [
+    352000,
+    288000
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    11,
+    7
+   ],
+   "position_cm": [
+    352000,
+    300800
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    11,
+    8
+   ],
+   "position_cm": [
+    352000,
+    313600
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    11,
+    9
+   ],
+   "position_cm": [
+    352000,
+    326400
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    11,
+    10
+   ],
+   "position_cm": [
+    352000,
+    339200
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    11,
+    11
+   ],
+   "position_cm": [
+    352000,
+    352000
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    11,
+    12
+   ],
+   "position_cm": [
+    352000,
+    364800
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    11,
+    13
+   ],
+   "position_cm": [
+    352000,
+    376500
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    11,
+    14
+   ],
+   "position_cm": [
+    352000,
+    390400
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    11,
+    15
+   ],
+   "position_cm": [
+    352000,
+    403200
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    11,
+    16
+   ],
+   "position_cm": [
+    352000,
+    416000
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    11,
+    17
+   ],
+   "position_cm": [
+    352000,
+    428800
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    11,
+    18
+   ],
+   "position_cm": [
+    351400,
+    441600
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    11,
+    19
+   ],
+   "position_cm": [
+    352000,
+    454400
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    11,
+    20
+   ],
+   "position_cm": [
+    352000,
+    467200
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    11,
+    21
+   ],
+   "position_cm": [
+    352700,
+    480000
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    11,
+    22
+   ],
+   "position_cm": [
+    352000,
+    492500
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    11,
+    23
+   ],
+   "position_cm": [
+    352000,
+    505600
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    11,
+    24
+   ],
+   "position_cm": [
+    352000,
+    518400
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    11,
+    25
+   ],
+   "position_cm": [
+    352000,
+    531200
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    11,
+    26
+   ],
+   "position_cm": [
+    352000,
+    543800
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    11,
+    27
+   ],
+   "position_cm": [
+    352000,
+    556800
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    11,
+    28
+   ],
+   "position_cm": [
+    352800,
+    569600
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    11,
+    29
+   ],
+   "position_cm": [
+    352000,
+    582400
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    11,
+    30
+   ],
+   "position_cm": [
+    352200,
+    595200
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    11,
+    31
+   ],
+   "position_cm": [
+    352000,
+    608000
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    12,
+    0
+   ],
+   "position_cm": [
+    364800,
+    211200
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    12,
+    1
+   ],
+   "position_cm": [
+    364800,
+    224000
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    12,
+    2
+   ],
+   "position_cm": [
+    364800,
+    236800
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    12,
+    3
+   ],
+   "position_cm": [
+    364800,
+    249600
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    12,
+    4
+   ],
+   "position_cm": [
+    364800,
+    260600
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    12,
+    5
+   ],
+   "position_cm": [
+    364800,
+    275200
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    12,
+    6
+   ],
+   "position_cm": [
+    364800,
+    288000
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    12,
+    7
+   ],
+   "position_cm": [
+    364800,
+    300800
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    12,
+    8
+   ],
+   "position_cm": [
+    363100,
+    313600
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    12,
+    9
+   ],
+   "position_cm": [
+    364800,
+    326400
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    12,
+    10
+   ],
+   "position_cm": [
+    364800,
+    339200
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    12,
+    11
+   ],
+   "position_cm": [
+    364800,
+    352000
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    12,
+    12
+   ],
+   "position_cm": [
+    364800,
+    364800
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    12,
+    13
+   ],
+   "position_cm": [
+    365359,
+    380397
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    12,
+    14
+   ],
+   "position_cm": [
+    364700,
+    390400
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    12,
+    15
+   ],
+   "position_cm": [
+    364800,
+    403200
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    12,
+    16
+   ],
+   "position_cm": [
+    364900,
+    416000
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    12,
+    17
+   ],
+   "position_cm": [
+    364800,
+    428800
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    12,
+    18
+   ],
+   "position_cm": [
+    364800,
+    441600
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    12,
+    19
+   ],
+   "position_cm": [
+    364800,
+    454400
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    12,
+    20
+   ],
+   "position_cm": [
+    364800,
+    467200
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    12,
+    21
+   ],
+   "position_cm": [
+    364800,
+    480000
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    12,
+    22
+   ],
+   "position_cm": [
+    364000,
+    492800
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    12,
+    23
+   ],
+   "position_cm": [
+    364800,
+    505600
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    12,
+    24
+   ],
+   "position_cm": [
+    364800,
+    518400
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    12,
+    25
+   ],
+   "position_cm": [
+    364800,
+    531200
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    12,
+    26
+   ],
+   "position_cm": [
+    365100,
+    544000
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    12,
+    27
+   ],
+   "position_cm": [
+    364800,
+    556800
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    12,
+    28
+   ],
+   "position_cm": [
+    364800,
+    569600
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    12,
+    29
+   ],
+   "position_cm": [
+    364800,
+    582400
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    12,
+    30
+   ],
+   "position_cm": [
+    364800,
+    595200
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    12,
+    31
+   ],
+   "position_cm": [
+    364800,
+    608000
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    13,
+    0
+   ],
+   "position_cm": [
+    377200,
+    211200
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    13,
+    1
+   ],
+   "position_cm": [
+    377600,
+    224000
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    13,
+    2
+   ],
+   "position_cm": [
+    377600,
+    236800
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    13,
+    3
+   ],
+   "position_cm": [
+    377600,
+    249600
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    13,
+    4
+   ],
+   "position_cm": [
+    377600,
+    262400
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    13,
+    5
+   ],
+   "position_cm": [
+    377600,
+    275200
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    13,
+    6
+   ],
+   "position_cm": [
+    377600,
+    288000
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    13,
+    7
+   ],
+   "position_cm": [
+    377700,
+    300800
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    13,
+    8
+   ],
+   "position_cm": [
+    377600,
+    313600
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    13,
+    9
+   ],
+   "position_cm": [
+    377600,
+    326400
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    13,
+    10
+   ],
+   "position_cm": [
+    377600,
+    339200
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    13,
+    11
+   ],
+   "position_cm": [
+    377600,
+    352000
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    13,
+    12
+   ],
+   "position_cm": [
+    377600,
+    364700
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    13,
+    13
+   ],
+   "position_cm": [
+    377800,
+    377600
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    13,
+    14
+   ],
+   "position_cm": [
+    377600,
+    389600
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    13,
+    15
+   ],
+   "position_cm": [
+    377600,
+    403200
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    13,
+    16
+   ],
+   "position_cm": [
+    377600,
+    416000
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    13,
+    17
+   ],
+   "position_cm": [
+    377600,
+    428800
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    13,
+    18
+   ],
+   "position_cm": [
+    377600,
+    441600
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    13,
+    19
+   ],
+   "position_cm": [
+    377600,
+    454400
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    13,
+    20
+   ],
+   "position_cm": [
+    377600,
+    467200
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    13,
+    21
+   ],
+   "position_cm": [
+    377600,
+    480000
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    13,
+    22
+   ],
+   "position_cm": [
+    377600,
+    492800
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    13,
+    23
+   ],
+   "position_cm": [
+    377200,
+    505600
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    13,
+    24
+   ],
+   "position_cm": [
+    377600,
+    518400
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    13,
+    25
+   ],
+   "position_cm": [
+    377600,
+    531200
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    13,
+    26
+   ],
+   "position_cm": [
+    377600,
+    544000
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    13,
+    27
+   ],
+   "position_cm": [
+    377200,
+    556800
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    13,
+    28
+   ],
+   "position_cm": [
+    377600,
+    570800
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    13,
+    29
+   ],
+   "position_cm": [
+    377600,
+    582400
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    13,
+    30
+   ],
+   "position_cm": [
+    377600,
+    595200
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    13,
+    31
+   ],
+   "position_cm": [
+    377600,
+    608000
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    14,
+    0
+   ],
+   "position_cm": [
+    390400,
+    211200
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    14,
+    1
+   ],
+   "position_cm": [
+    390400,
+    224000
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    14,
+    2
+   ],
+   "position_cm": [
+    390400,
+    236800
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    14,
+    3
+   ],
+   "position_cm": [
+    390400,
+    249600
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    14,
+    4
+   ],
+   "position_cm": [
+    390400,
+    262400
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    14,
+    5
+   ],
+   "position_cm": [
+    390400,
+    275300
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    14,
+    6
+   ],
+   "position_cm": [
+    390400,
+    288000
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    14,
+    7
+   ],
+   "position_cm": [
+    390400,
+    300800
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    14,
+    8
+   ],
+   "position_cm": [
+    390400,
+    314000
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    14,
+    9
+   ],
+   "position_cm": [
+    390400,
+    326400
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    14,
+    10
+   ],
+   "position_cm": [
+    390400,
+    339200
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    14,
+    11
+   ],
+   "position_cm": [
+    390400,
+    353000
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    14,
+    12
+   ],
+   "position_cm": [
+    390400,
+    364800
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    14,
+    13
+   ],
+   "position_cm": [
+    390400,
+    377600
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    14,
+    14
+   ],
+   "position_cm": [
+    390400,
+    389600
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    14,
+    15
+   ],
+   "position_cm": [
+    390400,
+    403200
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    14,
+    16
+   ],
+   "position_cm": [
+    390400,
+    415200
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    14,
+    17
+   ],
+   "position_cm": [
+    387775,
+    430204
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    14,
+    18
+   ],
+   "position_cm": [
+    390400,
+    441600
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    14,
+    19
+   ],
+   "position_cm": [
+    390400,
+    454400
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    14,
+    20
+   ],
+   "position_cm": [
+    390400,
+    467200
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    14,
+    21
+   ],
+   "position_cm": [
+    390400,
+    480000
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    14,
+    22
+   ],
+   "position_cm": [
+    391400,
+    492800
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    14,
+    23
+   ],
+   "position_cm": [
+    389500,
+    505600
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    14,
+    24
+   ],
+   "position_cm": [
+    390400,
+    518400
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    14,
+    25
+   ],
+   "position_cm": [
+    390400,
+    531200
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    14,
+    26
+   ],
+   "position_cm": [
+    390400,
+    544000
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    14,
+    27
+   ],
+   "position_cm": [
+    390400,
+    556800
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    14,
+    28
+   ],
+   "position_cm": [
+    390400,
+    569600
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    14,
+    29
+   ],
+   "position_cm": [
+    390400,
+    582400
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    14,
+    30
+   ],
+   "position_cm": [
+    390400,
+    595200
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    14,
+    31
+   ],
+   "position_cm": [
+    390400,
+    608000
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    15,
+    0
+   ],
+   "position_cm": [
+    403200,
+    211200
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    15,
+    1
+   ],
+   "position_cm": [
+    403200,
+    224000
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    15,
+    2
+   ],
+   "position_cm": [
+    403200,
+    236300
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    15,
+    3
+   ],
+   "position_cm": [
+    403100,
+    249600
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    15,
+    4
+   ],
+   "position_cm": [
+    402800,
+    262400
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    15,
+    5
+   ],
+   "position_cm": [
+    403200,
+    275200
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    15,
+    6
+   ],
+   "position_cm": [
+    403200,
+    288000
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    15,
+    7
+   ],
+   "position_cm": [
+    403200,
+    300800
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    15,
+    8
+   ],
+   "position_cm": [
+    402100,
+    313600
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    15,
+    9
+   ],
+   "position_cm": [
+    403200,
+    326400
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    15,
+    10
+   ],
+   "position_cm": [
+    403200,
+    338000
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    15,
+    11
+   ],
+   "position_cm": [
+    403200,
+    353100
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    15,
+    12
+   ],
+   "position_cm": [
+    403200,
+    364800
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    15,
+    13
+   ],
+   "position_cm": [
+    403200,
+    377600
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    15,
+    14
+   ],
+   "position_cm": [
+    403800,
+    390400
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    15,
+    15
+   ],
+   "position_cm": [
+    403200,
+    403200
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    15,
+    16
+   ],
+   "position_cm": [
+    402600,
+    416000
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    15,
+    17
+   ],
+   "position_cm": [
+    401900,
+    428800
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    15,
+    18
+   ],
+   "position_cm": [
+    403200,
+    441900
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    15,
+    19
+   ],
+   "position_cm": [
+    403200,
+    454400
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    15,
+    20
+   ],
+   "position_cm": [
+    404000,
+    467200
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    15,
+    21
+   ],
+   "position_cm": [
+    403200,
+    480000
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    15,
+    22
+   ],
+   "position_cm": [
+    405994,
+    493324
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    15,
+    23
+   ],
+   "position_cm": [
+    402300,
+    505600
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    15,
+    24
+   ],
+   "position_cm": [
+    403200,
+    518200
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    15,
+    25
+   ],
+   "position_cm": [
+    403200,
+    531200
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    15,
+    26
+   ],
+   "position_cm": [
+    403200,
+    544000
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    15,
+    27
+   ],
+   "position_cm": [
+    403200,
+    556800
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    15,
+    28
+   ],
+   "position_cm": [
+    403200,
+    569600
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    15,
+    29
+   ],
+   "position_cm": [
+    403200,
+    582400
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    15,
+    30
+   ],
+   "position_cm": [
+    403200,
+    595200
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    15,
+    31
+   ],
+   "position_cm": [
+    403200,
+    608000
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    16,
+    0
+   ],
+   "position_cm": [
+    416000,
+    211200
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    16,
+    1
+   ],
+   "position_cm": [
+    416000,
+    224000
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    16,
+    2
+   ],
+   "position_cm": [
+    416000,
+    237800
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    16,
+    3
+   ],
+   "position_cm": [
+    416000,
+    249600
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    16,
+    4
+   ],
+   "position_cm": [
+    416000,
+    262400
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    16,
+    5
+   ],
+   "position_cm": [
+    416000,
+    275100
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    16,
+    6
+   ],
+   "position_cm": [
+    416000,
+    288000
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    16,
+    7
+   ],
+   "position_cm": [
+    416000,
+    300800
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    16,
+    8
+   ],
+   "position_cm": [
+    417700,
+    313600
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    16,
+    9
+   ],
+   "position_cm": [
+    416000,
+    326400
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    16,
+    10
+   ],
+   "position_cm": [
+    416000,
+    339100
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    16,
+    11
+   ],
+   "position_cm": [
+    415600,
+    352000
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    16,
+    12
+   ],
+   "position_cm": [
+    417300,
+    364800
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    16,
+    13
+   ],
+   "position_cm": [
+    416000,
+    377600
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    16,
+    14
+   ],
+   "position_cm": [
+    416000,
+    390400
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    16,
+    15
+   ],
+   "position_cm": [
+    416000,
+    403200
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    16,
+    16
+   ],
+   "position_cm": [
+    416000,
+    416000
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    16,
+    17
+   ],
+   "position_cm": [
+    416000,
+    428800
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    16,
+    18
+   ],
+   "position_cm": [
+    416200,
+    441600
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    16,
+    19
+   ],
+   "position_cm": [
+    416000,
+    454400
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    16,
+    20
+   ],
+   "position_cm": [
+    416000,
+    467200
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    16,
+    21
+   ],
+   "position_cm": [
+    416000,
+    480000
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    16,
+    22
+   ],
+   "position_cm": [
+    416000,
+    492800
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    16,
+    23
+   ],
+   "position_cm": [
+    416000,
+    505600
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    16,
+    24
+   ],
+   "position_cm": [
+    416300,
+    518400
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    16,
+    25
+   ],
+   "position_cm": [
+    416000,
+    531200
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    16,
+    26
+   ],
+   "position_cm": [
+    416000,
+    544000
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    16,
+    27
+   ],
+   "position_cm": [
+    415000,
+    556800
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    16,
+    28
+   ],
+   "position_cm": [
+    416000,
+    569600
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    16,
+    29
+   ],
+   "position_cm": [
+    416000,
+    582400
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    16,
+    30
+   ],
+   "position_cm": [
+    416000,
+    595200
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    16,
+    31
+   ],
+   "position_cm": [
+    416000,
+    608000
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    17,
+    0
+   ],
+   "position_cm": [
+    428800,
+    211200
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    17,
+    1
+   ],
+   "position_cm": [
+    428800,
+    224000
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    17,
+    2
+   ],
+   "position_cm": [
+    428900,
+    236800
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    17,
+    3
+   ],
+   "position_cm": [
+    426334,
+    249166
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    17,
+    4
+   ],
+   "position_cm": [
+    428800,
+    263500
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    17,
+    5
+   ],
+   "position_cm": [
+    428800,
+    275200
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    17,
+    6
+   ],
+   "position_cm": [
+    428800,
+    288000
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    17,
+    7
+   ],
+   "position_cm": [
+    428200,
+    300800
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    17,
+    8
+   ],
+   "position_cm": [
+    428800,
+    313600
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    17,
+    9
+   ],
+   "position_cm": [
+    428800,
+    326400
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    17,
+    10
+   ],
+   "position_cm": [
+    428800,
+    338900
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    17,
+    11
+   ],
+   "position_cm": [
+    428800,
+    352000
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    17,
+    12
+   ],
+   "position_cm": [
+    428800,
+    364800
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    17,
+    13
+   ],
+   "position_cm": [
+    428800,
+    377600
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    17,
+    14
+   ],
+   "position_cm": [
+    428800,
+    390400
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    17,
+    15
+   ],
+   "position_cm": [
+    428800,
+    403100
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    17,
+    16
+   ],
+   "position_cm": [
+    428800,
+    416000
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    17,
+    17
+   ],
+   "position_cm": [
+    428800,
+    428800
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    17,
+    18
+   ],
+   "position_cm": [
+    428800,
+    441600
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    17,
+    19
+   ],
+   "position_cm": [
+    429100,
+    454400
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    17,
+    20
+   ],
+   "position_cm": [
+    428800,
+    467200
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    17,
+    21
+   ],
+   "position_cm": [
+    428800,
+    480000
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    17,
+    22
+   ],
+   "position_cm": [
+    428800,
+    492800
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    17,
+    23
+   ],
+   "position_cm": [
+    428800,
+    505600
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    17,
+    24
+   ],
+   "position_cm": [
+    428800,
+    518400
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    17,
+    25
+   ],
+   "position_cm": [
+    428800,
+    531800
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    17,
+    26
+   ],
+   "position_cm": [
+    428800,
+    544000
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    17,
+    27
+   ],
+   "position_cm": [
+    428800,
+    557700
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    17,
+    28
+   ],
+   "position_cm": [
+    428800,
+    569600
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    17,
+    29
+   ],
+   "position_cm": [
+    428800,
+    582400
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    17,
+    30
+   ],
+   "position_cm": [
+    428800,
+    595200
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    17,
+    31
+   ],
+   "position_cm": [
+    428800,
+    608000
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    18,
+    0
+   ],
+   "position_cm": [
+    441600,
+    211400
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    18,
+    1
+   ],
+   "position_cm": [
+    441600,
+    224000
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    18,
+    2
+   ],
+   "position_cm": [
+    441600,
+    236800
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    18,
+    3
+   ],
+   "position_cm": [
+    441600,
+    249600
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    18,
+    4
+   ],
+   "position_cm": [
+    441600,
+    262400
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    18,
+    5
+   ],
+   "position_cm": [
+    441200,
+    275200
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    18,
+    6
+   ],
+   "position_cm": [
+    441600,
+    288200
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    18,
+    7
+   ],
+   "position_cm": [
+    441600,
+    301900
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    18,
+    8
+   ],
+   "position_cm": [
+    441600,
+    313600
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    18,
+    9
+   ],
+   "position_cm": [
+    441600,
+    326400
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    18,
+    10
+   ],
+   "position_cm": [
+    441600,
+    339200
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    18,
+    11
+   ],
+   "position_cm": [
+    441600,
+    352600
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    18,
+    12
+   ],
+   "position_cm": [
+    441300,
+    364800
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    18,
+    13
+   ],
+   "position_cm": [
+    439800,
+    377600
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    18,
+    14
+   ],
+   "position_cm": [
+    441600,
+    390500
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    18,
+    15
+   ],
+   "position_cm": [
+    441600,
+    403200
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    18,
+    16
+   ],
+   "position_cm": [
+    441700,
+    416000
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    18,
+    17
+   ],
+   "position_cm": [
+    441600,
+    428800
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    18,
+    18
+   ],
+   "position_cm": [
+    441600,
+    441600
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    18,
+    19
+   ],
+   "position_cm": [
+    441600,
+    453500
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    18,
+    20
+   ],
+   "position_cm": [
+    441200,
+    467200
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    18,
+    21
+   ],
+   "position_cm": [
+    441600,
+    480000
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    18,
+    22
+   ],
+   "position_cm": [
+    441600,
+    492800
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    18,
+    23
+   ],
+   "position_cm": [
+    441600,
+    504900
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    18,
+    24
+   ],
+   "position_cm": [
+    441600,
+    518400
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    18,
+    25
+   ],
+   "position_cm": [
+    441600,
+    531200
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    18,
+    26
+   ],
+   "position_cm": [
+    441600,
+    544000
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    18,
+    27
+   ],
+   "position_cm": [
+    441700,
+    556800
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    18,
+    28
+   ],
+   "position_cm": [
+    441600,
+    569600
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    18,
+    29
+   ],
+   "position_cm": [
+    441600,
+    582400
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    18,
+    30
+   ],
+   "position_cm": [
+    441600,
+    595200
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    18,
+    31
+   ],
+   "position_cm": [
+    441600,
+    608000
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    19,
+    0
+   ],
+   "position_cm": [
+    454400,
+    211200
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    19,
+    1
+   ],
+   "position_cm": [
+    454400,
+    224000
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    19,
+    2
+   ],
+   "position_cm": [
+    455100,
+    236800
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    19,
+    3
+   ],
+   "position_cm": [
+    454400,
+    249400
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    19,
+    4
+   ],
+   "position_cm": [
+    454400,
+    261400
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    19,
+    5
+   ],
+   "position_cm": [
+    454400,
+    275200
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    19,
+    6
+   ],
+   "position_cm": [
+    454400,
+    288000
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    19,
+    7
+   ],
+   "position_cm": [
+    454400,
+    300900
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    19,
+    8
+   ],
+   "position_cm": [
+    454400,
+    313600
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    19,
+    9
+   ],
+   "position_cm": [
+    453400,
+    326400
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    19,
+    10
+   ],
+   "position_cm": [
+    454500,
+    339200
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    19,
+    11
+   ],
+   "position_cm": [
+    454400,
+    352000
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    19,
+    12
+   ],
+   "position_cm": [
+    454100,
+    364800
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    19,
+    13
+   ],
+   "position_cm": [
+    454400,
+    377500
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    19,
+    14
+   ],
+   "position_cm": [
+    454400,
+    390400
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    19,
+    15
+   ],
+   "position_cm": [
+    454400,
+    403200
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    19,
+    16
+   ],
+   "position_cm": [
+    454400,
+    416000
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    19,
+    17
+   ],
+   "position_cm": [
+    454400,
+    428800
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    19,
+    18
+   ],
+   "position_cm": [
+    454400,
+    441800
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    19,
+    19
+   ],
+   "position_cm": [
+    454400,
+    454100
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    19,
+    20
+   ],
+   "position_cm": [
+    452900,
+    467200
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    19,
+    21
+   ],
+   "position_cm": [
+    454400,
+    480000
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    19,
+    22
+   ],
+   "position_cm": [
+    454500,
+    492800
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    19,
+    23
+   ],
+   "position_cm": [
+    454400,
+    505600
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    19,
+    24
+   ],
+   "position_cm": [
+    454600,
+    518400
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    19,
+    25
+   ],
+   "position_cm": [
+    454600,
+    531200
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    19,
+    26
+   ],
+   "position_cm": [
+    454400,
+    544000
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    19,
+    27
+   ],
+   "position_cm": [
+    454400,
+    557200
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    19,
+    28
+   ],
+   "position_cm": [
+    454400,
+    569600
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    19,
+    29
+   ],
+   "position_cm": [
+    454400,
+    582400
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    19,
+    30
+   ],
+   "position_cm": [
+    454400,
+    595200
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    19,
+    31
+   ],
+   "position_cm": [
+    454400,
+    608000
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    20,
+    0
+   ],
+   "position_cm": [
+    467200,
+    211200
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    20,
+    1
+   ],
+   "position_cm": [
+    467200,
+    224000
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    20,
+    2
+   ],
+   "position_cm": [
+    468800,
+    236800
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    20,
+    3
+   ],
+   "position_cm": [
+    466600,
+    249600
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    20,
+    4
+   ],
+   "position_cm": [
+    467200,
+    262400
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    20,
+    5
+   ],
+   "position_cm": [
+    467200,
+    276400
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    20,
+    6
+   ],
+   "position_cm": [
+    467200,
+    288000
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    20,
+    7
+   ],
+   "position_cm": [
+    467200,
+    300800
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    20,
+    8
+   ],
+   "position_cm": [
+    466027,
+    313999
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    20,
+    9
+   ],
+   "position_cm": [
+    467200,
+    326700
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    20,
+    10
+   ],
+   "position_cm": [
+    467300,
+    339200
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    20,
+    11
+   ],
+   "position_cm": [
+    466000,
+    352000
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    20,
+    12
+   ],
+   "position_cm": [
+    467200,
+    365300
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    20,
+    13
+   ],
+   "position_cm": [
+    467200,
+    377600
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    20,
+    14
+   ],
+   "position_cm": [
+    467200,
+    390400
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    20,
+    15
+   ],
+   "position_cm": [
+    467200,
+    403200
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    20,
+    16
+   ],
+   "position_cm": [
+    467200,
+    416000
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    20,
+    17
+   ],
+   "position_cm": [
+    467200,
+    428800
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    20,
+    18
+   ],
+   "position_cm": [
+    467200,
+    441600
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    20,
+    19
+   ],
+   "position_cm": [
+    467300,
+    454400
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    20,
+    20
+   ],
+   "position_cm": [
+    467200,
+    467200
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    20,
+    21
+   ],
+   "position_cm": [
+    467200,
+    480000
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    20,
+    22
+   ],
+   "position_cm": [
+    467200,
+    492800
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    20,
+    23
+   ],
+   "position_cm": [
+    467200,
+    505600
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    20,
+    24
+   ],
+   "position_cm": [
+    466800,
+    518400
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    20,
+    25
+   ],
+   "position_cm": [
+    467200,
+    531200
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    20,
+    26
+   ],
+   "position_cm": [
+    466900,
+    544000
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    20,
+    27
+   ],
+   "position_cm": [
+    467200,
+    557600
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    20,
+    28
+   ],
+   "position_cm": [
+    467200,
+    569700
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    20,
+    29
+   ],
+   "position_cm": [
+    467200,
+    582400
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    20,
+    30
+   ],
+   "position_cm": [
+    467200,
+    595200
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    20,
+    31
+   ],
+   "position_cm": [
+    467200,
+    608000
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    21,
+    0
+   ],
+   "position_cm": [
+    480000,
+    211200
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    21,
+    1
+   ],
+   "position_cm": [
+    480000,
+    224000
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    21,
+    2
+   ],
+   "position_cm": [
+    480300,
+    236800
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    21,
+    3
+   ],
+   "position_cm": [
+    480000,
+    249600
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    21,
+    4
+   ],
+   "position_cm": [
+    478500,
+    262400
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    21,
+    5
+   ],
+   "position_cm": [
+    480000,
+    275200
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    21,
+    6
+   ],
+   "position_cm": [
+    480000,
+    288000
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    21,
+    7
+   ],
+   "position_cm": [
+    480000,
+    300800
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    21,
+    8
+   ],
+   "position_cm": [
+    480000,
+    313600
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    21,
+    9
+   ],
+   "position_cm": [
+    480000,
+    326400
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    21,
+    10
+   ],
+   "position_cm": [
+    481400,
+    339200
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    21,
+    11
+   ],
+   "position_cm": [
+    479700,
+    352000
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    21,
+    12
+   ],
+   "position_cm": [
+    480000,
+    365900
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    21,
+    13
+   ],
+   "position_cm": [
+    479700,
+    377600
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    21,
+    14
+   ],
+   "position_cm": [
+    480000,
+    390400
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    21,
+    15
+   ],
+   "position_cm": [
+    480000,
+    403200
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    21,
+    16
+   ],
+   "position_cm": [
+    480000,
+    416000
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    21,
+    17
+   ],
+   "position_cm": [
+    480000,
+    428800
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    21,
+    18
+   ],
+   "position_cm": [
+    480000,
+    441600
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    21,
+    19
+   ],
+   "position_cm": [
+    480300,
+    454400
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    21,
+    20
+   ],
+   "position_cm": [
+    480000,
+    467200
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    21,
+    21
+   ],
+   "position_cm": [
+    480000,
+    480000
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    21,
+    22
+   ],
+   "position_cm": [
+    479100,
+    492800
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    21,
+    23
+   ],
+   "position_cm": [
+    480000,
+    505600
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    21,
+    24
+   ],
+   "position_cm": [
+    480000,
+    518400
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    21,
+    25
+   ],
+   "position_cm": [
+    480000,
+    531200
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    21,
+    26
+   ],
+   "position_cm": [
+    480100,
+    544000
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    21,
+    27
+   ],
+   "position_cm": [
+    480000,
+    556800
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    21,
+    28
+   ],
+   "position_cm": [
+    480000,
+    569500
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    21,
+    29
+   ],
+   "position_cm": [
+    480000,
+    582400
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    21,
+    30
+   ],
+   "position_cm": [
+    480000,
+    595200
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    21,
+    31
+   ],
+   "position_cm": [
+    480000,
+    608000
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    22,
+    0
+   ],
+   "position_cm": [
+    492800,
+    211200
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    22,
+    1
+   ],
+   "position_cm": [
+    493400,
+    224000
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    22,
+    2
+   ],
+   "position_cm": [
+    492700,
+    236800
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    22,
+    3
+   ],
+   "position_cm": [
+    492800,
+    249600
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    22,
+    4
+   ],
+   "position_cm": [
+    492800,
+    262100
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    22,
+    5
+   ],
+   "position_cm": [
+    492800,
+    275400
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    22,
+    6
+   ],
+   "position_cm": [
+    492800,
+    288000
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    22,
+    7
+   ],
+   "position_cm": [
+    492800,
+    300800
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    22,
+    8
+   ],
+   "position_cm": [
+    492800,
+    313600
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    22,
+    9
+   ],
+   "position_cm": [
+    492800,
+    326400
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    22,
+    10
+   ],
+   "position_cm": [
+    492800,
+    339200
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    22,
+    11
+   ],
+   "position_cm": [
+    490065,
+    353238
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    22,
+    12
+   ],
+   "position_cm": [
+    492800,
+    364800
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    22,
+    13
+   ],
+   "position_cm": [
+    492800,
+    377700
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    22,
+    14
+   ],
+   "position_cm": [
+    492800,
+    390400
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    22,
+    15
+   ],
+   "position_cm": [
+    492800,
+    403200
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    22,
+    16
+   ],
+   "position_cm": [
+    492800,
+    416000
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    22,
+    17
+   ],
+   "position_cm": [
+    492800,
+    429000
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    22,
+    18
+   ],
+   "position_cm": [
+    492800,
+    441600
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    22,
+    19
+   ],
+   "position_cm": [
+    492800,
+    454000
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    22,
+    20
+   ],
+   "position_cm": [
+    492800,
+    467200
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    22,
+    21
+   ],
+   "position_cm": [
+    492800,
+    480000
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    22,
+    22
+   ],
+   "position_cm": [
+    492700,
+    492800
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    22,
+    23
+   ],
+   "position_cm": [
+    491700,
+    505600
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    22,
+    24
+   ],
+   "position_cm": [
+    493000,
+    518400
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    22,
+    25
+   ],
+   "position_cm": [
+    492800,
+    531200
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    22,
+    26
+   ],
+   "position_cm": [
+    492800,
+    544000
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    22,
+    27
+   ],
+   "position_cm": [
+    492800,
+    556800
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    22,
+    28
+   ],
+   "position_cm": [
+    492800,
+    569600
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    22,
+    29
+   ],
+   "position_cm": [
+    492800,
+    582400
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    22,
+    30
+   ],
+   "position_cm": [
+    492800,
+    595200
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    22,
+    31
+   ],
+   "position_cm": [
+    492800,
+    608000
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    23,
+    0
+   ],
+   "position_cm": [
+    505600,
+    211200
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    23,
+    1
+   ],
+   "position_cm": [
+    505600,
+    224000
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    23,
+    2
+   ],
+   "position_cm": [
+    505600,
+    235800
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    23,
+    3
+   ],
+   "position_cm": [
+    505200,
+    249600
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    23,
+    4
+   ],
+   "position_cm": [
+    505200,
+    262400
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    23,
+    5
+   ],
+   "position_cm": [
+    505600,
+    275200
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    23,
+    6
+   ],
+   "position_cm": [
+    505600,
+    288700
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    23,
+    7
+   ],
+   "position_cm": [
+    505600,
+    301100
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    23,
+    8
+   ],
+   "position_cm": [
+    505600,
+    313600
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    23,
+    9
+   ],
+   "position_cm": [
+    505600,
+    326400
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    23,
+    10
+   ],
+   "position_cm": [
+    505600,
+    338300
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    23,
+    11
+   ],
+   "position_cm": [
+    505600,
+    352000
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    23,
+    12
+   ],
+   "position_cm": [
+    505600,
+    363200
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    23,
+    13
+   ],
+   "position_cm": [
+    505600,
+    377600
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    23,
+    14
+   ],
+   "position_cm": [
+    505600,
+    390400
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    23,
+    15
+   ],
+   "position_cm": [
+    505600,
+    403000
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    23,
+    16
+   ],
+   "position_cm": [
+    505600,
+    416100
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    23,
+    17
+   ],
+   "position_cm": [
+    507560,
+    426323
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    23,
+    18
+   ],
+   "position_cm": [
+    505900,
+    441600
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    23,
+    19
+   ],
+   "position_cm": [
+    505600,
+    454600
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    23,
+    20
+   ],
+   "position_cm": [
+    505600,
+    467200
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    23,
+    21
+   ],
+   "position_cm": [
+    505600,
+    480000
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    23,
+    22
+   ],
+   "position_cm": [
+    505600,
+    492800
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    23,
+    23
+   ],
+   "position_cm": [
+    505600,
+    505600
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    23,
+    24
+   ],
+   "position_cm": [
+    505600,
+    518400
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    23,
+    25
+   ],
+   "position_cm": [
+    506300,
+    531200
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    23,
+    26
+   ],
+   "position_cm": [
+    505600,
+    544100
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    23,
+    27
+   ],
+   "position_cm": [
+    505600,
+    556800
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    23,
+    28
+   ],
+   "position_cm": [
+    505600,
+    569600
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    23,
+    29
+   ],
+   "position_cm": [
+    505400,
+    582400
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    23,
+    30
+   ],
+   "position_cm": [
+    505600,
+    595200
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    23,
+    31
+   ],
+   "position_cm": [
+    505600,
+    608000
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    24,
+    0
+   ],
+   "position_cm": [
+    518500,
+    211200
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    24,
+    1
+   ],
+   "position_cm": [
+    518400,
+    224000
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    24,
+    2
+   ],
+   "position_cm": [
+    517500,
+    236800
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    24,
+    3
+   ],
+   "position_cm": [
+    518400,
+    249600
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    24,
+    4
+   ],
+   "position_cm": [
+    518400,
+    262600
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    24,
+    5
+   ],
+   "position_cm": [
+    518400,
+    274600
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    24,
+    6
+   ],
+   "position_cm": [
+    517400,
+    288000
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    24,
+    7
+   ],
+   "position_cm": [
+    518400,
+    300900
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    24,
+    8
+   ],
+   "position_cm": [
+    518400,
+    313600
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    24,
+    9
+   ],
+   "position_cm": [
+    517300,
+    326400
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    24,
+    10
+   ],
+   "position_cm": [
+    518400,
+    339200
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    24,
+    11
+   ],
+   "position_cm": [
+    518400,
+    352000
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    24,
+    12
+   ],
+   "position_cm": [
+    517900,
+    364800
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    24,
+    13
+   ],
+   "position_cm": [
+    518400,
+    377600
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    24,
+    14
+   ],
+   "position_cm": [
+    516600,
+    390400
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    24,
+    15
+   ],
+   "position_cm": [
+    518500,
+    403200
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    24,
+    16
+   ],
+   "position_cm": [
+    518400,
+    416100
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    24,
+    17
+   ],
+   "position_cm": [
+    517700,
+    428800
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    24,
+    18
+   ],
+   "position_cm": [
+    518400,
+    441600
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    24,
+    19
+   ],
+   "position_cm": [
+    517700,
+    454400
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    24,
+    20
+   ],
+   "position_cm": [
+    518400,
+    467200
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    24,
+    21
+   ],
+   "position_cm": [
+    518800,
+    480000
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    24,
+    22
+   ],
+   "position_cm": [
+    518400,
+    492800
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    24,
+    23
+   ],
+   "position_cm": [
+    518400,
+    505500
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    24,
+    24
+   ],
+   "position_cm": [
+    518400,
+    518600
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    24,
+    25
+   ],
+   "position_cm": [
+    519800,
+    531200
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    24,
+    26
+   ],
+   "position_cm": [
+    518400,
+    544000
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    24,
+    27
+   ],
+   "position_cm": [
+    518400,
+    556800
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    24,
+    28
+   ],
+   "position_cm": [
+    518400,
+    569600
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    24,
+    29
+   ],
+   "position_cm": [
+    518400,
+    582400
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    24,
+    30
+   ],
+   "position_cm": [
+    518400,
+    595200
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    24,
+    31
+   ],
+   "position_cm": [
+    518400,
+    608000
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    25,
+    0
+   ],
+   "position_cm": [
+    531200,
+    211200
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    25,
+    1
+   ],
+   "position_cm": [
+    531200,
+    224000
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    25,
+    2
+   ],
+   "position_cm": [
+    531200,
+    236800
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    25,
+    3
+   ],
+   "position_cm": [
+    531200,
+    249600
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    25,
+    4
+   ],
+   "position_cm": [
+    531400,
+    262400
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    25,
+    5
+   ],
+   "position_cm": [
+    531100,
+    275200
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    25,
+    6
+   ],
+   "position_cm": [
+    531200,
+    288000
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    25,
+    7
+   ],
+   "position_cm": [
+    531200,
+    300800
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    25,
+    8
+   ],
+   "position_cm": [
+    531200,
+    313400
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    25,
+    9
+   ],
+   "position_cm": [
+    531200,
+    326400
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    25,
+    10
+   ],
+   "position_cm": [
+    531200,
+    339900
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    25,
+    11
+   ],
+   "position_cm": [
+    530500,
+    352000
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    25,
+    12
+   ],
+   "position_cm": [
+    544000,
+    352000
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    25,
+    13
+   ],
+   "position_cm": [
+    530300,
+    377600
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    25,
+    14
+   ],
+   "position_cm": [
+    531200,
+    390400
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    25,
+    15
+   ],
+   "position_cm": [
+    531300,
+    403200
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    25,
+    16
+   ],
+   "position_cm": [
+    531200,
+    416000
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    25,
+    17
+   ],
+   "position_cm": [
+    531200,
+    429100
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    25,
+    18
+   ],
+   "position_cm": [
+    531200,
+    441600
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    25,
+    19
+   ],
+   "position_cm": [
+    531200,
+    454400
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    25,
+    20
+   ],
+   "position_cm": [
+    531200,
+    467800
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    25,
+    21
+   ],
+   "position_cm": [
+    531200,
+    479900
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    25,
+    22
+   ],
+   "position_cm": [
+    531100,
+    492800
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    25,
+    23
+   ],
+   "position_cm": [
+    531200,
+    505600
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    25,
+    24
+   ],
+   "position_cm": [
+    531200,
+    518400
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    25,
+    25
+   ],
+   "position_cm": [
+    531200,
+    531200
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    25,
+    26
+   ],
+   "position_cm": [
+    531200,
+    544000
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    25,
+    27
+   ],
+   "position_cm": [
+    531300,
+    556800
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    25,
+    28
+   ],
+   "position_cm": [
+    531200,
+    569600
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    25,
+    29
+   ],
+   "position_cm": [
+    531200,
+    582400
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    25,
+    30
+   ],
+   "position_cm": [
+    531200,
+    595200
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    25,
+    31
+   ],
+   "position_cm": [
+    531200,
+    608000
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    26,
+    0
+   ],
+   "position_cm": [
+    544000,
+    211200
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    26,
+    1
+   ],
+   "position_cm": [
+    544000,
+    224000
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    26,
+    2
+   ],
+   "position_cm": [
+    544000,
+    236800
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    26,
+    3
+   ],
+   "position_cm": [
+    544000,
+    249600
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    26,
+    4
+   ],
+   "position_cm": [
+    544000,
+    262400
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    26,
+    5
+   ],
+   "position_cm": [
+    543700,
+    275200
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    26,
+    6
+   ],
+   "position_cm": [
+    543400,
+    288000
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    26,
+    7
+   ],
+   "position_cm": [
+    543700,
+    300800
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    26,
+    8
+   ],
+   "position_cm": [
+    544000,
+    313600
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    26,
+    9
+   ],
+   "position_cm": [
+    544800,
+    326400
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    26,
+    10
+   ],
+   "position_cm": [
+    544000,
+    339200
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    26,
+    11
+   ],
+   "position_cm": [
+    544000,
+    352000
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    26,
+    12
+   ],
+   "position_cm": [
+    544000,
+    364800
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    26,
+    13
+   ],
+   "position_cm": [
+    544000,
+    377600
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    26,
+    14
+   ],
+   "position_cm": [
+    544000,
+    390400
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    26,
+    15
+   ],
+   "position_cm": [
+    544000,
+    403400
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    26,
+    16
+   ],
+   "position_cm": [
+    544000,
+    416000
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    26,
+    17
+   ],
+   "position_cm": [
+    543500,
+    428800
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    26,
+    18
+   ],
+   "position_cm": [
+    544000,
+    441200
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    26,
+    19
+   ],
+   "position_cm": [
+    544000,
+    454400
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    26,
+    20
+   ],
+   "position_cm": [
+    544000,
+    465800
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    26,
+    21
+   ],
+   "position_cm": [
+    544000,
+    480200
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    26,
+    22
+   ],
+   "position_cm": [
+    544000,
+    492800
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    26,
+    23
+   ],
+   "position_cm": [
+    544100,
+    505600
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    26,
+    24
+   ],
+   "position_cm": [
+    544000,
+    518400
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    26,
+    25
+   ],
+   "position_cm": [
+    544000,
+    531200
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    26,
+    26
+   ],
+   "position_cm": [
+    544000,
+    544000
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    26,
+    27
+   ],
+   "position_cm": [
+    543800,
+    556800
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    26,
+    28
+   ],
+   "position_cm": [
+    544000,
+    569600
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    26,
+    29
+   ],
+   "position_cm": [
+    544000,
+    582400
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    26,
+    30
+   ],
+   "position_cm": [
+    544000,
+    595200
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    26,
+    31
+   ],
+   "position_cm": [
+    544000,
+    608000
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    27,
+    0
+   ],
+   "position_cm": [
+    556800,
+    211200
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    27,
+    1
+   ],
+   "position_cm": [
+    556800,
+    224000
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    27,
+    2
+   ],
+   "position_cm": [
+    556800,
+    236800
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    27,
+    3
+   ],
+   "position_cm": [
+    556600,
+    249600
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    27,
+    4
+   ],
+   "position_cm": [
+    556800,
+    263000
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    27,
+    5
+   ],
+   "position_cm": [
+    556800,
+    275200
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    27,
+    6
+   ],
+   "position_cm": [
+    556800,
+    287600
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    27,
+    7
+   ],
+   "position_cm": [
+    556500,
+    300800
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    27,
+    8
+   ],
+   "position_cm": [
+    556800,
+    313600
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    27,
+    9
+   ],
+   "position_cm": [
+    556700,
+    326400
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    27,
+    10
+   ],
+   "position_cm": [
+    556800,
+    339200
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    27,
+    11
+   ],
+   "position_cm": [
+    556800,
+    352000
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    27,
+    12
+   ],
+   "position_cm": [
+    556800,
+    364800
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    27,
+    13
+   ],
+   "position_cm": [
+    556800,
+    379400
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    27,
+    14
+   ],
+   "position_cm": [
+    556800,
+    389200
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    27,
+    15
+   ],
+   "position_cm": [
+    556800,
+    403200
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    27,
+    16
+   ],
+   "position_cm": [
+    556800,
+    416000
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    27,
+    17
+   ],
+   "position_cm": [
+    556800,
+    428800
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    27,
+    18
+   ],
+   "position_cm": [
+    556800,
+    440800
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    27,
+    19
+   ],
+   "position_cm": [
+    556800,
+    454400
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    27,
+    20
+   ],
+   "position_cm": [
+    557700,
+    467200
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    27,
+    21
+   ],
+   "position_cm": [
+    556800,
+    480700
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    27,
+    22
+   ],
+   "position_cm": [
+    556800,
+    492800
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    27,
+    23
+   ],
+   "position_cm": [
+    556800,
+    505600
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    27,
+    24
+   ],
+   "position_cm": [
+    556800,
+    518400
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    27,
+    25
+   ],
+   "position_cm": [
+    556800,
+    531200
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    27,
+    26
+   ],
+   "position_cm": [
+    556800,
+    544000
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    27,
+    27
+   ],
+   "position_cm": [
+    556800,
+    555700
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    27,
+    28
+   ],
+   "position_cm": [
+    556800,
+    570800
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    27,
+    29
+   ],
+   "position_cm": [
+    557100,
+    582400
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    27,
+    30
+   ],
+   "position_cm": [
+    556800,
+    595200
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    27,
+    31
+   ],
+   "position_cm": [
+    556800,
+    608000
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    28,
+    0
+   ],
+   "position_cm": [
+    569600,
+    211200
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    28,
+    1
+   ],
+   "position_cm": [
+    569600,
+    224000
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    28,
+    2
+   ],
+   "position_cm": [
+    569600,
+    236800
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    28,
+    3
+   ],
+   "position_cm": [
+    568451,
+    249075
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    28,
+    4
+   ],
+   "position_cm": [
+    569600,
+    262400
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    28,
+    5
+   ],
+   "position_cm": [
+    569400,
+    275200
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    28,
+    6
+   ],
+   "position_cm": [
+    569600,
+    288000
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    28,
+    7
+   ],
+   "position_cm": [
+    569600,
+    300800
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    28,
+    8
+   ],
+   "position_cm": [
+    569600,
+    313600
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    28,
+    9
+   ],
+   "position_cm": [
+    569900,
+    326400
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    28,
+    10
+   ],
+   "position_cm": [
+    568400,
+    339200
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    28,
+    11
+   ],
+   "position_cm": [
+    571178,
+    351433
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    28,
+    12
+   ],
+   "position_cm": [
+    570210,
+    363589
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    28,
+    13
+   ],
+   "position_cm": [
+    569100,
+    377600
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    28,
+    14
+   ],
+   "position_cm": [
+    569600,
+    390600
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    28,
+    15
+   ],
+   "position_cm": [
+    569600,
+    403200
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    28,
+    16
+   ],
+   "position_cm": [
+    569600,
+    416000
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    28,
+    17
+   ],
+   "position_cm": [
+    569700,
+    428800
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    28,
+    18
+   ],
+   "position_cm": [
+    569600,
+    441600
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    28,
+    19
+   ],
+   "position_cm": [
+    569600,
+    454400
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    28,
+    20
+   ],
+   "position_cm": [
+    569600,
+    467200
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    28,
+    21
+   ],
+   "position_cm": [
+    567900,
+    480000
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    28,
+    22
+   ],
+   "position_cm": [
+    569600,
+    492400
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    28,
+    23
+   ],
+   "position_cm": [
+    569600,
+    505600
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    28,
+    24
+   ],
+   "position_cm": [
+    569600,
+    518400
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    28,
+    25
+   ],
+   "position_cm": [
+    569600,
+    532200
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    28,
+    26
+   ],
+   "position_cm": [
+    569600,
+    544000
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    28,
+    27
+   ],
+   "position_cm": [
+    570300,
+    556800
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    28,
+    28
+   ],
+   "position_cm": [
+    569548,
+    565483
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    28,
+    29
+   ],
+   "position_cm": [
+    569600,
+    582800
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    28,
+    30
+   ],
+   "position_cm": [
+    569600,
+    595200
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    28,
+    31
+   ],
+   "position_cm": [
+    569600,
+    608000
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    29,
+    0
+   ],
+   "position_cm": [
+    582400,
+    211200
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    29,
+    1
+   ],
+   "position_cm": [
+    582400,
+    224000
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    29,
+    2
+   ],
+   "position_cm": [
+    582400,
+    236800
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    29,
+    3
+   ],
+   "position_cm": [
+    582400,
+    249600
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    29,
+    4
+   ],
+   "position_cm": [
+    582600,
+    262400
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    29,
+    5
+   ],
+   "position_cm": [
+    582400,
+    275200
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    29,
+    6
+   ],
+   "position_cm": [
+    581900,
+    288000
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    29,
+    7
+   ],
+   "position_cm": [
+    582400,
+    300800
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    29,
+    8
+   ],
+   "position_cm": [
+    582400,
+    313600
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    29,
+    9
+   ],
+   "position_cm": [
+    582400,
+    326400
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    29,
+    10
+   ],
+   "position_cm": [
+    582400,
+    339700
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    29,
+    11
+   ],
+   "position_cm": [
+    582400,
+    352000
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    29,
+    12
+   ],
+   "position_cm": [
+    582400,
+    364800
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    29,
+    13
+   ],
+   "position_cm": [
+    582400,
+    377600
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    29,
+    14
+   ],
+   "position_cm": [
+    582400,
+    390400
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    29,
+    15
+   ],
+   "position_cm": [
+    582300,
+    403200
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    29,
+    16
+   ],
+   "position_cm": [
+    582400,
+    416000
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    29,
+    17
+   ],
+   "position_cm": [
+    582600,
+    428800
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    29,
+    18
+   ],
+   "position_cm": [
+    582800,
+    441600
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    29,
+    19
+   ],
+   "position_cm": [
+    582400,
+    454400
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    29,
+    20
+   ],
+   "position_cm": [
+    582400,
+    467200
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    29,
+    21
+   ],
+   "position_cm": [
+    582400,
+    479600
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    29,
+    22
+   ],
+   "position_cm": [
+    582400,
+    491900
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    29,
+    23
+   ],
+   "position_cm": [
+    582400,
+    506800
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    29,
+    24
+   ],
+   "position_cm": [
+    582400,
+    518400
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    29,
+    25
+   ],
+   "position_cm": [
+    582400,
+    531200
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    29,
+    26
+   ],
+   "position_cm": [
+    582400,
+    544000
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    29,
+    27
+   ],
+   "position_cm": [
+    581800,
+    556800
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    29,
+    28
+   ],
+   "position_cm": [
+    582400,
+    568800
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    29,
+    29
+   ],
+   "position_cm": [
+    582400,
+    582400
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    29,
+    30
+   ],
+   "position_cm": [
+    582400,
+    595200
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    29,
+    31
+   ],
+   "position_cm": [
+    582400,
+    608000
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    30,
+    0
+   ],
+   "position_cm": [
+    595200,
+    211200
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    30,
+    1
+   ],
+   "position_cm": [
+    595200,
+    224000
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    30,
+    2
+   ],
+   "position_cm": [
+    595200,
+    236800
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    30,
+    3
+   ],
+   "position_cm": [
+    595200,
+    249600
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    30,
+    4
+   ],
+   "position_cm": [
+    595200,
+    262400
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    30,
+    5
+   ],
+   "position_cm": [
+    595600,
+    275200
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    30,
+    6
+   ],
+   "position_cm": [
+    595200,
+    288000
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    30,
+    7
+   ],
+   "position_cm": [
+    595200,
+    300800
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    30,
+    8
+   ],
+   "position_cm": [
+    595200,
+    313600
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    30,
+    9
+   ],
+   "position_cm": [
+    595200,
+    326400
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    30,
+    10
+   ],
+   "position_cm": [
+    595000,
+    339200
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    30,
+    11
+   ],
+   "position_cm": [
+    595200,
+    352000
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    30,
+    12
+   ],
+   "position_cm": [
+    595200,
+    364800
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    30,
+    13
+   ],
+   "position_cm": [
+    595200,
+    377600
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    30,
+    14
+   ],
+   "position_cm": [
+    595200,
+    390400
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    30,
+    15
+   ],
+   "position_cm": [
+    595200,
+    403200
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    30,
+    16
+   ],
+   "position_cm": [
+    595200,
+    416000
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    30,
+    17
+   ],
+   "position_cm": [
+    595200,
+    428800
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    30,
+    18
+   ],
+   "position_cm": [
+    595200,
+    441600
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    30,
+    19
+   ],
+   "position_cm": [
+    595200,
+    454400
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    30,
+    20
+   ],
+   "position_cm": [
+    595200,
+    467200
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    30,
+    21
+   ],
+   "position_cm": [
+    595200,
+    480000
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    30,
+    22
+   ],
+   "position_cm": [
+    595200,
+    492800
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    30,
+    23
+   ],
+   "position_cm": [
+    595200,
+    505600
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    30,
+    24
+   ],
+   "position_cm": [
+    595200,
+    518400
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    30,
+    25
+   ],
+   "position_cm": [
+    595200,
+    531200
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    30,
+    26
+   ],
+   "position_cm": [
+    594300,
+    544000
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    30,
+    27
+   ],
+   "position_cm": [
+    595200,
+    556800
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    30,
+    28
+   ],
+   "position_cm": [
+    595200,
+    569600
+   ],
+   "blacklisted": false
+  },
+  {
+   "cell": [
+    30,
+    29
+   ],
+   "position_cm": [
+    595200,
+    582400
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    30,
+    30
+   ],
+   "position_cm": [
+    595200,
+    595200
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    30,
+    31
+   ],
+   "position_cm": [
+    595200,
+    608000
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    31,
+    0
+   ],
+   "position_cm": [
+    608000,
+    211200
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    31,
+    1
+   ],
+   "position_cm": [
+    608000,
+    224000
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    31,
+    2
+   ],
+   "position_cm": [
+    608000,
+    236800
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    31,
+    3
+   ],
+   "position_cm": [
+    608000,
+    249600
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    31,
+    4
+   ],
+   "position_cm": [
+    608000,
+    262400
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    31,
+    5
+   ],
+   "position_cm": [
+    608000,
+    275200
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    31,
+    6
+   ],
+   "position_cm": [
+    608000,
+    288000
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    31,
+    7
+   ],
+   "position_cm": [
+    608000,
+    299600
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    31,
+    8
+   ],
+   "position_cm": [
+    608000,
+    313600
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    31,
+    9
+   ],
+   "position_cm": [
+    608000,
+    326400
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    31,
+    10
+   ],
+   "position_cm": [
+    608000,
+    339200
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    31,
+    11
+   ],
+   "position_cm": [
+    608000,
+    352000
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    31,
+    12
+   ],
+   "position_cm": [
+    608000,
+    364800
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    31,
+    13
+   ],
+   "position_cm": [
+    608000,
+    377600
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    31,
+    14
+   ],
+   "position_cm": [
+    608000,
+    390400
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    31,
+    15
+   ],
+   "position_cm": [
+    608000,
+    403200
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    31,
+    16
+   ],
+   "position_cm": [
+    608000,
+    416000
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    31,
+    17
+   ],
+   "position_cm": [
+    608000,
+    428800
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    31,
+    18
+   ],
+   "position_cm": [
+    608000,
+    441600
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    31,
+    19
+   ],
+   "position_cm": [
+    608000,
+    454400
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    31,
+    20
+   ],
+   "position_cm": [
+    608000,
+    467200
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    31,
+    21
+   ],
+   "position_cm": [
+    608000,
+    480000
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    31,
+    22
+   ],
+   "position_cm": [
+    608000,
+    492800
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    31,
+    23
+   ],
+   "position_cm": [
+    608000,
+    505600
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    31,
+    24
+   ],
+   "position_cm": [
+    608000,
+    518400
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    31,
+    25
+   ],
+   "position_cm": [
+    608000,
+    531200
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    31,
+    26
+   ],
+   "position_cm": [
+    608000,
+    544000
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    31,
+    27
+   ],
+   "position_cm": [
+    608000,
+    556800
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    31,
+    28
+   ],
+   "position_cm": [
+    608000,
+    569600
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    31,
+    29
+   ],
+   "position_cm": [
+    608000,
+    582400
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    31,
+    30
+   ],
+   "position_cm": [
+    608000,
+    595200
+   ],
+   "blacklisted": true
+  },
+  {
+   "cell": [
+    31,
+    31
+   ],
+   "position_cm": [
+    608000,
+    608000
+   ],
+   "blacklisted": true
+  }
+ ]
+}

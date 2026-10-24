@@ -49,8 +49,59 @@ CODES = {
     0x702f: 'team PULL_INFO',
     0x7030: 'team PULL_INFO_RSP',
     0x71ae: 'team member',
-    0x736f: 'account data',
+    0x736f: 'ROOM_MSGID_CS_ROOM_LIST_REQ',
+    0x7370: 'ROOM_MSGID_CS_ROOM_LIST_RSP',
+    0x7373: 'ROOM_MSGID_CS_ROOM_REMOVE_REQ',
+    0x7374: 'ROOM_MSGID_CS_ROOM_REMOVE_RSP',
+    0x7375: 'ROOM_MSGID_CS_ROOM_JOIN_REQ',
+    0x7376: 'ROOM_MSGID_CS_ROOM_JOIN_RSP',
+    0x7377: 'ROOM_MSGID_CS_ROOM_QUIT_REQ',
+    0x7378: 'ROOM_MSGID_CS_ROOM_QUIT_RSP',
+    0x7379: 'ROOM_MSGID_CS_ROOM_KICK_REQ',
+    0x737a: 'ROOM_MSGID_CS_ROOM_KICK_RSP',
+    0x737b: 'ROOM_MSGID_CS_ROOM_ENTER_NTF',
+    0x737c: 'ROOM_MSGID_CS_ROOM_OTHER_ENTER_NTF',
+    0x737d: 'ROOM_MSGID_CS_ROOM_QUIT_NTF',
+    0x737e: 'ROOM_MSGID_CS_ROOM_ACTOR_STATE_NTF',
+    0x737f: 'ROOM_MSGID_CS_ROOM_START_REQ',
+    0x7380: 'ROOM_MSGID_CS_ROOM_START_RSP',
+    0x7381: 'ROOM_MSGID_CS_ROOM_CHANGE_POS_REQ',
+    0x7382: 'ROOM_MSGID_CS_ROOM_CHANGE_POS_RSP',
+    0x7383: 'ROOM_MSGID_CS_ROOM_CHANGE_POS_NTF',
+    0x7384: 'ROOM_MSGID_CS_ROOM_HEART_BEAT_REQ',
+    0x7385: 'ROOM_MSGID_CS_ROOM_HEART_BEAT_RSP',
+    0x7386: 'ROOM_MSGID_CS_ROOM_STATE_NTF',
+    0x7387: 'ROOM_MSGID_CS_ROOM_HOST_NTF',
+    0x7388: 'ROOM_MSGID_CS_ROOM_INFO_CHANGE_REQ',
+    0x7389: 'ROOM_MSGID_CS_ROOM_INFO_CHANGE_RSP',
+    0x738a: 'ROOM_MSGID_CS_ROOM_INFO_CHANGE_NTF',
     0x73a1: 'wardrobe list',
+    0x7371: 'ROOM_MSGID_CS_ROOM_CREATE_REQ',
+    0x7372: 'ROOM_MSGID_CS_ROOM_CREATE_RSP',
+    0x6ef1: 'ROOM_WORLD ROOM_LIST_REQ',
+    0x6ef2: 'ROOM_WORLD ROOM_LIST_RSP',
+    0x6ef3: 'ROOM_WORLD CREATE_ROOM_REQ',
+    0x6ef4: 'ROOM_WORLD CREATE_ROOM_RSP',
+    0x6ef5: 'ROOM_WORLD JOIN_ROOM_REQ',
+    0x6ef6: 'ROOM_WORLD JOIN_ROOM_RSP',
+    0x6ef7: 'ROOM_WORLD ROOM_DETAIL_INFO',
+    0x6ef8: 'ROOM_WORLD LIST_PAGE_DOWN_REQ',
+    0x6ef9: 'ROOM_WORLD LIST_PAGE_UP_REQ',
+    0x6efa: 'ROOM_WORLD LIST_REFRESH_REQ',
+    0x6efb: 'ROOM_WORLD ROOM_START_REQ',
+    0x6efc: 'ROOM_WORLD ROOM_START_RSP',
+    0x6efd: 'ROOM_WORLD ROOM_LEAVE_REQ',
+    0x6efe: 'ROOM_WORLD ROOM_LEAVE_RSP',
+    0x6eff: 'ROOM_WORLD ROOM_MBR_ADD',
+    0x6f00: 'ROOM_WORLD ROOM_MBR_DEL',
+    0x6f01: 'ROOM_WORLD ROOM_PAGE_RSP',
+    0x6f02: 'ROOM_WORLD ROOM_START',
+    0x6f03: 'ROOM_WORLD ROOM_KICK_REQ',
+    0x6f04: 'ROOM_WORLD ROOM_KICK_RSP',
+    0x6f05: 'ROOM_WORLD N_PAGE_LIST_REQ',
+    0x6f06: 'ROOM_WORLD LAST_PAGE_LIST_REQ',
+    0x6f07: 'ROOM_WORLD CHANGE_CONFIG_REQ',
+    0x6f08: 'ROOM_WORLD CHANGE_CONFIG_RSP',
     0xd75: 'JOIN_INSTANCE_REQ',
     0xd76: 'JOIN_INSTANCE_RSP',
     0xd77: 'JOIN_INSTANCE notify',
@@ -71,7 +122,6 @@ CODES = {
     0x7149: 'keepalive',
     0x7211: 'query',
     0x730d: 'bonus code',
-    0x7371: 'custom session create',
 }
 
 # Поля запроса подбора 0x6e29: (режим, ?, перспектива, тип, карта).
@@ -125,6 +175,7 @@ def decode_frame(direction, plain):
         row['stamp'] = struct.unpack_from('>I', plain, 0)[0]
         row['code'] = struct.unpack_from('>H', plain, 4)[0]
         row['body'] = max(0, len(plain) - 10)
+        row['raw'] = plain[10:]
         if row['code'] == 0x32b and len(plain) >= 30:
             row['note'] = f'actor_uid=0x{struct.unpack_from(">Q", plain, 22)[0]:x}'
     return row
@@ -184,6 +235,7 @@ def main(argv=None):
     parser.add_argument('--code', type=lambda value: int(value, 0), help='только этот код сообщения')
     parser.add_argument('--uid', type=lambda value: int(value, 0), help='только сообщения с этим uid')
     parser.add_argument('--decrypt', action='store_true', help='показать расшифрованное тело сообщения')
+    parser.add_argument('--body', action='store_true', help='тело сообщения в hex и ASCII')
     parser.add_argument('--summary', action='store_true', help='только сводка по кодам')
     parser.add_argument('--json', action='store_true', help='вывод в JSON')
     args = parser.parse_args(argv)
@@ -226,6 +278,10 @@ def main(argv=None):
             if request:
                 print(f"{'':29}  режим={request['mode']} перспектива={request['perspective']} "
                       f"тип={request['type']} карта={request['map']} ({request['map_id']})")
+        if args.body and row.get('raw'):
+            blob = row['raw']
+            print(f"{'':29}  body[{len(blob)}]={blob.hex()}")
+            print(f"{'':29}  ascii {''.join(chr(b) if 32 <= b < 127 else '.' for b in blob)}")
         if args.decrypt and row.get('plain'):
             print(f"{'':29}  {row['plain']}")
     return 0

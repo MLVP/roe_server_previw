@@ -21,6 +21,83 @@ sys.path.insert(0, str(ROOT/'server/directory'))
 from listener import Capture
 from roe_protocol_2022 import FrameBuffer, client_heartbeat, heartbeat_reply, server_stamp, dt_plain
 from roe_team_2022 import client_message, server_message, team_body
+from roe_custom_room_2022 import (
+    decode_create, decode_room_list, decode_quit, decode_remove, decode_change_pos,
+    encode_create_response, encode_room_list_response, encode_echo_response,
+    encode_result_response, encode_enter_ntf, encode_enter_ntf_empty,
+    quit_variants, quit_ntf_variants,
+)
+
+# Кастомная комната: код запроса -> (код ответа, разбор тела).
+CUSTOM_ROOM_MESSAGES = {
+    0x736f: (0x7370, decode_room_list),
+    0x7371: (0x7372, decode_create),
+    0x7373: (0x7374, decode_remove),
+    0x7377: (0x7378, decode_quit),
+    0x7381: (0x7382, decode_change_pos),
+}
+
+# Комнаты этого процесса лобби: видны всем соединениям (вкладка Custom).
+CUSTOM_STATE = {'rooms': {}, 'next_id': 1}
+
+
+def custom_room_messages(code, body, parsed, team):
+    """Ответы на запрос комнаты: первый - RSP, дальше серверные уведомления."""
+    if code == 0x7371:
+        room_id = CUSTOM_STATE['next_id']
+        CUSTOM_STATE['next_id'] += 1
+        CUSTOM_STATE['rooms'][room_id] = {
+            'id': room_id, 'owner': parsed['uid'], 'name': parsed['name'],
+            'password': parsed['password'], 'mode': parsed['mode'],
+            'perspective': parsed['perspective'], 'map_id': parsed['map_id'],
+            'max_players': parsed['max_players'], 'players': 1, 'state': 1}
+        team['room_id'] = room_id
+        team['custom_variant'] = 0
+        room = CUSTOM_STATE['rooms'][room_id]
+        nickname = team.get('nickname') or ''
+        # Подтверждённая цепочка: CREATE_RSP (только u32 result), затем полный
+        # ENTER_NTF с записью комнаты и локальным актёром. Локальный актёр
+        # НЕ входит через OTHER_ENTER_NTF (0x737C).
+        return [(0x7372, encode_create_response(0)),
+                (0x737b, encode_enter_ntf(room, parsed['uid'], nickname))]
+    if code == 0x736f:
+        # Подтверждённая раскладка: page/page_count/room_count + записи комнат.
+        # Ответ дополнительно задерживается на 100 мс при отправке: панель
+        # XVersion RspRoomList отбрасывает ответы до готовности окна.
+        return [(0x7370, encode_room_list_response(CUSTOM_STATE['rooms'].values(),
+                                                   page=parsed['page']))]
+    if code == 0x7373:
+        # Подтверждённая цепочка владельца: REMOVE_RSP (u32 0), затем пустой
+        # снимок 0x737B (room_id=0) — ветка очистки окна комнаты. Комната
+        # удаляется из списка.
+        room_id = team.get('room_id') or parsed.get('room_id')
+        if room_id in CUSTOM_STATE['rooms']:
+            del CUSTOM_STATE['rooms'][room_id]
+        team['room_id'] = None
+        return [(0x7374, encode_result_response(0)),
+                (0x737b, encode_enter_ntf_empty())]
+    if code == 0x7377:
+        # RSP подтверждает результат (u32 0), а закрытие окна клиент делает
+        # после серверного уведомления 0x737D - шлём все кандидаты.
+        attempt = team.get('quit_attempts', 0)
+        variants = quit_variants(parsed['room_id'], team.get('room_id'))
+        index = min(attempt, len(variants) - 1)
+        team['quit_attempts'] = attempt + 1
+        team['custom_variant'] = index
+        room_id = team.get('room_id') or parsed['room_id']
+        room = CUSTOM_STATE['rooms'].get(room_id)
+        if room:
+            # Комнату пока не удаляем: уходят и безуспешные повторы запроса.
+            room['players'] = max(0, room.get('players', 1) - 1)
+        outputs = [(0x7378, variants[index])]
+        outputs += [(0x737d, payload) for payload in
+                    quit_ntf_variants(room_id, team.get('uid') or 0)]
+        return outputs
+    if code == 0x7381:
+        team['custom_variant'] = 0
+        team['position'] = parsed['position']
+        return [(0x7382, encode_echo_response(body))]
+    raise ValueError('Неизвестный запрос кастомной комнаты')
 from roe_join_instance_2022 import (
     JoinInstanceNotification, JoinInstanceResponse,
     encode_join_instance_notification, encode_join_instance_response,
@@ -176,7 +253,7 @@ async def serve(args, ready=None, stop=None):
                 loop.add_signal_handler(signum, stop.set)
     tasks = set()
     players = {}
-    totals = {'connections': 0, 'heartbeat_requests': 0, 'heartbeat_replies': 0, 'inspection_errors': 0, 'team_replies': 0, 'match_replies': 0, 'match_found_notifications': 0, 'novice_notifications': 0, 'join_notifications': 0, 'join_requests': 0, 'join_responses': 0, 'login_identities': 0}
+    totals = {'connections': 0, 'heartbeat_requests': 0, 'heartbeat_replies': 0, 'inspection_errors': 0, 'team_replies': 0, 'match_replies': 0, 'custom_room_replies': 0, 'match_found_notifications': 0, 'novice_notifications': 0, 'join_notifications': 0, 'join_requests': 0, 'join_responses': 0, 'login_identities': 0}
 
     def status():
         value = {'state': 'running', 'reply_enabled': args.reply, 'team_reply_enabled': team_enabled, 'match_reply_enabled': match_enabled, 'novice_state': novice, 'training_reply_enabled': training_enabled,
@@ -213,7 +290,7 @@ async def serve(args, ready=None, stop=None):
         frames = {'client_to_server': FrameBuffer(), 'server_to_client': FrameBuffer()}
         enabled = {'client_to_server': True, 'server_to_client': True}
         last_counter = None
-        team = {'uid': None, 'body': None, 'searching': False, 'generation': 0, 'novice_sent': False, 'training': False, 'cosmetics_sent': False, 'requested': None}
+        team = {'uid': None, 'body': None, 'searching': False, 'generation': 0, 'novice_sent': False, 'training': False, 'cosmetics_sent': False, 'requested': None, 'room_id': None}
         join_state = {'sent': False, 'replied': False}
         async def notify_found(generation, force=False):
             await asyncio.sleep(found_delay)
@@ -469,6 +546,50 @@ async def serve(args, ready=None, stop=None):
                                         totals['match_replies'] += 1
                                         capture.record('match_reply', request_code=hex(code), code=hex(reply_code), payload_length=len(payload), **info)
                                     status()
+                            if team_enabled:
+                                message = client_message(frame, key)
+                                if message and message[0] in CUSTOM_ROOM_MESSAGES:
+                                    # Кастомная комната: список, создание, выход, позиция.
+                                    code, uid, body = message
+                                    reply_code, decoder = CUSTOM_ROOM_MESSAGES[code]
+                                    reason = None
+                                    payload = None
+                                    parsed = {}
+                                    claimed = uid if uid >= 2**32 else None
+                                    if not team['uid']:
+                                        reason = 'Нет ENTER_GAME_RSP'
+                                    elif claimed is not None and claimed != team['uid']:
+                                        reason = 'UID не совпал с ENTER_GAME_RSP'
+                                    elif not enabled['server_to_client'] or clock['stamp'] is None:
+                                        reason = 'Нет проверенного серверного потока'
+                                    else:
+                                        try:
+                                            parsed = decoder(body)
+                                            team['nickname'] = (players[connection].get('nickname')
+                                                                or getattr(args, 'team_nickname', 'Player'))
+                                            outputs = custom_room_messages(code, body, parsed, team)
+                                            stamp = (clock['stamp'] + int((time.monotonic()-clock['at'])*25)) & 0xffffffff
+                                            responses = [server_message(out_code, payload, stamp, key)
+                                                         for out_code, payload in outputs]
+                                        except (ValueError, struct.error) as error:
+                                            reason = str(error)
+                                    if reason:
+                                        capture.record('custom_room_skipped', code=hex(code), reason=reason, **info)
+                                    else:
+                                        if code == 0x736f:
+                                            # Панель комнаты XVersion отбрасывает
+                                            # ранние ответы списка: 100 мс.
+                                            await asyncio.sleep(0.10)
+                                        async with outgoing:
+                                            for response in responses:
+                                                writer.write(response)
+                                                capture.record('data', response, direction='server_to_client', origin='custom_room_probe', **info)
+                                            await writer.drain()
+                                        totals['custom_room_replies'] += len(responses)
+                                        capture.record('custom_room_request', code=hex(code),
+                                                       reply=hex(reply_code), pushes=len(outputs) - 1,
+                                                       variant=team.get('custom_variant'), **parsed, **info)
+                                    status()
                             join = current_join(team['requested'][4] if team['requested'] else None)
                             if join is not None:
                                 message = client_message(frame, key)
@@ -520,7 +641,7 @@ async def serve(args, ready=None, stop=None):
                             elif args.reply and (not enabled['server_to_client'] or clock['stamp'] is None):
                                 capture.record('heartbeat_skipped', reason='Нет проверенного серверного потока', **info)
                             status()
-                    except ValueError as exc:
+                    except (ValueError, struct.error) as exc:
                         # Ошибка анализа выключает инъекцию направления, но не пересылку.
                         enabled[direction] = False
                         totals['inspection_errors'] += 1

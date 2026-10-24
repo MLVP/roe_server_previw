@@ -190,6 +190,7 @@ class Room:
         self.mode = load_mode(mode_name)
         self.duration = int(duration if duration is not None else self.mode.get('duration_seconds', 86400))
         self.idle_reset_seconds = int(idle_reset if idle_reset is not None else self.mode.get('room', {}).get('idle_reset_seconds', 30))
+        self.finished_reset_seconds = int(self.mode.get('room', {}).get('finished_reset_seconds', 6))
         if self.duration < 60:
             raise ValueError('duration must be at least 60 seconds')
         if self.idle_reset_seconds < 0:
@@ -214,6 +215,8 @@ class Room:
         self.started_at = None
         self.last_activity = None
         self.ever_active = False
+        self._finished_at = None
+        self._finished_offset = 0
         self.user_stopped = True
         self.weather_override = None
         self.vehicle_configuration = None
@@ -237,7 +240,8 @@ class Room:
     def _resolve_launcher_args(self):
         result = []
         source = list(self.mode.get('launcher_args') or [])
-        path_options = {'--loot-catalog', '--key-file'}
+        path_options = {'--loot-catalog', '--key-file', '--door-catalog', '--breakable-catalog',
+                        '--loot-points', '--loot-pools', '--loot-weights', '--vehicle-points', '--spawn-points'}
         index = 0
         while index < len(source):
             value = str(source[index])
@@ -351,6 +355,8 @@ class Room:
         self.started_at = time.time()
         self.last_activity = None
         self.ever_active = False
+        self._finished_at = None
+        self._finished_offset = 0
         self.state = 'starting'
         self.ready = False
         self.error = None
@@ -445,6 +451,10 @@ class Room:
             return
 
     def _stop_locked(self):
+        # Сначала снимаем комнату из лобби: пока процесс убивают, комната
+        # не должна отдаваться на поиск новой игры (иначе клиент попадает
+        # в умирающую сессию — «игра находится, но не начинается»).
+        self.unregister_room_with_lobby()
         proc = self.proc
         self.proc = None
         self.ready = False
@@ -476,7 +486,6 @@ class Room:
             except Exception:
                 pass
             self.job = None
-        self.unregister_room_with_lobby()
 
     def start(self, reason='manual'):
         with self.lock:
@@ -532,15 +541,44 @@ class Room:
         return data if isinstance(data, dict) else None
 
     def _activity_mtime(self):
-        """Свежесть трафика: и комнаты (UDP), и лобби (TCP)."""
-        stamps = []
-        for path in (self.packet_log, self._lobby_packet_log()):
-            if path is not None and Path(path).is_file():
-                try:
-                    stamps.append(Path(path).stat().st_mtime)
-                except OSError:
-                    pass
-        return max(stamps) if stamps else None
+        """Свежесть только трафика самой комнаты (UDP).
+
+        Трафик лобби (TCP) сюда намеренно не входит: пока клиент сидит в
+        лобби, он держит «активность» комнаты, из-за чего завершённый матч
+        никогда не сбрасывался и новая игра попадала в мёртвую сессию
+        («игра находится, но не начинается»). Свежие комнаты защищает
+        условие ever_active в monitor().
+        """
+        path = self.packet_log
+        if path is not None and Path(path).is_file():
+            try:
+                return Path(path).stat().st_mtime
+            except OSError:
+                return None
+        return None
+
+    def _poll_game_finished(self):
+        """Ищет конец матча в журнале сессии: маркер gameplay_handoff_complete.
+
+        Маркер может встретиться и посреди матча (например, после эвакуации),
+        поэтому перезапуск monitor() запускает только вместе с тишиной UDP
+        (см. finished_reset_seconds).
+        """
+        if self._finished_at is not None or self.session_dir is None:
+            return
+        path = Path(self.session_dir) / 'endpoint.log'
+        try:
+            size = path.stat().st_size
+            if size <= self._finished_offset:
+                return
+            with open(path, 'r', encoding='utf-8', errors='replace') as handle:
+                handle.seek(self._finished_offset)
+                chunk = handle.read()
+            self._finished_offset = size
+            if '"kind": "gameplay_handoff_complete"' in chunk:
+                self._finished_at = time.time()
+        except OSError:
+            return
 
     def _lobby_packet_log(self):
         pointer = self._lobby_pointer()
@@ -573,16 +611,23 @@ class Room:
                             self.state = 'failed'
                             self.error = f'launcher exited after {uptime:.1f}s; automatic restart suppressed'
                     else:
-                        # Активность - по трафику комнаты (UDP) и лобби (TCP):
-                        # пока игрок в меню лобби, UDP-трафика ещё нет.
+                        # Активность - только по трафику самой комнаты (UDP).
                         stamp = self._activity_mtime()
                         if stamp is not None:
                             self.ever_active = True
                             self.last_activity = stamp
-                        # Отсчёт простоя - от последнего трафика или от старта
-                        # комнаты, иначе новая комната сразу считается простаивающей.
-                        baseline = max(stamp or 0, self.started_at or 0)
-                        if self.idle_reset_seconds and time.time() - baseline >= self.idle_reset_seconds:
+                        self._poll_game_finished()
+                        # Матч кончился (маркер в журнале) и UDP затих -
+                        # сразу готовим новую сессию, не дожидаясь простоя.
+                        if (self._finished_at is not None and self.ever_active
+                                and time.time() - max(stamp or 0, self._finished_at)
+                                >= self.finished_reset_seconds):
+                            action = 'game-finished'
+                        # Отсчёт простоя - только у комнаты, где уже был игрок;
+                        # иначе новая комната сразу считается простаивающей.
+                        elif (self.ever_active and self.idle_reset_seconds
+                                and time.time() - max(stamp or 0, self.started_at or 0)
+                                >= self.idle_reset_seconds):
                             action = 'idle'
             if action:
                 try:
@@ -817,16 +862,23 @@ class Room:
         features = dict(self.mode.get('features') or {})
         resolved_args = self._resolve_launcher_args()
         loot_catalog = None
+        loot_points = None
+        loot_generation = 'catalog'
         for index, value in enumerate(resolved_args):
             if value == '--loot-catalog' and index + 1 < len(resolved_args):
                 loot_catalog = resolved_args[index + 1]
-                break
+            elif value == '--loot-points' and index + 1 < len(resolved_args):
+                loot_points = resolved_args[index + 1]
+            elif value == '--loot-generation' and index + 1 < len(resolved_args):
+                loot_generation = resolved_args[index + 1]
         return {
             'ok': True,
             'mode': self.mode_name,
             'map': self.mode.get('map', {}),
             'features': features,
             'loot_catalog': loot_catalog,
+            'loot_generation': loot_generation,
+            'loot_points': loot_points,
             'heightmap': self.mode.get('heightmap'),
             'spawn_points': str(self._spawn_points_path()) if self._spawn_points_path() else None,
             'packet_log': str(self.packet_log) if self.packet_log else None,
@@ -841,10 +893,15 @@ class Room:
     def _catalog_items(self):
         resolved_args = self._resolve_launcher_args()
         path = None
+        pools_path = None
         for index, value in enumerate(resolved_args):
-            if value == '--loot-catalog' and index + 1 < len(resolved_args):
+            if value == '--loot-catalog' and index + 1 < len(resolved_args) and path is None:
                 path = Path(resolved_args[index + 1])
-                break
+            if value == '--loot-pools' and index + 1 < len(resolved_args) and pools_path is None:
+                pools_path = Path(resolved_args[index + 1])
+        # Рантайм-генерация: допустимые id задаются пулом modes/common/loot-pools.json.
+        if path is None:
+            path = pools_path
         if path is None or not path.is_file():
             return set()
         data = read_json(path, {})
@@ -855,6 +912,10 @@ class Room:
         for item in (data.get('items') or []):
             if isinstance(item, dict) and 'item_id' in item:
                 items.add(int(item['item_id']))
+        for key in ('guns', 'ammo', 'medical', 'throwables', 'helmets',
+                    'vests', 'backpacks', 'attachments'):
+            for value in (data.get(key) or []):
+                items.add(int(value))
         return items
 
     def spawn_request(self, query):

@@ -599,8 +599,39 @@ class Endpoint(asyncio.DatagramProtocol):
                                     breakables = state['breakables']
                                     position = state.get('last_movement_position', state.get('scene_position'))
                                     if message.command == 0x6f59:
-                                        responses, event = breakables.handle(message.payload, position)
+                                        # Дверь Dione (id из каталога дверей) не входит в
+                                        # таблицу разрушения, но её позиция известна: разрешаем
+                                        # разрушение по привязке к двери и проверяем дистанцию.
+                                        anchor = None
+                                        if self.door_fixture is not None and len(message.payload) >= 4:
+                                            probe_id = struct.unpack_from('>I', message.payload)[0]
+                                            entry = self.door_fixture.doors.get(probe_id)
+                                            if entry is not None:
+                                                anchor = entry[0]
+                                        responses, event = breakables.handle(message.payload, position, anchor)
+                                        # На картах, где дверь и разрушаемая сущность - один
+                                        # id (Europa 16007), в записи 0x6f56 байт после id -
+                                        # статус сущности. С нулём клиент закрывает дверь,
+                                        # поэтому подставляем текущее состояние двери: стекло
+                                        # разбивается, створка остаётся открытой без анимации.
+                                        identifier = event.get('entity_id')
+                                        doors = state.get('doors')
+                                        door_status = (doors.status.get(identifier)
+                                                       if doors is not None and identifier is not None else None)
+                                        if door_status and responses:
+                                            patched = []
+                                            for code, payload in responses:
+                                                if code == 0x6f56 and len(payload) >= 9:
+                                                    payload = bytearray(payload)
+                                                    payload[8] = door_status & 0xff
+                                                    payload = bytes(payload)
+                                                patched.append((code, payload))
+                                            responses = patched
+                                            self.capture.record('door_state_in_parts', synthetic=True, remote=remote,
+                                                entity_id=identifier, state=door_status)
                                         self.send_application_batch(d, remote, state, responses)
+                                        if isinstance(position, (list, tuple)):
+                                            event['player_position'] = [round(float(v), 1) for v in position]
                                         self.capture.record('breakable_probe', synthetic=True, remote=remote, **event)
                                     elif message.command == 0x1f49:
                                         responses = breakables.snapshot(position)
@@ -615,6 +646,8 @@ class Endpoint(asyncio.DatagramProtocol):
                                     if message.command == 0x6f57:
                                         responses, event = doors.handle(message.payload, position)
                                         self.send_application_batch(d, remote, state, responses)
+                                        if isinstance(position, (list, tuple)):
+                                            event['player_position'] = [round(float(v), 1) for v in position]
                                         self.capture.record('door_probe', synthetic=True, remote=remote, **event)
                                     elif message.command == 0x1f49:
                                         responses = doors.snapshot(position)
@@ -1646,6 +1679,26 @@ async def main(args):
     weapon_path = getattr(args, 'weapon_config', None)
     weapon_fixture = WeaponFixture.load(weapon_path) if weapon_path else None
     catalog_path = getattr(args, 'loot_catalog', None)
+    if (getattr(args, 'loot_generation', 'catalog') or 'catalog') == 'runtime':
+        points_path = getattr(args, 'loot_points', None)
+        pools_path = getattr(args, 'loot_pools', None)
+        if not points_path or not pools_path:
+            raise ValueError('loot-generation runtime требует --loot-points и --loot-pools')
+        from loot_runtime_2022 import build_catalog
+        runtime_config = build_catalog(points_path, pools_path,
+                                       seed=getattr(args, 'loot_seed', None),
+                                       max_entities=getattr(args, 'loot_max_entities', 12000),
+                                       weights_path=getattr(args, 'loot_weights', None))
+        # Каталог кладём рядом с журналом сессии (--output это <run>/scene),
+        # а не в текущую папку: рабочий каталог эндпоинта — корень репозитория.
+        output = Path(getattr(args, 'output', None) or '.')
+        catalog_path = output.parent / 'runtime-loot-catalog.json'
+        catalog_path.write_text(json.dumps(runtime_config, ensure_ascii=False) + '\n',
+                                encoding='utf-8')
+        print('runtime loot: %d entities, seed %s, classes %s, weights %s' % (
+            len(runtime_config['entities']), runtime_config['seed'],
+            runtime_config['source_point_classes'],
+            runtime_config.get('weights_source') or 'all-1.0'), flush=True)
     loot_catalog = None
     if catalog_path:
         if not weapon_fixture or not weapon_fixture.all_loot:
@@ -1697,6 +1750,12 @@ if __name__=='__main__':
     p.add_argument('--breakable-config', type=Path, help='Разрушение однокомпонентных сущностей16010; учебное подтверждение')
     p.add_argument('--door-config', type=Path, help='Обратимые двери16010; учебный радиус/одиночное состояние')
     p.add_argument('--loot-catalog',type=Path,help='Явный каталог поддержанного лута; собственная выдача по радиусу, требует weapon-config')
+    p.add_argument('--loot-generation',choices=('catalog','runtime'),default='catalog',help='catalog: --loot-catalog как раньше; runtime: случайный каталог на всю карту при загрузке сессии')
+    p.add_argument('--loot-points',type=Path,help='map-data/<map>-entitypoints.json с точками лута оригинала (runtime)')
+    p.add_argument('--loot-pools',type=Path,help='modes/common/loot-pools.json с поддерживаемыми id (runtime)')
+    p.add_argument('--loot-max-entities',type=int,default=12000,help='Потолок сущностей рантайм-каталога (1..50000)')
+    p.add_argument('--loot-weights',type=Path,help='modes/<map>/loot-weights.json: шансы генерации предметов (runtime); без файла — все 1.0, паки-компаньоны оружия не взвешиваются')
+    p.add_argument('--loot-seed',type=int,help='Фиксированный seed генератора; без него каждая сессия случайна')
     p.add_argument('--spawn-points',type=Path,help='per map spawn point table (JSON) for the landing picker')
     p.add_argument('--live-commands',type=Path,help='Локальный JSON одноразовых команд после AUTH/room; диагностический опыт')
     p.add_argument('--peer-avatar-config',type=Path,help='Аватары комнаты и выбранные позы; общий лут/HP отдельными флагами')

@@ -1,7 +1,7 @@
 {
   "api_host": "127.0.0.1",
   "api_port": 18080,
-  "mode": "vera",
+  "mode": "europa",
   "room_id": "dion-1",
   "profile": "awp",
   "lobby_api": "http://127.0.0.1:8010",
@@ -9,3 +9,5 @@
   "duration_seconds": 86400,
   "instance_id": 1
 }
+
+

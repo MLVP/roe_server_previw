@@ -1,0 +1,11 @@
+{
+  "map": 16007,
+  "accept_unknown": true,
+  "interaction_radius_cm": 400,
+  "visibility_radius_cm": 6000,
+  "provenance": {
+    "source": "live 0x6f57 probes of the EU_Killzone_4096 client",
+    "note": "Entity ids of the Kill Zone are assigned per map load and change between sessions (20261022T144949: 42032/42033/42039; 20261022T161237: 22308/22340/22347), so no ids are pinned here. The server confirms the state requested by the client and keeps it for the session; the distance check runs only when a position is present in this file."
+  },
+  "doors": []
+}

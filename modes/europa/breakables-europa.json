@@ -1,0 +1,10 @@
+{
+  "map": 16007,
+  "accept_unknown": true,
+  "interaction_radius_cm": 750,
+  "provenance": {
+    "source": "live 0x6f59 probes of the EU_Killzone_4096 client",
+    "note": "Entity ids of the Kill Zone are assigned per map load and change between sessions, so no ids are pinned here. Part count and durability come from the first damage request of the client; the distance check runs only when a position is present in this file."
+  },
+  "entities": []
+}

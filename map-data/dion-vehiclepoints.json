@@ -1,0 +1,1801 @@
+{
+ "map_id": 16010,
+ "count": 148,
+ "archetypes": {
+  "ENTITY_eLoot_vehicle01Sure": 31,
+  "ENTITY_eLoot_vehicle01": 112,
+  "ENTITY_eLoot_vehicle02Sure": 5
+ },
+ "type_ids": {
+  "1005": 31,
+  "1001": 112,
+  "1015": 5
+ },
+ "position_range": [
+  231444,
+  586479,
+  245707,
+  579451,
+  247177,
+  290335
+ ],
+ "source": "map-data/dion-entitypoints.json (фильтр по архетипу)",
+ "points": [
+  {
+   "instance_id": 135003,
+   "type_id": 1005,
+   "position_cm": [
+    308725,
+    569285,
+    266952
+   ],
+   "direction": 270.0,
+   "archetype": "ENTITY_eLoot_vehicle01Sure",
+   "source_line": 3
+  },
+  {
+   "instance_id": 135004,
+   "type_id": 1005,
+   "position_cm": [
+    346855,
+    565504,
+    263171
+   ],
+   "direction": 270.0,
+   "archetype": "ENTITY_eLoot_vehicle01Sure",
+   "source_line": 4
+  },
+  {
+   "instance_id": 135005,
+   "type_id": 1001,
+   "position_cm": [
+    299011,
+    557374,
+    266510
+   ],
+   "direction": 270.0,
+   "archetype": "ENTITY_eLoot_vehicle01",
+   "source_line": 5
+  },
+  {
+   "instance_id": 135006,
+   "type_id": 1005,
+   "position_cm": [
+    296328,
+    508120,
+    267134
+   ],
+   "direction": 270.0,
+   "archetype": "ENTITY_eLoot_vehicle01Sure",
+   "source_line": 6
+  },
+  {
+   "instance_id": 135007,
+   "type_id": 1001,
+   "position_cm": [
+    273168,
+    504817,
+    270822
+   ],
+   "direction": 270.0,
+   "archetype": "ENTITY_eLoot_vehicle01",
+   "source_line": 7
+  },
+  {
+   "instance_id": 135008,
+   "type_id": 1001,
+   "position_cm": [
+    315355,
+    508890,
+    263417
+   ],
+   "direction": 270.0,
+   "archetype": "ENTITY_eLoot_vehicle01",
+   "source_line": 8
+  },
+  {
+   "instance_id": 135009,
+   "type_id": 1001,
+   "position_cm": [
+    360453,
+    543119,
+    259497
+   ],
+   "direction": 270.0,
+   "archetype": "ENTITY_eLoot_vehicle01",
+   "source_line": 9
+  },
+  {
+   "instance_id": 135010,
+   "type_id": 1001,
+   "position_cm": [
+    377882,
+    524163,
+    257083
+   ],
+   "direction": 270.0,
+   "archetype": "ENTITY_eLoot_vehicle01",
+   "source_line": 10
+  },
+  {
+   "instance_id": 135013,
+   "type_id": 1001,
+   "position_cm": [
+    342871,
+    505201,
+    260478
+   ],
+   "direction": 270.0,
+   "archetype": "ENTITY_eLoot_vehicle01",
+   "source_line": 11
+  },
+  {
+   "instance_id": 135014,
+   "type_id": 1001,
+   "position_cm": [
+    319219,
+    479231,
+    268968
+   ],
+   "direction": 270.0,
+   "archetype": "ENTITY_eLoot_vehicle01",
+   "source_line": 12
+  },
+  {
+   "instance_id": 135015,
+   "type_id": 1001,
+   "position_cm": [
+    252276,
+    481045,
+    277814
+   ],
+   "direction": 270.0,
+   "archetype": "ENTITY_eLoot_vehicle01",
+   "source_line": 13
+  },
+  {
+   "instance_id": 135016,
+   "type_id": 1001,
+   "position_cm": [
+    234059,
+    467475,
+    282867
+   ],
+   "direction": 270.0,
+   "archetype": "ENTITY_eLoot_vehicle01",
+   "source_line": 14
+  },
+  {
+   "instance_id": 135017,
+   "type_id": 1005,
+   "position_cm": [
+    234142,
+    438911,
+    290173
+   ],
+   "direction": 270.0,
+   "archetype": "ENTITY_eLoot_vehicle01Sure",
+   "source_line": 15
+  },
+  {
+   "instance_id": 135018,
+   "type_id": 1001,
+   "position_cm": [
+    231444,
+    433083,
+    290182
+   ],
+   "direction": 270.0,
+   "archetype": "ENTITY_eLoot_vehicle01",
+   "source_line": 16
+  },
+  {
+   "instance_id": 135020,
+   "type_id": 1001,
+   "position_cm": [
+    246483,
+    384623,
+    281212
+   ],
+   "direction": 270.0,
+   "archetype": "ENTITY_eLoot_vehicle01",
+   "source_line": 17
+  },
+  {
+   "instance_id": 135021,
+   "type_id": 1001,
+   "position_cm": [
+    234197,
+    367210,
+    281650
+   ],
+   "direction": 270.0,
+   "archetype": "ENTITY_eLoot_vehicle01",
+   "source_line": 18
+  },
+  {
+   "instance_id": 135023,
+   "type_id": 1001,
+   "position_cm": [
+    253563,
+    423994,
+    286847
+   ],
+   "direction": 270.0,
+   "archetype": "ENTITY_eLoot_vehicle01",
+   "source_line": 19
+  },
+  {
+   "instance_id": 135024,
+   "type_id": 1001,
+   "position_cm": [
+    271042,
+    375363,
+    283051
+   ],
+   "direction": 270.0,
+   "archetype": "ENTITY_eLoot_vehicle01",
+   "source_line": 20
+  },
+  {
+   "instance_id": 135025,
+   "type_id": 1001,
+   "position_cm": [
+    247389,
+    349280,
+    283518
+   ],
+   "direction": 270.0,
+   "archetype": "ENTITY_eLoot_vehicle01",
+   "source_line": 21
+  },
+  {
+   "instance_id": 135026,
+   "type_id": 1005,
+   "position_cm": [
+    245131,
+    368275,
+    280798
+   ],
+   "direction": 270.0,
+   "archetype": "ENTITY_eLoot_vehicle01Sure",
+   "source_line": 22
+  },
+  {
+   "instance_id": 135027,
+   "type_id": 1001,
+   "position_cm": [
+    345247,
+    460943,
+    274732
+   ],
+   "direction": 270.0,
+   "archetype": "ENTITY_eLoot_vehicle01",
+   "source_line": 23
+  },
+  {
+   "instance_id": 135028,
+   "type_id": 1001,
+   "position_cm": [
+    324579,
+    442084,
+    271228
+   ],
+   "direction": 270.0,
+   "archetype": "ENTITY_eLoot_vehicle01",
+   "source_line": 24
+  },
+  {
+   "instance_id": 135029,
+   "type_id": 1001,
+   "position_cm": [
+    239685,
+    310279,
+    287041
+   ],
+   "direction": 270.0,
+   "archetype": "ENTITY_eLoot_vehicle01",
+   "source_line": 25
+  },
+  {
+   "instance_id": 135030,
+   "type_id": 1001,
+   "position_cm": [
+    277060,
+    339471,
+    288888
+   ],
+   "direction": 270.0,
+   "archetype": "ENTITY_eLoot_vehicle01",
+   "source_line": 26
+  },
+  {
+   "instance_id": 135031,
+   "type_id": 1001,
+   "position_cm": [
+    271970,
+    286138,
+    274330
+   ],
+   "direction": 270.0,
+   "archetype": "ENTITY_eLoot_vehicle01",
+   "source_line": 27
+  },
+  {
+   "instance_id": 135032,
+   "type_id": 1001,
+   "position_cm": [
+    304042,
+    357206,
+    290335
+   ],
+   "direction": 270.0,
+   "archetype": "ENTITY_eLoot_vehicle01",
+   "source_line": 28
+  },
+  {
+   "instance_id": 135033,
+   "type_id": 1001,
+   "position_cm": [
+    302215,
+    311635,
+    275974
+   ],
+   "direction": 270.0,
+   "archetype": "ENTITY_eLoot_vehicle01",
+   "source_line": 29
+  },
+  {
+   "instance_id": 135034,
+   "type_id": 1001,
+   "position_cm": [
+    309206,
+    280480,
+    267914
+   ],
+   "direction": 270.0,
+   "archetype": "ENTITY_eLoot_vehicle01",
+   "source_line": 30
+  },
+  {
+   "instance_id": 135035,
+   "type_id": 1005,
+   "position_cm": [
+    335453,
+    251912,
+    262819
+   ],
+   "direction": 270.0,
+   "archetype": "ENTITY_eLoot_vehicle01Sure",
+   "source_line": 31
+  },
+  {
+   "instance_id": 135036,
+   "type_id": 1001,
+   "position_cm": [
+    303789,
+    261696,
+    267753
+   ],
+   "direction": 270.0,
+   "archetype": "ENTITY_eLoot_vehicle01",
+   "source_line": 32
+  },
+  {
+   "instance_id": 135037,
+   "type_id": 1001,
+   "position_cm": [
+    309734,
+    457417,
+    275593
+   ],
+   "direction": 270.0,
+   "archetype": "ENTITY_eLoot_vehicle01",
+   "source_line": 33
+  },
+  {
+   "instance_id": 135038,
+   "type_id": 1001,
+   "position_cm": [
+    332650,
+    416771,
+    266473
+   ],
+   "direction": 270.0,
+   "archetype": "ENTITY_eLoot_vehicle01",
+   "source_line": 34
+  },
+  {
+   "instance_id": 135039,
+   "type_id": 1001,
+   "position_cm": [
+    365638,
+    401301,
+    259990
+   ],
+   "direction": 270.0,
+   "archetype": "ENTITY_eLoot_vehicle01",
+   "source_line": 35
+  },
+  {
+   "instance_id": 135040,
+   "type_id": 1005,
+   "position_cm": [
+    375143,
+    380770,
+    258300
+   ],
+   "direction": 270.0,
+   "archetype": "ENTITY_eLoot_vehicle01Sure",
+   "source_line": 36
+  },
+  {
+   "instance_id": 135042,
+   "type_id": 1001,
+   "position_cm": [
+    389209,
+    426328,
+    256997
+   ],
+   "direction": 270.0,
+   "archetype": "ENTITY_eLoot_vehicle01",
+   "source_line": 37
+  },
+  {
+   "instance_id": 135044,
+   "type_id": 1001,
+   "position_cm": [
+    443215,
+    392453,
+    253646
+   ],
+   "direction": 270.0,
+   "archetype": "ENTITY_eLoot_vehicle01",
+   "source_line": 38
+  },
+  {
+   "instance_id": 135045,
+   "type_id": 1001,
+   "position_cm": [
+    417244,
+    368251,
+    252832
+   ],
+   "direction": 270.0,
+   "archetype": "ENTITY_eLoot_vehicle01",
+   "source_line": 39
+  },
+  {
+   "instance_id": 135046,
+   "type_id": 1001,
+   "position_cm": [
+    421767,
+    407867,
+    254219
+   ],
+   "direction": 270.0,
+   "archetype": "ENTITY_eLoot_vehicle01",
+   "source_line": 40
+  },
+  {
+   "instance_id": 135047,
+   "type_id": 1001,
+   "position_cm": [
+    411717,
+    462169,
+    257435
+   ],
+   "direction": 270.0,
+   "archetype": "ENTITY_eLoot_vehicle01",
+   "source_line": 41
+  },
+  {
+   "instance_id": 135048,
+   "type_id": 1005,
+   "position_cm": [
+    398993,
+    488404,
+    258514
+   ],
+   "direction": 270.0,
+   "archetype": "ENTITY_eLoot_vehicle01Sure",
+   "source_line": 42
+  },
+  {
+   "instance_id": 135049,
+   "type_id": 1001,
+   "position_cm": [
+    440931,
+    470273,
+    253383
+   ],
+   "direction": 270.0,
+   "archetype": "ENTITY_eLoot_vehicle01",
+   "source_line": 43
+  },
+  {
+   "instance_id": 135050,
+   "type_id": 1001,
+   "position_cm": [
+    451995,
+    460810,
+    253088
+   ],
+   "direction": 270.0,
+   "archetype": "ENTITY_eLoot_vehicle01",
+   "source_line": 44
+  },
+  {
+   "instance_id": 135051,
+   "type_id": 1005,
+   "position_cm": [
+    481124,
+    484720,
+    253045
+   ],
+   "direction": 270.0,
+   "archetype": "ENTITY_eLoot_vehicle01Sure",
+   "source_line": 45
+  },
+  {
+   "instance_id": 135052,
+   "type_id": 1001,
+   "position_cm": [
+    493544,
+    499133,
+    253045
+   ],
+   "direction": 270.0,
+   "archetype": "ENTITY_eLoot_vehicle01",
+   "source_line": 46
+  },
+  {
+   "instance_id": 135053,
+   "type_id": 1001,
+   "position_cm": [
+    508577,
+    490384,
+    253045
+   ],
+   "direction": 270.0,
+   "archetype": "ENTITY_eLoot_vehicle01",
+   "source_line": 47
+  },
+  {
+   "instance_id": 135054,
+   "type_id": 1001,
+   "position_cm": [
+    421487,
+    553621,
+    258290
+   ],
+   "direction": 270.0,
+   "archetype": "ENTITY_eLoot_vehicle01",
+   "source_line": 48
+  },
+  {
+   "instance_id": 135055,
+   "type_id": 1001,
+   "position_cm": [
+    399924,
+    506771,
+    257418
+   ],
+   "direction": 270.0,
+   "archetype": "ENTITY_eLoot_vehicle01",
+   "source_line": 49
+  },
+  {
+   "instance_id": 135056,
+   "type_id": 1001,
+   "position_cm": [
+    395217,
+    502057,
+    258514
+   ],
+   "direction": 270.0,
+   "archetype": "ENTITY_eLoot_vehicle01",
+   "source_line": 50
+  },
+  {
+   "instance_id": 135057,
+   "type_id": 1005,
+   "position_cm": [
+    388656,
+    494578,
+    259638
+   ],
+   "direction": 270.0,
+   "archetype": "ENTITY_eLoot_vehicle01Sure",
+   "source_line": 51
+  },
+  {
+   "instance_id": 135058,
+   "type_id": 1001,
+   "position_cm": [
+    370821,
+    504424,
+    258688
+   ],
+   "direction": 270.0,
+   "archetype": "ENTITY_eLoot_vehicle01",
+   "source_line": 52
+  },
+  {
+   "instance_id": 135060,
+   "type_id": 1001,
+   "position_cm": [
+    430442,
+    530864,
+    255664
+   ],
+   "direction": 270.0,
+   "archetype": "ENTITY_eLoot_vehicle01",
+   "source_line": 53
+  },
+  {
+   "instance_id": 135061,
+   "type_id": 1001,
+   "position_cm": [
+    402079,
+    522102,
+    255733
+   ],
+   "direction": 270.0,
+   "archetype": "ENTITY_eLoot_vehicle01",
+   "source_line": 54
+  },
+  {
+   "instance_id": 135062,
+   "type_id": 1001,
+   "position_cm": [
+    393343,
+    541363,
+    257394
+   ],
+   "direction": 270.0,
+   "archetype": "ENTITY_eLoot_vehicle01",
+   "source_line": 55
+  },
+  {
+   "instance_id": 135063,
+   "type_id": 1001,
+   "position_cm": [
+    424402,
+    516978,
+    254679
+   ],
+   "direction": 270.0,
+   "archetype": "ENTITY_eLoot_vehicle01",
+   "source_line": 56
+  },
+  {
+   "instance_id": 135064,
+   "type_id": 1001,
+   "position_cm": [
+    470074,
+    424421,
+    252559
+   ],
+   "direction": 270.0,
+   "archetype": "ENTITY_eLoot_vehicle01",
+   "source_line": 57
+  },
+  {
+   "instance_id": 135065,
+   "type_id": 1001,
+   "position_cm": [
+    455579,
+    441793,
+    253366
+   ],
+   "direction": 270.0,
+   "archetype": "ENTITY_eLoot_vehicle01",
+   "source_line": 58
+  },
+  {
+   "instance_id": 135066,
+   "type_id": 1001,
+   "position_cm": [
+    444938,
+    342463,
+    250437
+   ],
+   "direction": 270.0,
+   "archetype": "ENTITY_eLoot_vehicle01",
+   "source_line": 59
+  },
+  {
+   "instance_id": 135067,
+   "type_id": 1005,
+   "position_cm": [
+    467673,
+    340396,
+    249221
+   ],
+   "direction": 270.0,
+   "archetype": "ENTITY_eLoot_vehicle01Sure",
+   "source_line": 60
+  },
+  {
+   "instance_id": 135068,
+   "type_id": 1005,
+   "position_cm": [
+    487891,
+    360637,
+    249008
+   ],
+   "direction": 331.0,
+   "archetype": "ENTITY_eLoot_vehicle01Sure",
+   "source_line": 61
+  },
+  {
+   "instance_id": 135069,
+   "type_id": 1001,
+   "position_cm": [
+    462705,
+    323029,
+    249328
+   ],
+   "direction": 270.0,
+   "archetype": "ENTITY_eLoot_vehicle01",
+   "source_line": 62
+  },
+  {
+   "instance_id": 135070,
+   "type_id": 1005,
+   "position_cm": [
+    415600,
+    316682,
+    252500
+   ],
+   "direction": 270.0,
+   "archetype": "ENTITY_eLoot_vehicle01Sure",
+   "source_line": 63
+  },
+  {
+   "instance_id": 135072,
+   "type_id": 1001,
+   "position_cm": [
+    431965,
+    304954,
+    250898
+   ],
+   "direction": 270.0,
+   "archetype": "ENTITY_eLoot_vehicle01",
+   "source_line": 64
+  },
+  {
+   "instance_id": 135073,
+   "type_id": 1001,
+   "position_cm": [
+    439080,
+    315363,
+    250405
+   ],
+   "direction": 270.0,
+   "archetype": "ENTITY_eLoot_vehicle01",
+   "source_line": 65
+  },
+  {
+   "instance_id": 135074,
+   "type_id": 1001,
+   "position_cm": [
+    494657,
+    293933,
+    249789
+   ],
+   "direction": 270.0,
+   "archetype": "ENTITY_eLoot_vehicle01",
+   "source_line": 66
+  },
+  {
+   "instance_id": 135075,
+   "type_id": 1001,
+   "position_cm": [
+    389190,
+    277242,
+    254378
+   ],
+   "direction": 270.0,
+   "archetype": "ENTITY_eLoot_vehicle01",
+   "source_line": 67
+  },
+  {
+   "instance_id": 135077,
+   "type_id": 1001,
+   "position_cm": [
+    364506,
+    269015,
+    257403
+   ],
+   "direction": 270.0,
+   "archetype": "ENTITY_eLoot_vehicle01",
+   "source_line": 68
+  },
+  {
+   "instance_id": 135078,
+   "type_id": 1001,
+   "position_cm": [
+    356444,
+    262166,
+    258424
+   ],
+   "direction": 270.0,
+   "archetype": "ENTITY_eLoot_vehicle01",
+   "source_line": 69
+  },
+  {
+   "instance_id": 135079,
+   "type_id": 1001,
+   "position_cm": [
+    408630,
+    291664,
+    252437
+   ],
+   "direction": 270.0,
+   "archetype": "ENTITY_eLoot_vehicle01",
+   "source_line": 70
+  },
+  {
+   "instance_id": 135080,
+   "type_id": 1001,
+   "position_cm": [
+    402909,
+    272103,
+    253419
+   ],
+   "direction": 270.0,
+   "archetype": "ENTITY_eLoot_vehicle01",
+   "source_line": 71
+  },
+  {
+   "instance_id": 135081,
+   "type_id": 1001,
+   "position_cm": [
+    426393,
+    257182,
+    252699
+   ],
+   "direction": 270.0,
+   "archetype": "ENTITY_eLoot_vehicle01",
+   "source_line": 72
+  },
+  {
+   "instance_id": 135082,
+   "type_id": 1005,
+   "position_cm": [
+    445470,
+    252364,
+    252896
+   ],
+   "direction": 270.0,
+   "archetype": "ENTITY_eLoot_vehicle01Sure",
+   "source_line": 73
+  },
+  {
+   "instance_id": 135083,
+   "type_id": 1001,
+   "position_cm": [
+    445324,
+    267714,
+    251616
+   ],
+   "direction": 270.0,
+   "archetype": "ENTITY_eLoot_vehicle01",
+   "source_line": 74
+  },
+  {
+   "instance_id": 135084,
+   "type_id": 1001,
+   "position_cm": [
+    339492,
+    265660,
+    260999
+   ],
+   "direction": 270.0,
+   "archetype": "ENTITY_eLoot_vehicle01",
+   "source_line": 75
+  },
+  {
+   "instance_id": 135085,
+   "type_id": 1001,
+   "position_cm": [
+    404067,
+    317239,
+    252693
+   ],
+   "direction": 270.0,
+   "archetype": "ENTITY_eLoot_vehicle01",
+   "source_line": 76
+  },
+  {
+   "instance_id": 135086,
+   "type_id": 1001,
+   "position_cm": [
+    410697,
+    308297,
+    252447
+   ],
+   "direction": 270.0,
+   "archetype": "ENTITY_eLoot_vehicle01",
+   "source_line": 77
+  },
+  {
+   "instance_id": 135087,
+   "type_id": 1005,
+   "position_cm": [
+    468015,
+    245707,
+    251935
+   ],
+   "direction": 270.0,
+   "archetype": "ENTITY_eLoot_vehicle01Sure",
+   "source_line": 78
+  },
+  {
+   "instance_id": 135088,
+   "type_id": 1001,
+   "position_cm": [
+    466076,
+    271930,
+    251133
+   ],
+   "direction": 270.0,
+   "archetype": "ENTITY_eLoot_vehicle01",
+   "source_line": 79
+  },
+  {
+   "instance_id": 135089,
+   "type_id": 1001,
+   "position_cm": [
+    483680,
+    258743,
+    251409
+   ],
+   "direction": 270.0,
+   "archetype": "ENTITY_eLoot_vehicle01",
+   "source_line": 80
+  },
+  {
+   "instance_id": 135090,
+   "type_id": 1001,
+   "position_cm": [
+    510847,
+    303351,
+    248901
+   ],
+   "direction": 270.0,
+   "archetype": "ENTITY_eLoot_vehicle01",
+   "source_line": 81
+  },
+  {
+   "instance_id": 135091,
+   "type_id": 1001,
+   "position_cm": [
+    524648,
+    287656,
+    249157
+   ],
+   "direction": 270.0,
+   "archetype": "ENTITY_eLoot_vehicle01",
+   "source_line": 82
+  },
+  {
+   "instance_id": 135092,
+   "type_id": 1005,
+   "position_cm": [
+    558121,
+    292931,
+    248944
+   ],
+   "direction": 270.0,
+   "archetype": "ENTITY_eLoot_vehicle01Sure",
+   "source_line": 83
+  },
+  {
+   "instance_id": 135093,
+   "type_id": 1005,
+   "position_cm": [
+    559074,
+    262795,
+    251737
+   ],
+   "direction": 270.0,
+   "archetype": "ENTITY_eLoot_vehicle01Sure",
+   "source_line": 84
+  },
+  {
+   "instance_id": 135094,
+   "type_id": 1001,
+   "position_cm": [
+    552155,
+    274441,
+    250217
+   ],
+   "direction": 270.0,
+   "archetype": "ENTITY_eLoot_vehicle01",
+   "source_line": 85
+  },
+  {
+   "instance_id": 135096,
+   "type_id": 1001,
+   "position_cm": [
+    544542,
+    308213,
+    248078
+   ],
+   "direction": 270.0,
+   "archetype": "ENTITY_eLoot_vehicle01",
+   "source_line": 86
+  },
+  {
+   "instance_id": 135097,
+   "type_id": 1001,
+   "position_cm": [
+    516476,
+    329218,
+    248121
+   ],
+   "direction": 270.0,
+   "archetype": "ENTITY_eLoot_vehicle01",
+   "source_line": 87
+  },
+  {
+   "instance_id": 135098,
+   "type_id": 1001,
+   "position_cm": [
+    498939,
+    334461,
+    248071
+   ],
+   "direction": 270.0,
+   "archetype": "ENTITY_eLoot_vehicle01",
+   "source_line": 88
+  },
+  {
+   "instance_id": 135099,
+   "type_id": 1001,
+   "position_cm": [
+    461886,
+    368010,
+    251231
+   ],
+   "direction": 270.0,
+   "archetype": "ENTITY_eLoot_vehicle01",
+   "source_line": 89
+  },
+  {
+   "instance_id": 135100,
+   "type_id": 1001,
+   "position_cm": [
+    506773,
+    368359,
+    248260
+   ],
+   "direction": 270.0,
+   "archetype": "ENTITY_eLoot_vehicle01",
+   "source_line": 90
+  },
+  {
+   "instance_id": 135102,
+   "type_id": 1001,
+   "position_cm": [
+    511258,
+    388153,
+    248639
+   ],
+   "direction": 270.0,
+   "archetype": "ENTITY_eLoot_vehicle01",
+   "source_line": 91
+  },
+  {
+   "instance_id": 135103,
+   "type_id": 1001,
+   "position_cm": [
+    481908,
+    520169,
+    253535
+   ],
+   "direction": 270.0,
+   "archetype": "ENTITY_eLoot_vehicle01",
+   "source_line": 92
+  },
+  {
+   "instance_id": 135104,
+   "type_id": 1005,
+   "position_cm": [
+    474910,
+    555400,
+    256180
+   ],
+   "direction": 270.0,
+   "archetype": "ENTITY_eLoot_vehicle01Sure",
+   "source_line": 93
+  },
+  {
+   "instance_id": 135105,
+   "type_id": 1001,
+   "position_cm": [
+    472092,
+    542488,
+    254965
+   ],
+   "direction": 270.0,
+   "archetype": "ENTITY_eLoot_vehicle01",
+   "source_line": 94
+  },
+  {
+   "instance_id": 135106,
+   "type_id": 1001,
+   "position_cm": [
+    500105,
+    526024,
+    253565
+   ],
+   "direction": 270.0,
+   "archetype": "ENTITY_eLoot_vehicle01",
+   "source_line": 95
+  },
+  {
+   "instance_id": 135107,
+   "type_id": 1001,
+   "position_cm": [
+    520387,
+    504111,
+    252613
+   ],
+   "direction": 270.0,
+   "archetype": "ENTITY_eLoot_vehicle01",
+   "source_line": 96
+  },
+  {
+   "instance_id": 135110,
+   "type_id": 1001,
+   "position_cm": [
+    514178,
+    569861,
+    258029
+   ],
+   "direction": 270.0,
+   "archetype": "ENTITY_eLoot_vehicle01",
+   "source_line": 97
+  },
+  {
+   "instance_id": 135113,
+   "type_id": 1001,
+   "position_cm": [
+    531048,
+    534192,
+    254115
+   ],
+   "direction": 270.0,
+   "archetype": "ENTITY_eLoot_vehicle01",
+   "source_line": 98
+  },
+  {
+   "instance_id": 135114,
+   "type_id": 1001,
+   "position_cm": [
+    525874,
+    550040,
+    255391
+   ],
+   "direction": 270.0,
+   "archetype": "ENTITY_eLoot_vehicle01",
+   "source_line": 99
+  },
+  {
+   "instance_id": 135115,
+   "type_id": 1001,
+   "position_cm": [
+    513458,
+    559409,
+    256502
+   ],
+   "direction": 270.0,
+   "archetype": "ENTITY_eLoot_vehicle01",
+   "source_line": 100
+  },
+  {
+   "instance_id": 135116,
+   "type_id": 1001,
+   "position_cm": [
+    470014,
+    516908,
+    253659
+   ],
+   "direction": 270.0,
+   "archetype": "ENTITY_eLoot_vehicle01",
+   "source_line": 101
+  },
+  {
+   "instance_id": 135117,
+   "type_id": 1001,
+   "position_cm": [
+    478348,
+    499938,
+    253045
+   ],
+   "direction": 270.0,
+   "archetype": "ENTITY_eLoot_vehicle01",
+   "source_line": 102
+  },
+  {
+   "instance_id": 135118,
+   "type_id": 1001,
+   "position_cm": [
+    514006,
+    515070,
+    253020
+   ],
+   "direction": 270.0,
+   "archetype": "ENTITY_eLoot_vehicle01",
+   "source_line": 103
+  },
+  {
+   "instance_id": 135119,
+   "type_id": 1005,
+   "position_cm": [
+    543704,
+    547340,
+    255090
+   ],
+   "direction": 270.0,
+   "archetype": "ENTITY_eLoot_vehicle01Sure",
+   "source_line": 104
+  },
+  {
+   "instance_id": 135120,
+   "type_id": 1005,
+   "position_cm": [
+    576938,
+    564300,
+    255363
+   ],
+   "direction": 270.0,
+   "archetype": "ENTITY_eLoot_vehicle01Sure",
+   "source_line": 105
+  },
+  {
+   "instance_id": 135121,
+   "type_id": 1005,
+   "position_cm": [
+    585732,
+    548383,
+    255426
+   ],
+   "direction": 270.0,
+   "archetype": "ENTITY_eLoot_vehicle01Sure",
+   "source_line": 106
+  },
+  {
+   "instance_id": 135122,
+   "type_id": 1001,
+   "position_cm": [
+    561714,
+    549034,
+    255363
+   ],
+   "direction": 270.0,
+   "archetype": "ENTITY_eLoot_vehicle01",
+   "source_line": 107
+  },
+  {
+   "instance_id": 135125,
+   "type_id": 1001,
+   "position_cm": [
+    573534,
+    483918,
+    251620
+   ],
+   "direction": 270.0,
+   "archetype": "ENTITY_eLoot_vehicle01",
+   "source_line": 108
+  },
+  {
+   "instance_id": 135126,
+   "type_id": 1005,
+   "position_cm": [
+    574799,
+    464645,
+    251550
+   ],
+   "direction": 270.0,
+   "archetype": "ENTITY_eLoot_vehicle01Sure",
+   "source_line": 109
+  },
+  {
+   "instance_id": 135127,
+   "type_id": 1001,
+   "position_cm": [
+    573239,
+    474915,
+    251582
+   ],
+   "direction": 270.0,
+   "archetype": "ENTITY_eLoot_vehicle01",
+   "source_line": 110
+  },
+  {
+   "instance_id": 135129,
+   "type_id": 1001,
+   "position_cm": [
+    550039,
+    480179,
+    251856
+   ],
+   "direction": 270.0,
+   "archetype": "ENTITY_eLoot_vehicle01",
+   "source_line": 111
+  },
+  {
+   "instance_id": 135130,
+   "type_id": 1005,
+   "position_cm": [
+    507579,
+    424746,
+    252522
+   ],
+   "direction": 270.0,
+   "archetype": "ENTITY_eLoot_vehicle01Sure",
+   "source_line": 112
+  },
+  {
+   "instance_id": 135131,
+   "type_id": 1001,
+   "position_cm": [
+    517803,
+    434900,
+    253929
+   ],
+   "direction": 270.0,
+   "archetype": "ENTITY_eLoot_vehicle01",
+   "source_line": 113
+  },
+  {
+   "instance_id": 135132,
+   "type_id": 1001,
+   "position_cm": [
+    532796,
+    415709,
+    249425
+   ],
+   "direction": 270.0,
+   "archetype": "ENTITY_eLoot_vehicle01",
+   "source_line": 114
+  },
+  {
+   "instance_id": 135133,
+   "type_id": 1005,
+   "position_cm": [
+    564532,
+    416431,
+    248335
+   ],
+   "direction": 270.0,
+   "archetype": "ENTITY_eLoot_vehicle01Sure",
+   "source_line": 115
+  },
+  {
+   "instance_id": 135134,
+   "type_id": 1001,
+   "position_cm": [
+    568067,
+    385037,
+    248004
+   ],
+   "direction": 270.0,
+   "archetype": "ENTITY_eLoot_vehicle01",
+   "source_line": 116
+  },
+  {
+   "instance_id": 135135,
+   "type_id": 1001,
+   "position_cm": [
+    539662,
+    383734,
+    248014
+   ],
+   "direction": 270.0,
+   "archetype": "ENTITY_eLoot_vehicle01",
+   "source_line": 117
+  },
+  {
+   "instance_id": 135136,
+   "type_id": 1015,
+   "position_cm": [
+    517135,
+    363253,
+    247413
+   ],
+   "direction": 270.0,
+   "archetype": "ENTITY_eLoot_vehicle02Sure",
+   "source_line": 118
+  },
+  {
+   "instance_id": 135137,
+   "type_id": 1001,
+   "position_cm": [
+    493981,
+    412896,
+    252298
+   ],
+   "direction": 270.0,
+   "archetype": "ENTITY_eLoot_vehicle01",
+   "source_line": 119
+  },
+  {
+   "instance_id": 135139,
+   "type_id": 1005,
+   "position_cm": [
+    569972,
+    353833,
+    248004
+   ],
+   "direction": 270.0,
+   "archetype": "ENTITY_eLoot_vehicle01Sure",
+   "source_line": 120
+  },
+  {
+   "instance_id": 135140,
+   "type_id": 1001,
+   "position_cm": [
+    564964,
+    335500,
+    248004
+   ],
+   "direction": 270.0,
+   "archetype": "ENTITY_eLoot_vehicle01",
+   "source_line": 121
+  },
+  {
+   "instance_id": 135141,
+   "type_id": 1001,
+   "position_cm": [
+    555482,
+    323178,
+    248057
+   ],
+   "direction": 270.0,
+   "archetype": "ENTITY_eLoot_vehicle01",
+   "source_line": 122
+  },
+  {
+   "instance_id": 135142,
+   "type_id": 1001,
+   "position_cm": [
+    480972,
+    338199,
+    248991
+   ],
+   "direction": 270.0,
+   "archetype": "ENTITY_eLoot_vehicle01",
+   "source_line": 123
+  },
+  {
+   "instance_id": 135143,
+   "type_id": 1001,
+   "position_cm": [
+    470988,
+    438688,
+    252163
+   ],
+   "direction": 270.0,
+   "archetype": "ENTITY_eLoot_vehicle01",
+   "source_line": 124
+  },
+  {
+   "instance_id": 135144,
+   "type_id": 1001,
+   "position_cm": [
+    524319,
+    487387,
+    252233
+   ],
+   "direction": 270.0,
+   "archetype": "ENTITY_eLoot_vehicle01",
+   "source_line": 125
+  },
+  {
+   "instance_id": 135145,
+   "type_id": 1001,
+   "position_cm": [
+    494281,
+    467664,
+    251706
+   ],
+   "direction": 270.0,
+   "archetype": "ENTITY_eLoot_vehicle01",
+   "source_line": 126
+  },
+  {
+   "instance_id": 135146,
+   "type_id": 1001,
+   "position_cm": [
+    468357,
+    475854,
+    252378
+   ],
+   "direction": 270.0,
+   "archetype": "ENTITY_eLoot_vehicle01",
+   "source_line": 127
+  },
+  {
+   "instance_id": 135147,
+   "type_id": 1001,
+   "position_cm": [
+    465551,
+    503937,
+    253168
+   ],
+   "direction": 270.0,
+   "archetype": "ENTITY_eLoot_vehicle01",
+   "source_line": 128
+  },
+  {
+   "instance_id": 135148,
+   "type_id": 1001,
+   "position_cm": [
+    534939,
+    495181,
+    252429
+   ],
+   "direction": 270.0,
+   "archetype": "ENTITY_eLoot_vehicle01",
+   "source_line": 129
+  },
+  {
+   "instance_id": 135149,
+   "type_id": 1001,
+   "position_cm": [
+    324349,
+    579451,
+    267425
+   ],
+   "direction": 270.0,
+   "archetype": "ENTITY_eLoot_vehicle01",
+   "source_line": 130
+  },
+  {
+   "instance_id": 135151,
+   "type_id": 1001,
+   "position_cm": [
+    325299,
+    492369,
+    264342
+   ],
+   "direction": 270.0,
+   "archetype": "ENTITY_eLoot_vehicle01",
+   "source_line": 131
+  },
+  {
+   "instance_id": 135154,
+   "type_id": 1015,
+   "position_cm": [
+    540159,
+    352559,
+    247177
+   ],
+   "direction": 270.0,
+   "archetype": "ENTITY_eLoot_vehicle02Sure",
+   "source_line": 132
+  },
+  {
+   "instance_id": 135155,
+   "type_id": 1015,
+   "position_cm": [
+    564155,
+    349859,
+    247182
+   ],
+   "direction": 270.0,
+   "archetype": "ENTITY_eLoot_vehicle02Sure",
+   "source_line": 133
+  },
+  {
+   "instance_id": 135156,
+   "type_id": 1015,
+   "position_cm": [
+    538798,
+    327716,
+    247269
+   ],
+   "direction": 270.0,
+   "archetype": "ENTITY_eLoot_vehicle02Sure",
+   "source_line": 134
+  },
+  {
+   "instance_id": 135157,
+   "type_id": 1015,
+   "position_cm": [
+    509401,
+    340626,
+    247584
+   ],
+   "direction": 270.0,
+   "archetype": "ENTITY_eLoot_vehicle02Sure",
+   "source_line": 135
+  },
+  {
+   "instance_id": 159004,
+   "type_id": 1005,
+   "position_cm": [
+    567617,
+    363645,
+    248004
+   ],
+   "direction": 270.0,
+   "archetype": "ENTITY_eLoot_vehicle01Sure",
+   "source_line": 716
+  },
+  {
+   "instance_id": 159005,
+   "type_id": 1001,
+   "position_cm": [
+    423711,
+    272378,
+    252137
+   ],
+   "direction": 270.0,
+   "archetype": "ENTITY_eLoot_vehicle01",
+   "source_line": 717
+  },
+  {
+   "instance_id": 159006,
+   "type_id": 1005,
+   "position_cm": [
+    360767,
+    504030,
+    259411
+   ],
+   "direction": 270.0,
+   "archetype": "ENTITY_eLoot_vehicle01Sure",
+   "source_line": 718
+  },
+  {
+   "instance_id": 159007,
+   "type_id": 1005,
+   "position_cm": [
+    444791,
+    506842,
+    253796
+   ],
+   "direction": 270.0,
+   "archetype": "ENTITY_eLoot_vehicle01Sure",
+   "source_line": 719
+  },
+  {
+   "instance_id": 159009,
+   "type_id": 1005,
+   "position_cm": [
+    537066,
+    515765,
+    253236
+   ],
+   "direction": 270.0,
+   "archetype": "ENTITY_eLoot_vehicle01Sure",
+   "source_line": 720
+  },
+  {
+   "instance_id": 159011,
+   "type_id": 1001,
+   "position_cm": [
+    407224,
+    415814,
+    255302
+   ],
+   "direction": 270.0,
+   "archetype": "ENTITY_eLoot_vehicle01",
+   "source_line": 721
+  },
+  {
+   "instance_id": 159012,
+   "type_id": 1001,
+   "position_cm": [
+    504769,
+    541563,
+    254643
+   ],
+   "direction": 270.0,
+   "archetype": "ENTITY_eLoot_vehicle01",
+   "source_line": 722
+  },
+  {
+   "instance_id": 159013,
+   "type_id": 1001,
+   "position_cm": [
+    586479,
+    514170,
+    255601
+   ],
+   "direction": 270.0,
+   "archetype": "ENTITY_eLoot_vehicle01",
+   "source_line": 723
+  },
+  {
+   "instance_id": 159014,
+   "type_id": 1001,
+   "position_cm": [
+    565225,
+    538631,
+    254498
+   ],
+   "direction": 270.0,
+   "archetype": "ENTITY_eLoot_vehicle01",
+   "source_line": 724
+  },
+  {
+   "instance_id": 159015,
+   "type_id": 1001,
+   "position_cm": [
+    564022,
+    525659,
+    253669
+   ],
+   "direction": 270.0,
+   "archetype": "ENTITY_eLoot_vehicle01",
+   "source_line": 725
+  },
+  {
+   "instance_id": 159016,
+   "type_id": 1005,
+   "position_cm": [
+    532651,
+    352079,
+    248217
+   ],
+   "direction": 270.0,
+   "archetype": "ENTITY_eLoot_vehicle01Sure",
+   "source_line": 726
+  },
+  {
+   "instance_id": 159017,
+   "type_id": 1001,
+   "position_cm": [
+    452208,
+    286920,
+    250598
+   ],
+   "direction": 270.0,
+   "archetype": "ENTITY_eLoot_vehicle01",
+   "source_line": 727
+  },
+  {
+   "instance_id": 159018,
+   "type_id": 1001,
+   "position_cm": [
+    432528,
+    288856,
+    251306
+   ],
+   "direction": 270.0,
+   "archetype": "ENTITY_eLoot_vehicle01",
+   "source_line": 728
+  },
+  {
+   "instance_id": 159019,
+   "type_id": 1001,
+   "position_cm": [
+    385209,
+    248772,
+    256166
+   ],
+   "direction": 270.0,
+   "archetype": "ENTITY_eLoot_vehicle01",
+   "source_line": 729
+  },
+  {
+   "instance_id": 204825,
+   "type_id": 1005,
+   "position_cm": [
+    446867,
+    417941,
+    253376
+   ],
+   "direction": 270.0,
+   "archetype": "ENTITY_eLoot_vehicle01Sure",
+   "source_line": 8257
+  }
+ ]
+}

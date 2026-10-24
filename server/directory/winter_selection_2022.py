@@ -38,7 +38,9 @@ def choose_cell(payload, actor_uid, now, deadline, inventory_started, points):
     if len(payload) != 24:
         raise ValueError('BORN_POS_REQ ожидает24байта')
     kind, uid, x, y, trailing_flag = struct.unpack('>IQIII', payload)
-    if uid != actor_uid or x > 31 or y > 31 or trailing_flag > 1:
+    # Клиент KillZone (Europa) шлёт trailing=0xFFFFFFFF («флаг не задан»),
+    # Dione шлёт 0..1; иные значения в логах не встречались и отвергаются.
+    if uid != actor_uid or x > 31 or y > 31 or trailing_flag not in (0, 1, 0xFFFFFFFF):
         return None, [], {'action': 'born_position_rejected', 'reason': 'identity_or_cell',
                           'request_kind': kind, 'actor_matches': uid == actor_uid,
                           'requested_cell': [x, y], 'request_flag': trailing_flag}
